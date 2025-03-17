@@ -186,11 +186,15 @@ body {
     top: 50%;
     transform: translateY(-50%);
     background: rgba(42, 0, 77, 0.5); /* Roxo escuro semi-transparente */
-    color: #ffffff;
     border: none;
     padding: 10px;
     cursor: pointer;
-    font-size: 18px;
+    width: 40px; /* Tamanho fixo para o botão */
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.3s ease;
 }
 
 .carousel-prev {
@@ -204,6 +208,76 @@ body {
 .carousel-prev:hover,
 .carousel-next:hover {
     background: rgba(200, 0, 200, 0.8); /* Magenta vibrante ao hover */
+}
+
+/* Estilo do ícone com partículas */
+.particle-icon {
+    position: relative;
+}
+
+/* Animação das partículas */
+.particle {
+    transform-origin: center;
+    animation: orbit 3s infinite linear;
+}
+
+.carousel-prev .particle:nth-child(2) {
+    animation-delay: -1s; /* Desloca o início da animação */
+}
+
+.carousel-prev .particle:nth-child(3) {
+    animation-delay: -2s;
+}
+
+.carousel-next .particle:nth-child(2) {
+    animation-delay: -1s;
+}
+
+.carousel-next .particle:nth-child(3) {
+    animation-delay: -2s;
+}
+
+/* Animação de órbita */
+@keyframes orbit {
+    0% {
+        transform: translate(0, 0) rotate(0deg);
+    }
+    25% {
+        transform: translate(5px, -5px) rotate(90deg);
+    }
+    50% {
+        transform: translate(0, -10px) rotate(180deg);
+    }
+    75% {
+        transform: translate(-5px, -5px) rotate(270deg);
+    }
+    100% {
+        transform: translate(0, 0) rotate(360deg);
+    }
+}
+
+/* Efeito ao passar o mouse */
+.carousel-prev:hover .particle,
+.carousel-next:hover .particle {
+    animation: orbit-fast 1.5s infinite linear; /* Acelera ao hover */
+}
+
+@keyframes orbit-fast {
+    0% {
+        transform: translate(0, 0) rotate(0deg);
+    }
+    25% {
+        transform: translate(7px, -7px) rotate(90deg);
+    }
+    50% {
+        transform: translate(0, -14px) rotate(180deg);
+    }
+    75% {
+        transform: translate(-7px, -7px) rotate(270deg);
+    }
+    100% {
+        transform: translate(0, 0) rotate(360deg);
+    }
 }
 
 /* Matches Section Styles */
