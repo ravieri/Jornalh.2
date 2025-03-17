@@ -5,14 +5,15 @@ document.addEventListener('DOMContentLoaded', () => {
     const matchesNext = document.querySelector('.matches-next');
     const matchesCurrent = document.querySelector('.matches-current');
     let currentWeekIndex = 1; // Índice da semana atual (0 = passada, 1 = atual, 2 = próxima)
-    let currentMatchIndices = [0, 0, 0]; // Índices das partidas para cada semana
-    const matchesPerPage = 5; // Limite de 5 partidas por vez
+    let isDragging = false;
+    let startX;
+    let scrollLeft;
 
     // Função para atualizar a exibição das partidas e o texto da semana
     function updateMatches() {
-        // Atualizar a exibição da semana
         matchesWeeks.forEach((week, index) => {
             week.style.display = (index === currentWeekIndex) ? 'flex' : 'none';
+            week.style.transform = `translateX(0px)`; // Reseta o deslocamento ao mudar de semana
         });
 
         // Atualizar o texto da semana atual
@@ -27,80 +28,77 @@ document.addEventListener('DOMContentLoaded', () => {
                 matchesCurrent.textContent = 'Próxima Semana';
                 break;
         }
-
-        const currentWeek = matchesWeeks[currentWeekIndex];
-        const matchItems = currentWeek.querySelectorAll('.match-item');
-        const totalMatches = matchItems.length;
-        const currentMatchIndex = currentMatchIndices[currentWeekIndex];
-
-        // Calcular o deslocamento para a animação
-        const itemWidth = matchItems[0]?.offsetWidth || 200; // Largura do item (200px como fallback)
-        const gap = 15; // Espaçamento entre itens (definido no CSS)
-        const totalItemWidth = itemWidth + gap; // Largura total de cada item incluindo o gap
-        const offset = -(currentMatchIndex * matchesPerPage * totalItemWidth); // Deslocamento para a esquerda
-
-        // Aplicar a transformação para deslizar
-        currentWeek.style.transform = `translateX(${offset}px)`;
-
-        // Atualizar botões de navegação lateral
-        updateMatchNavigation();
     }
 
-    // Função para atualizar ou criar botões de navegação lateral
-    function updateMatchNavigation() {
+    // Função para iniciar o arrastar
+    matchesContainer.addEventListener('mousedown', (e) => {
+        isDragging = true;
+        startX = e.pageX - matchesContainer.offsetLeft;
+        scrollLeft = getCurrentTranslateX();
+        matchesContainer.style.cursor = 'grabbing';
+        matchesWeeks[currentWeekIndex].style.transition = 'none'; // Remove transição durante o arrastar
+    });
+
+    // Função para arrastar
+    matchesContainer.addEventListener('mousemove', (e) => {
+        if (!isDragging) return;
+        e.preventDefault();
+        const x = e.pageX - matchesContainer.offsetLeft;
+        const walk = (x - startX) * 1; // Ajuste a sensibilidade do arrastar aqui (1 = normal)
+        const currentWeek = matchesWeeks[currentWeekIndex];
+        currentWeek.style.transform = `translateX(${scrollLeft + walk}px)`;
+    });
+
+    // Função para finalizar o arrastar
+    matchesContainer.addEventListener('mouseup', () => {
+        if (!isDragging) return;
+        isDragging = false;
+        matchesContainer.style.cursor = 'grab';
+        matchesWeeks[currentWeekIndex].style.transition = 'transform 0.5s ease-in-out'; // Restaura a transição
+        snapToNearest(); // Opcional: ajustar para o item mais próximo
+    });
+
+    // Função para quando o mouse sai do contêiner
+    matchesContainer.addEventListener('mouseleave', () => {
+        if (isDragging) {
+            isDragging = false;
+            matchesContainer.style.cursor = 'grab';
+            matchesWeeks[currentWeekIndex].style.transition = 'transform 0.5s ease-in-out';
+            snapToNearest(); // Opcional: ajustar para o item mais próximo
+        }
+    });
+
+    // Função auxiliar para obter o valor atual de translateX
+    function getCurrentTranslateX() {
+        const currentWeek = matchesWeeks[currentWeekIndex];
+        const transform = window.getComputedStyle(currentWeek).getPropertyValue('transform');
+        if (transform === 'none') return 0;
+        const matrix = transform.match(/matrix.*\((.+)\)/)[1].split(', ');
+        return parseFloat(matrix[4]); // O valor de translateX está na posição 4 da matriz
+    }
+
+    // Função para ajustar o carrossel ao item mais próximo (opcional)
+    function snapToNearest() {
         const currentWeek = matchesWeeks[currentWeekIndex];
         const matchItems = currentWeek.querySelectorAll('.match-item');
-        const totalPages = Math.ceil(matchItems.length / matchesPerPage);
-        const existingPrev = document.querySelector('.match-prev');
-        const existingNext = document.querySelector('.match-next');
+        const itemWidth = matchItems[0]?.offsetWidth || 200; // Largura do item
+        const gap = 15; // Espaçamento entre itens (conforme CSS)
+        const totalItemWidth = itemWidth + gap;
+        const currentTranslateX = getCurrentTranslateX();
+        const nearestIndex = Math.round(-currentTranslateX / totalItemWidth);
+        const newTranslateX = -nearestIndex * totalItemWidth;
 
-        // Remover botões antigos, se existirem
-        if (existingPrev) existingPrev.remove();
-        if (existingNext) existingNext.remove();
-
-        if (totalPages > 1) {
-            // Criar botões de navegação lateral
-            const prevMatchButton = document.createElement('button');
-            prevMatchButton.textContent = '◄';
-            prevMatchButton.className = 'match-prev';
-            prevMatchButton.style.cssText = 'position: absolute; left: 10px; top: 50%; transform: translateY(-50%); background: #3A005A; border: 1px solid #E0A0E0; border-radius: 20px; padding: 5px 10px; cursor: pointer; color: #ffffff; z-index: 10;';
-
-            const nextMatchButton = document.createElement('button');
-            nextMatchButton.textContent = '►';
-            nextMatchButton.className = 'match-next';
-            nextMatchButton.style.cssText = 'position: absolute; right: 10px; top: 50%; transform: translateY(-50%); background: #3A005A; border: 1px solid #E0A0E0; border-radius: 20px; padding: 5px 10px; cursor: pointer; color: #ffffff; z-index: 10;';
-
-            matchesContainer.appendChild(prevMatchButton);
-            matchesContainer.appendChild(nextMatchButton);
-
-            // Evento para o botão "Anterior" das partidas
-            prevMatchButton.addEventListener('click', () => {
-                if (currentMatchIndices[currentWeekIndex] > 0) {
-                    currentMatchIndices[currentWeekIndex]--;
-                    updateMatches();
-                }
-            });
-
-            // Evento para o botão "Próximo" das partidas
-            nextMatchButton.addEventListener('click', () => {
-                const maxIndex = Math.ceil(matchItems.length / matchesPerPage) - 1;
-                if (currentMatchIndices[currentWeekIndex] < maxIndex) {
-                    currentMatchIndices[currentWeekIndex]++;
-                    updateMatches();
-                }
-            });
-
-            // Desativar botões se não houver mais itens para navegar
-            prevMatchButton.disabled = (currentMatchIndices[currentWeekIndex] === 0);
-            nextMatchButton.disabled = (currentMatchIndices[currentWeekIndex] >= totalPages - 1);
-        }
+        // Limita o deslocamento para não ultrapassar os itens
+        const maxTranslateX = 0;
+        const minTranslateX = -(matchItems.length - 1) * totalItemWidth;
+        const boundedTranslateX = Math.max(minTranslateX, Math.min(maxTranslateX, newTranslateX));
+        currentWeek.style.transform = `translateX(${boundedTranslateX}px)`;
     }
 
     // Evento para o botão "Semana Passada"
     matchesPrev.addEventListener('click', () => {
         if (currentWeekIndex > 0) {
             currentWeekIndex--;
-            currentMatchIndices[currentWeekIndex] = 0; // Reinicia o índice da página ao mudar de semana
             updateMatches();
         }
     });
@@ -109,14 +107,13 @@ document.addEventListener('DOMContentLoaded', () => {
     matchesNext.addEventListener('click', () => {
         if (currentWeekIndex < matchesWeeks.length - 1) {
             currentWeekIndex++;
-            currentMatchIndices[currentWeekIndex] = 0; // Reinicia o índice da página ao mudar de semana
             updateMatches();
         }
     });
 
+    // Tornar o contêiner arrastável visualmente
+    matchesContainer.style.cursor = 'grab';
+
     // Inicializar a exibição
     updateMatches();
 });
-
-
-

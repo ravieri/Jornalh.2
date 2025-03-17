@@ -329,17 +329,19 @@ body {
 
 .matches-container {
     position: relative;
-    overflow-x: hidden; /* Esconde a rolagem horizontal padrão */
-    padding: 0 40px; /* Espaço para os botões de navegação */
+    overflow-x: visible; /* Remove o ocultamento para permitir arrastar */
+    padding: 0 40px; /* Mantém espaço para os botões de semana */
     width: 100%;
+    user-select: none; /* Evita seleção de texto durante o arrastar */
 }
 
 .matches-week {
     display: flex;
-    flex-direction: row; /* Layout horizontal */
-    flex-wrap: nowrap; /* Impede que os itens quebrem para a próxima linha */
-    gap: 15px; /* Espaçamento entre os itens */
-    transition: transform 0.5s ease-in-out; /* Animação suave de deslizamento */
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 15px;
+    transition: transform 0.5s ease-in-out;
+    width: max-content; /* Permite que o conteúdo exceda o contêiner */
 }
 
 .matches-week.active {
