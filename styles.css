@@ -1,0 +1,412 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #3A005A; /* Roxo médio escuro como fundo principal */
+    color: #ffffff; /* Texto branco como padrão */
+}
+
+/* Top Bar Styles */
+.top-bar {
+    background: linear-gradient(to right, #2A004D, #A000A0); /* Gradiente roxo forte para header */
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: relative;
+}
+
+.logo-img {
+    height: 40px;
+    width: auto;
+}
+
+/* Navigation Menu (Top Bar) */
+.nav-menu ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-menu a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-menu a:hover {
+    color: #C0C0FF; /* Roxo-azulado claro para hover */
+}
+
+/* Sports Buttons Section */
+.sports-buttons {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    gap: 10px; /* Ajuste o valor aqui (ex.: 20px, 30px) */
+}
+
+/* Estiliza os links como botões */
+.sports-buttons .button {
+    background: #3A005A; /* Roxo médio escuro */
+    border: 1px solid #E0A0E0; /* Borda roxa clara harmonizada */
+    border-radius: 20px;
+    padding: 8px 16px;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #ffffff;
+    display: inline-block;
+}
+
+.sports-buttons .button:hover {
+    background: #E0A0E0; /* Roxo claro harmonizado */
+    border-color: #C080C0; /* Tom mais escuro da borda */
+    color: #2A004D; /* Roxo escuro para texto ao hover */
+}
+
+/* Estilo para o botão selecionado */
+.sports-buttons .selected {
+    background: #E0A0E0; /* Roxo claro harmonizado */
+    color: #ffffff;
+    border: none;
+}
+
+.sports-buttons .selected:hover {
+    background: #C080C0; /* Tom mais escuro ao passar o mouse */
+    border: none;
+}
+
+/* Carousel Styles */
+.carousel {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+    overflow: hidden;
+    background: linear-gradient(to bottom, #4A0080, #C400C4); /* Gradiente roxo vibrante com magenta */
+    box-shadow: 0 4px 20px rgba(200, 0, 200, 0.7); /* Sombreamento magenta vibrante */
+    border-radius: 10px;
+}
+
+.carousel-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    height: auto;
+}
+
+.carousel-item {
+    min-width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+
+.carousel-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+    filter: brightness(1) saturate(1.2); /* Remove o escurecimento e realça as cores */
+    position: relative;
+}
+
+/* Overlay gradiente para harmonizar */
+.carousel-item::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, rgba(200, 0, 200, 0.3), transparent); /* Gradiente magenta claro para transparente */
+    pointer-events: none; /* Não interfere nos cliques */
+}
+
+.carousel-content {
+    position: absolute;
+    bottom: 60px;
+    left: 20px;
+    color: #ffffff;
+}
+
+.category-tag {
+    background-color: #FF66FF; /* Magenta vibrante para a tag */
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 5px;
+    color: #2A004D; /* Roxo escuro para texto na tag */
+}
+
+.carousel-content h2 {
+    font-size: 24px;
+    margin: 10px 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.carousel-content p {
+    font-size: 16px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.scores-bar {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(42, 0, 77, 0.8); /* Roxo escuro semi-transparente */
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.score-item {
+    display: flex;
+    gap: 10px;
+}
+
+.carousel-prev,
+.carousel-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(42, 0, 77, 0.5); /* Roxo escuro semi-transparente */
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.carousel-prev {
+    left: 10px;
+}
+
+.carousel-next {
+    right: 10px;
+}
+
+.carousel-prev:hover,
+.carousel-next:hover {
+    background: rgba(200, 0, 200, 0.8); /* Magenta vibrante ao hover */
+}
+
+/* Matches Section Styles */
+.matches-section {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: linear-gradient(to bottom, #3A005A, #B200B2); /* Gradiente roxo médio */
+}
+
+.matches-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.matches-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.matches-prev,
+.matches-next {
+    background: #3A005A; /* Roxo médio escuro */
+    border: 1px solid #E0A0E0; /* Borda roxa clara */
+    border-radius: 20px;
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.matches-prev:hover,
+.matches-next:hover {
+    background: #E0A0E0; /* Roxo claro ao passar o mouse */
+    border-color: #C080C0; /* Tom mais escuro da borda */
+    color: #2A004D; /* Roxo escuro */
+}
+
+.matches-current {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.matches-container {
+    position: relative;
+    overflow-x: hidden; /* Esconde a rolagem horizontal padrão */
+    padding: 0 40px; /* Espaço para os botões de navegação */
+    width: 100%;
+}
+
+.matches-week {
+    display: flex;
+    flex-direction: row; /* Layout horizontal */
+    flex-wrap: nowrap; /* Impede que os itens quebrem para a próxima linha */
+    gap: 15px; /* Espaçamento entre os itens */
+    transition: transform 0.5s ease-in-out; /* Animação suave de deslizamento */
+}
+
+.matches-week.active {
+    display: flex;
+}
+
+.match-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #3A005A; /* Roxo médio escuro */
+    border: 1px solid #E0A0E0; /* Borda roxa clara */
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    min-width: 200px; /* Define uma largura fixa para cada item */
+    flex: 0 0 auto; /* Garante que os itens não se estiquem */
+}
+
+.match-championship {
+    font-size: 14px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.match-teams {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.team {
+    display: flex;
+    flex-direction: column; /* Empilha o emblema e o nome verticalmente */
+    align-items: center;
+    gap: 5px; /* Espaço entre o emblema e o nome */
+}
+
+.team-emblem {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
+
+.team-name {
+    font-size: 12px;
+    color: #E0A0E0; /* Roxo claro para harmonizar com o design */
+    text-align: center;
+    max-width: 80px; /* Limita a largura para evitar quebras estranhas */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.match-score {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0 10px;
+}
+
+.match-date {
+    font-size: 14px;
+    color: #E0A0E0; /* Roxo claro para data */
+    margin-top: 10px;
+}
+
+.match-prev, .match-next {
+    z-index: 10; /* Garante que os botões fiquem acima dos itens */
+}
+
+@media (max-width: 600px) {
+    .match-prev, .match-next {
+        display: none;
+    }
+    .matches-container {
+        overflow-x: auto;
+    }
+    .match-item {
+        min-width: 150px; /* Ajuste para telas menores */
+    }
+    .team-name {
+        font-size: 10px; /* Reduz o tamanho da fonte em telas menores */
+        max-width: 60px; /* Reduz a largura máxima */
+    }
+}
+
+
+
+/* Estilo da descrição */
+.match-description {
+    position: absolute;
+    top: 100%; /* Posiciona o tooltip abaixo do quadrado */
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(42, 0, 77, 0.9); /* Roxo escuro semi-transparente */
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    width: 200px; /* Largura fixa */
+    text-align: center;
+    display: none; /* Escondido por padrão */
+    z-index: 100; /* Garante que fique acima de outros elementos */
+    pointer-events: none; /* Evita que o tooltip interfira no clique */
+    margin-top: 5px; /* Pequeno espaço entre o quadrado e o tooltip */
+    
+}
+
+/* Exibir a descrição ao passar o mouse */
+.match-item:hover .match-description {
+    display: block; /* Exibe o tooltip */
+}
+
+/* Ajuste no match-item para suportar posição relativa */
+.match-item {
+    position: relative; /* Necessário para posicionar o tooltip */
+    z-index: 10; /* Garante que o match-item tenha um z-index base */
+}
+
+/* Ajuste no matches-container para evitar corte do tooltip */
+.matches-container {
+    position: relative;
+    overflow-x: hidden; /* Mantém o comportamento de rolagem horizontal */
+    z-index: 1; /* Garante que o contêiner não sobreponha o tooltip */
+    padding-bottom: 60px; /* Adiciona espaço extra na parte inferior para o tooltip */
+}
+
+/* Estilo para partidas destacadas */
+.highlight-match {
+    box-shadow: 0 0 15px 5px rgba(255, 102, 255, 0.7); /* Brilho magenta vibrante */
+    border: 1px solid #FF66FF; /* Borda magenta para reforçar o destaque */
+    animation: glow 1.5s ease-in-out infinite alternate; /* Animação de pulsação */
+}
+
+/* Animação de pulsação para o brilho */
+@keyframes glow {
+    from {
+        box-shadow: 0 0 10px 3px rgba(255, 102, 255, 0.5);
+    }
+    to {
+        box-shadow: 0 0 20px 7px rgba(255, 102, 255, 0.9);
+    }
+}
