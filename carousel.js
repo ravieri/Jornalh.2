@@ -99,3 +99,30 @@ document.addEventListener('DOMContentLoaded', () => {
     updateCarousel(); // Define o primeiro indicador como ativo
     startAutoSlide();
 });
+
+
+
+
+document.addEventListener('DOMContentLoaded', () => {
+    // Aplica o fade-in ao carregar a página
+    document.body.classList.add('fade-in');
+
+    // Seleciona os botões de esportes
+    const sportButtons = document.querySelectorAll('.sports-buttons .button');
+
+    sportButtons.forEach(button => {
+        button.addEventListener('click', (e) => {
+            e.preventDefault(); // Impede o redirecionamento imediato
+            const href = button.getAttribute('href'); // Pega o destino (ex.: basquete.html)
+
+            // Remove o fade-in e aplica o fade-out
+            document.body.classList.remove('fade-in');
+            document.body.classList.add('fade-out');
+
+            // Redireciona após a animação terminar
+            setTimeout(() => {
+                window.location.href = href;
+            }, 500); // Tempo igual à duração da transição (0.5s)
+        });
+    });
+});
