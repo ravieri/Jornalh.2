@@ -141,6 +141,9 @@ body {
     bottom: 60px;
     left: 20px;
     color: #ffffff;
+    background: rgba(42, 0, 77, 0.7); /* Roxo escuro semi-transparente */
+    padding: 10px;
+    border-radius: 5px;
 }
 
 .category-tag {
@@ -432,6 +435,7 @@ body {
 
 
 /* Estilo da descrição */
+
 .match-description {
     position: absolute;
     top: 100%; /* Posiciona o tooltip abaixo do quadrado */
@@ -467,14 +471,14 @@ body {
     position: relative;
     overflow-x: hidden; /* Mantém o comportamento de rolagem horizontal */
     z-index: 1; /* Garante que o contêiner não sobreponha o tooltip */
-    padding-bottom: 60px; /* Adiciona espaço extra na parte inferior para o tooltip */
+    padding-bottom: 100px; /* Adiciona espaço extra na parte inferior para o tooltip */
 }
 
 /* Estilo para partidas destacadas */
 .highlight-match {
-    box-shadow: 0 0 15px 5px rgba(255, 102, 255, 0.7); /* Brilho magenta vibrante */
+    box-shadow: 0 0 13px 3px rgba(255, 102, 255, 0.7); /* Brilho magenta vibrante */
     border: 1px solid #FF66FF; /* Borda magenta para reforçar o destaque */
-    animation: glow 1.5s ease-in-out infinite alternate; /* Animação de pulsação */
+    animation: glow 1.0s ease-in-out infinite alternate; /* Animação de pulsação */
 }
 
 /* Animação de pulsação para o brilho */
@@ -485,4 +489,58 @@ body {
     to {
         box-shadow: 0 0 20px 7px rgba(255, 102, 255, 0.9);
     }
+}
+
+
+
+
+
+/* Classe para o corpo da página */
+body {
+    transition: opacity 0.5s ease-in-out; /* Animação suave de 0.5s */
+}
+
+/* Estado de saída (fade out) */
+body.fade-out {
+    opacity: 0;
+}
+
+/* Estado inicial de entrada (fade in) */
+body.fade-in {
+    opacity: 1;
+}
+
+/* Opcional: efeito de virar página */
+body.page-turn {
+    transform: rotateY(90deg);
+    opacity: 0;
+    transform-origin: right;
+}
+
+
+
+
+/* Estilo dos indicadores do carrossel */
+.carousel-indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 8px; /* Espaço entre os pontos */
+}
+
+/* Estilo de cada ponto */
+.carousel-indicators span {
+    width: 10px;
+    height: 10px;
+    background: #ffffff; /* Cor padrão (branco) */
+    border-radius: 50%; /* Formato de círculo */
+    cursor: pointer; /* Mãozinha ao passar o mouse */
+    transition: background 0.3s ease; /* Transição suave ao mudar de cor */
+}
+
+/* Estilo do ponto ativo */
+.carousel-indicators span.active {
+    background: #FF66FF; /* Magenta vibrante para o item ativo */
 }

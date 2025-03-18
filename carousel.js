@@ -3,28 +3,34 @@ document.addEventListener('DOMContentLoaded', () => {
     const carouselItems = document.querySelectorAll('.carousel-item');
     const prevButton = document.querySelector('.carousel-prev');
     const nextButton = document.querySelector('.carousel-next');
+    const indicatorsContainer = document.querySelector('.carousel-indicators');
     let currentIndex = 0;
-    let autoSlideInterval; // Variável para controlar o intervalo de rotação automática
+    let autoSlideInterval;
 
-    // Função para ajustar a altura do carrossel com base na imagem ativa
+    // Cria os indicadores dinamicamente
+    carouselItems.forEach((_, index) => {
+        const indicator = document.createElement('span');
+        indicator.addEventListener('click', () => {
+            currentIndex = index;
+            updateCarousel();
+            stopAutoSlide();
+            startAutoSlide();
+        });
+        indicatorsContainer.appendChild(indicator);
+    });
+
+    // Função para ajustar a altura do carrossel
     function adjustCarouselHeight() {
         const activeItem = carouselItems[currentIndex];
         const activeImage = activeItem.querySelector('.carousel-image');
-
-        // Certifique-se de que a imagem está carregada antes de ajustar
         if (activeImage.complete) {
             const naturalWidth = activeImage.naturalWidth;
             const naturalHeight = activeImage.naturalHeight;
             const containerWidth = carouselContainer.offsetWidth;
-
-            // Calcule a altura proporcional com base na largura do contêiner e na proporção da imagem
             const aspectRatio = naturalWidth / naturalHeight;
             const newHeight = containerWidth / aspectRatio;
-
-            // Ajuste a altura do carousel-container
             carouselContainer.style.height = `${newHeight}px`;
         } else {
-            // Se a imagem ainda não estiver carregada, adicione um listener
             activeImage.addEventListener('load', () => {
                 const naturalWidth = activeImage.naturalWidth;
                 const naturalHeight = activeImage.naturalHeight;
@@ -36,11 +42,16 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    // Função para atualizar o carrossel
+    // Função para atualizar o carrossel e os indicadores
     function updateCarousel() {
         const offset = -currentIndex * 100;
         carouselContainer.style.transform = `translateX(${offset}%)`;
-        adjustCarouselHeight(); // Ajusta a altura sempre que o slide muda
+        adjustCarouselHeight();
+
+        // Atualiza o indicador ativo
+        indicatorsContainer.querySelectorAll('span').forEach((span, i) => {
+            span.classList.toggle('active', i === currentIndex);
+        });
     }
 
     // Função para avançar para o próximo slide
@@ -51,7 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Função para iniciar a rotação automática
     function startAutoSlide() {
-        autoSlideInterval = setInterval(nextSlide, 5000); // Muda a cada 5 segundos
+        autoSlideInterval = setInterval(nextSlide, 5000);
     }
 
     // Função para pausar a rotação automática
@@ -63,29 +74,28 @@ document.addEventListener('DOMContentLoaded', () => {
     prevButton.addEventListener('click', () => {
         currentIndex = (currentIndex > 0) ? currentIndex - 1 : carouselItems.length - 1;
         updateCarousel();
-        stopAutoSlide(); // Para a rotação ao interagir manualmente
-        startAutoSlide(); // Reinicia a rotação automática
+        stopAutoSlide();
+        startAutoSlide();
     });
 
     // Evento para o botão "próximo"
     nextButton.addEventListener('click', () => {
         nextSlide();
-        stopAutoSlide(); // Para a rotação ao interagir manualmente
-        startAutoSlide(); // Reinicia a rotação automática
+        stopAutoSlide();
+        startAutoSlide();
     });
 
-    // Pausar a rotação ao passar o mouse sobre o carrossel
+    // Pausar a rotação ao passar o mouse
     carouselContainer.addEventListener('mouseover', stopAutoSlide);
 
-    // Retomar a rotação ao tirar o mouse do carrossel
+    // Retomar a rotação ao tirar o mouse
     carouselContainer.addEventListener('mouseout', startAutoSlide);
 
-    // Ajusta a altura ao carregar a página
+    // Ajusta a altura ao carregar e ao redimensionar
     adjustCarouselHeight();
-
-    // Ajusta a altura ao redimensionar a janela
     window.addEventListener('resize', adjustCarouselHeight);
 
-    // Inicia a rotação automática ao carregar a página
+    // Inicia o carrossel e a rotação automática
+    updateCarousel(); // Define o primeiro indicador como ativo
     startAutoSlide();
 });
