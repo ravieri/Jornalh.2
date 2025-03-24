@@ -1,39 +1,32 @@
 {
     "carouselData": [
         {
-            "imgSrc": "futebol imagens/croacia-x-france.jpg",
+            "imgSrc": "futebol imagens/argexbrasil.avif",
             "alt": "Jogo de Futebol",
-            "categoryTag": "UEFA Nations League",
-            "title": "Vale vaga na semifinal! Croácia e França disputam as quartas",
-            "description": "Tabela da Nations League em destaque. Duelo entre gigantes europeus!"
+            "categoryTag": "World Cup Qualificação CONMEBOL",
+            "title": "Clássico sul-americano! Argentina e Brasil prometem um duelo épico nas eliminatórias",
+            "description": "Argentina e Brasil disputam pontos decisivos em um confronto histórico nas eliminatórias da Copa do Mundo!"
         },
         {
-            "imgSrc": "futebol imagens/brasilxcolombia.webp",
+            "imgSrc": "futebol imagens/corxpalmei.jpg",
             "alt": "Jogo de Futebol",
-            "categoryTag": "World Cup",
-            "title": "Vale pontos cruciais! Brasil e Colômbia disputam as eliminatórias",
-            "description": "Tabela da Qualificação CONMEBOL em alta. Brasil busca liderança!"
+            "categoryTag": "Paulista Série A1 - Mata-mata",
+            "title": "Clássico paulista! Corinthians e Palmeiras decidem o título",
+            "description": "Corinthians e Palmeiras se enfrentam em um jogo eletrizante pelo campeonato paulista!"
         },
         {
-            "imgSrc": "futebol imagens/italiaxalemanha.png",
+            "imgSrc": "futebol imagens/gremioxatletico-mg.webp",
             "alt": "Jogo de Futebol",
-            "categoryTag": "UEFA Nations League",
-            "title": "Vale vaga na semifinal! Itália e Alemanha disputam as quartas",
-            "description": "Tabela da UEFA Nations League atualizada. Rivalidade histórica em jogo!"
+            "categoryTag": "Brasileirão Betano",
+            "title": "Grêmio e Atlético-MG abrem o Brasileirão com um confronto quente",
+            "description": "Grêmio e Atlético-MG disputam pontos importantes na estreia do Brasileirão Betano!"
         },
         {
-            "imgSrc": "futebol imagens/urugxargen.jpg",
+            "imgSrc": "futebol imagens/vascoxsantso.jpg",
             "alt": "Jogo de Futebol",
-            "categoryTag": "World Cup",
-            "title": "Vale pontos cruciais! Uruguai e Argentina disputam as eliminatórias",
-            "description": "Tabela da Qualificação CONMEBOL em evidência. Clássico sul-americano de peso!"
-        },
-        {
-            "imgSrc": "futebol imagens/dinamarca-x-portugal.jpg",
-            "alt": "Jogo de Futebol",
-            "categoryTag": "UEFA Nations League",
-            "title": "Vale vaga na semifinal! Dinamarca e Portugal disputam as quartas",
-            "description": "Tabela da UEFA Nations League em foco. Clássicos!"
+            "categoryTag": "Brasileirão Betano",
+            "title": "Vasco e Santos fazem um confronto histórico no Brasileirão",
+            "description": "Vasco e Santos se enfrentam em um duelo clássico pelo Brasileirão Betano!"
         }
     ],
     "matchesData": [

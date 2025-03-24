@@ -1,39 +1,39 @@
 {
     "carouselData": [
         {
-            "imgSrc": "basquete img/lakersxspurs.png",
+            "imgSrc": "basquete img/76ersxraptors.jpg",
             "alt": "Jogo de Basquete",
             "categoryTag": "NBA",
-            "title": "Clássico em Los Angeles! Lakers e Spurs prometem duelo quente",
-            "description": "Tabela da NBA em destaque. Lakers buscam consolidar boa fase!"
+            "title": "Duelo no Leste! 76ers e Raptors disputam um jogo intenso",
+            "description": "Tabela da NBA em destaque. 76ers buscam consolidar posição na Conferência Leste!"
         },
         {
-            "imgSrc": "basquete img/celtixnets.jpg",
+            "imgSrc": "basquete img/bullsxlakers.jpg",
             "alt": "Jogo de Basquete",
             "categoryTag": "NBA",
-            "title": "Duelo no Leste! Celtics e Nets disputam supremacia",
-            "description": "Tabela da NBA em alta. Celtics com campanha forte na temporada!"
+            "title": "Clássico da NBA! Bulls e Lakers prometem confronto quente",
+            "description": "Tabela da NBA em alta. Lakers enfrentam um Bulls resiliente em busca da vitória!"
         },
         {
-            "imgSrc": "basquete img/warrioxbucks.jpg",
+            "imgSrc": "basquete img/nuggets x jazz.avif",
             "alt": "Jogo de Basquete",
             "categoryTag": "NBA",
-            "title": "Final antecipada? Warriors e Bucks prometem jogo épico",
-            "description": "Tabela da NBA em evidência. Confronto de campeões recentes!"
+            "title": "Supremacia no Oeste! Nuggets e Jazz duelam em grande estilo",
+            "description": "Tabela da NBA em evidência. Confronto decisivo na Conferência Oeste!"
         },
         {
-            "imgSrc": "basquete img/lakersxnugts.jpg",
+            "imgSrc": "basquete img/spursxceltics.jpg",
             "alt": "Jogo de Basquete",
             "categoryTag": "NBA",
-            "title": "Rivalidade quente! Lakers e Nuggets disputam liderança",
-            "description": "Tabela da NBA em foco. Reedição de embates intensos!"
+            "title": "Desafio interconferências! Spurs enfrentam os Celtics",
+            "description": "Tabela da NBA em foco. Spurs tentam surpreender o líder do Leste!"
         },
         {
-            "imgSrc": "basquete img/lakersxbucks.jpg",
+            "imgSrc": "basquete img/suns x bucks.png",
             "alt": "Jogo de Basquete",
             "categoryTag": "NBA",
-            "title": "Jogo de gigantes! Lakers e Bucks prometem show",
-            "description": "Tabela da NBA atualizada. Estrelas em quadra para um clássico!"
+            "title": "Jogo de alto nível! Suns e Bucks prometem um duelo épico",
+            "description": "Tabela da NBA atualizada. Reedição de grandes embates entre campeões!"
         }
     ],
     "matchesData": [
