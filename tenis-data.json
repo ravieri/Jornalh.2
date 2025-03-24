@@ -3,8 +3,8 @@
         {
             "imgSrc": "tenis img/fonseca.jpg",
             "alt": "Jogo de Tênis",
-            "categoryTag": "Challenger Phoenix",
-            "title": "Fonseca brilha e ganha a Phoenix",
+            "categoryTag": "Challenger Miami",
+            "title": "Jogo de Fonseca contra nº 11 do mundo tem horário definido",
             "description": "Estreia sólida rumo ao top 50!"
         },
         {
@@ -163,7 +163,7 @@
                     "championship": "ATP 1000 Miami, USA, 16Avos-de-final",
                     "teamA": { "name": "M. Berrettini", "emblem": "Emblems/Italy.png", "rank": "ATP 30" },
                     "teamB": { "name": "Z. Bergs", "emblem": "Emblems/Belgium.png", "rank": "ATP 51" },
-                    "score": "29",
+                    "score": "x",
                     "date": "24/03/2025 • 17:05",
                     "description": "Berrettini enfrenta Bergs nos 16avos-de-final do Miami Open."
                 },
@@ -171,7 +171,7 @@
                     "championship": "ATP 1000 Miami, USA, 16Avos-de-final",
                     "teamA": { "name": "A. de Minaur", "emblem": "Emblems/Australia.png", "rank": "ATP 11" },
                     "teamB": { "name": "J. Fonseca", "emblem": "Emblems/Brazil.png", "rank": "ATP 60" },
-                    "score": "10",
+                    "score": "x",
                     "date": "24/03/2025 • 20:00",
                     "description": "De Minaur e Fonseca disputam uma vaga nos oitavos em Miami."
                 },
@@ -179,7 +179,7 @@
                     "championship": "ATP 1000 Miami, USA, 16Avos-de-final",
                     "teamA": { "name": "A. Zverev", "emblem": "Emblems/Germany.png", "rank": "ATP 2" },
                     "teamB": { "name": "J. Thompson", "emblem": "Emblems/Australia.png", "rank": "ATP 37" },
-                    "score": "7",
+                    "score": "x",
                     "date": "24/03/2025 • 13:00",
                     "description": "Zverev enfrenta Thompson em um confronto nos 16avos-de-final."
                 },
@@ -187,7 +187,7 @@
                     "championship": "ATP 1000 Miami, USA, Oitavos-de-final",
                     "teamA": { "name": "C. Ruud", "emblem": "Emblems/Norway.png", "rank": "ATP 6" },
                     "teamB": { "name": "F. Cerundolo", "emblem": "Emblems/Argentina.png", "rank": "ATP 24" },
-                    "score": "23",
+                    "score": "x",
                     "date": "25/03/2025 • 11:00",
                     "description": "Ruud e Cerundolo duelam nos oitavos-de-final do Miami Open."
                 },
@@ -195,7 +195,7 @@
                     "championship": "ATP 1000 Miami, USA, Oitavos-de-final",
                     "teamA": { "name": "L. Musetti", "emblem": "Emblems/Italy.png", "rank": "ATP 16" },
                     "teamB": { "name": "N. Djokovic", "emblem": "Emblems/Serbia.png", "rank": "ATP 5" },
-                    "score": "4",
+                    "score": "x",
                     "date": "25/03/2025 • 11:00",
                     "description": "Musetti desafia Djokovic em um grande jogo nos oitavos."
                 }
