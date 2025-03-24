@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('carouselReady', () => {
     const carouselContainer = document.querySelector('.carousel-container');
     const carouselItems = document.querySelectorAll('.carousel-item');
     const prevButton = document.querySelector('.carousel-prev');
@@ -103,7 +103,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('carouselReady', () => {
     // Aplica o fade-in ao carregar a página
     document.body.classList.add('fade-in');
 

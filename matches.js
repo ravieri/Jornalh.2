@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('matchesReady', () => {
     const matchesContainer = document.querySelector('.matches-container');
     const matchesWeeks = document.querySelectorAll('.matches-week');
     const matchesPrev = document.querySelector('.matches-prev');

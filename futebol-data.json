@@ -1,0 +1,416 @@
+{
+    "carouselData": [
+        {
+            "imgSrc": "futebol imagens/croacia-x-france.jpg",
+            "alt": "Jogo de Futebol",
+            "categoryTag": "UEFA Nations League",
+            "title": "Vale vaga na semifinal! Croácia e França disputam as quartas",
+            "description": "Tabela da Nations League em destaque. Duelo entre gigantes europeus!"
+        },
+        {
+            "imgSrc": "futebol imagens/brasilxcolombia.webp",
+            "alt": "Jogo de Futebol",
+            "categoryTag": "World Cup",
+            "title": "Vale pontos cruciais! Brasil e Colômbia disputam as eliminatórias",
+            "description": "Tabela da Qualificação CONMEBOL em alta. Brasil busca liderança!"
+        },
+        {
+            "imgSrc": "futebol imagens/italiaxalemanha.png",
+            "alt": "Jogo de Futebol",
+            "categoryTag": "UEFA Nations League",
+            "title": "Vale vaga na semifinal! Itália e Alemanha disputam as quartas",
+            "description": "Tabela da UEFA Nations League atualizada. Rivalidade histórica em jogo!"
+        },
+        {
+            "imgSrc": "futebol imagens/urugxargen.jpg",
+            "alt": "Jogo de Futebol",
+            "categoryTag": "World Cup",
+            "title": "Vale pontos cruciais! Uruguai e Argentina disputam as eliminatórias",
+            "description": "Tabela da Qualificação CONMEBOL em evidência. Clássico sul-americano de peso!"
+        },
+        {
+            "imgSrc": "futebol imagens/dinamarca-x-portugal.jpg",
+            "alt": "Jogo de Futebol",
+            "categoryTag": "UEFA Nations League",
+            "title": "Vale vaga na semifinal! Dinamarca e Portugal disputam as quartas",
+            "description": "Tabela da UEFA Nations League em foco. Clássicos!"
+        }
+    ],
+    "matchesData": [
+        {
+            "weekLabel": "past",
+            "matches": [
+                {
+                    "championship": "Copa do Brasil",
+                    "teamA": { "name": "Flamengo", "emblem": "images/emblems/flamengo.png" },
+                    "teamB": { "name": "Palmeiras", "emblem": "images/emblems/palmeiras.png" },
+                    "score": "2 x 1",
+                    "date": "05/03 • 20:00",
+                    "description": ""
+                },
+                {
+                    "championship": "Copa do Brasil",
+                    "teamA": { "name": "São Paulo", "emblem": "images/emblems/sao-paulo.png" },
+                    "teamB": { "name": "Internacional", "emblem": "images/emblems/internacional.png" },
+                    "score": "1 x 1",
+                    "date": "06/03 • 19:30",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "weekLabel": "current",
+            "matches": [
+                {
+                    "championship": "FIFA World Cup",
+                    "teamA": { "name": "Tanzânia", "emblem": "Emblems/tanzania.png" },
+                    "teamB": { "name": "República do Congo", "emblem": "Emblems/Congo_Republic.png" },
+                    "score": "X",
+                    "date": "17/03/2025 • 10:00",
+                    "description": "Confronto africano pelas eliminatórias da Copa do Mundo. A Tanzânia busca surpreender em casa!"
+                },
+                {
+                    "championship": "FIFA World Cup",
+                    "teamA": { "name": "Eswatini", "emblem": "Emblems/Eswatini.png" },
+                    "teamB": { "name": "Camarões", "emblem": "Emblems/Cameroon.png" },
+                    "score": "X",
+                    "date": "19/03/2025 • 13:00",
+                    "description": "Eswatini tenta surpreender os favoritos Camarões nas eliminatórias africanas!"
+                },
+                {
+                    "championship": "FIFA World Cup",
+                    "teamA": { "name": "Libéria", "emblem": "Emblems/Liberia.png" },
+                    "teamB": { "name": "Tunísia", "emblem": "Emblems/Tunisia.png" },
+                    "score": "X",
+                    "date": "19/03/2025 • 13:00",
+                    "description": "Libéria enfrenta a Tunísia em um jogo-chave para suas chances na Copa do Mundo!"
+                },
+                {
+                    "championship": "UEFA Champions League",
+                    "teamA": { "name": "Man City", "emblem": "Emblems/Man_City.png" },
+                    "teamB": { "name": "Chelsea", "emblem": "Emblems/Chelsea.png" },
+                    "score": "X",
+                    "date": "19/03/2025 • 17:00",
+                    "description": "Clássico inglês na Champions! Man City e Chelsea prometem um jogo eletrizante!"
+                },
+                {
+                    "championship": "UEFA Nations League",
+                    "teamA": { "name": "Itália", "emblem": "Emblems/Italy.png" },
+                    "teamB": { "name": "Alemanha", "emblem": "Emblems/Germany.png" },
+                    "score": "X",
+                    "date": "20/03/2025 • 16:45",
+                    "description": "Rivalidade histórica! Itália e Alemanha duelam por uma vaga nas semifinais da Nations League!"
+                },
+                {
+                    "championship": "UEFA Nations League",
+                    "teamA": { "name": "Holanda", "emblem": "Emblems/Netherlands.png" },
+                    "teamB": { "name": "Espanha", "emblem": "Emblems/Spain.png" },
+                    "score": "X",
+                    "date": "20/03/2025 • 16:45",
+                    "description": "Holanda e Espanha em um confronto direto pela liderança do grupo na Nations League!"
+                },
+                {
+                    "championship": "UEFA Nations League",
+                    "teamA": { "name": "Eslováquia", "emblem": "Emblems/Slovakia.png" },
+                    "teamB": { "name": "Eslovénia", "emblem": "Emblems/Slovenia.png" },
+                    "score": "X",
+                    "date": "20/03/2025 • 16:45",
+                    "description": "Eslováquia e Eslovénia buscam pontos cruciais para se manterem vivas na Nations League!"
+                },
+                {
+                    "championship": "World Cup",
+                    "teamA": { "name": "Brasil", "emblem": "Emblems/Brazil.png" },
+                    "teamB": { "name": "Colômbia", "emblem": "Emblems/Colombia.png" },
+                    "score": "X",
+                    "date": "20/03/2025 • 21:45",
+                    "description": "Clássico sul-americano! Brasil e Colômbia disputam pontos decisivos nas eliminatórias!"
+                },
+                {
+                    "championship": "World Cup",
+                    "teamA": { "name": "Peru", "emblem": "Emblems/Peru.png" },
+                    "teamB": { "name": "Bolívia", "emblem": "Emblems/Bolivia.png" },
+                    "score": "X",
+                    "date": "20/03/2025 • 22:30",
+                    "description": "Peru e Bolívia lutam por uma vitória essencial nas eliminatórias da Copa do Mundo!"
+                },
+                {
+                    "championship": "World Championship",
+                    "teamA": { "name": "Polônia", "emblem": "Emblems/Poland.png" },
+                    "teamB": { "name": "Lituânia", "emblem": "Emblems/Lithuania.png" },
+                    "score": "X",
+                    "date": "21/03/2025 • 16:45",
+                    "description": "Polônia enfrenta a Lituânia em um duelo regional com muito em jogo!"
+                },
+                {
+                    "championship": "FIFA World Cup",
+                    "teamA": { "name": "Etiópia", "emblem": "Emblems/Ethiopia.png" },
+                    "teamB": { "name": "Egito", "emblem": "Emblems/Egypt.png" },
+                    "score": "X",
+                    "date": "21/03/2025 • 18:00",
+                    "description": "Clássico africano! Etiópia e Egito disputam supremacia nas eliminatórias!"
+                },
+                {
+                    "championship": "World Cup",
+                    "teamA": { "name": "Uruguai", "emblem": "Emblems/Uruguay.png" },
+                    "teamB": { "name": "Argentina", "emblem": "Emblems/Argentina.png" },
+                    "score": "X",
+                    "date": "21/03/2025 • 20:30",
+                    "description": "Rivalidade histórica! Uruguai e Argentina prometem um duelo épico nas eliminatórias!"
+                },
+                {
+                    "championship": "World Championship",
+                    "teamA": { "name": "Moldávia", "emblem": "Emblems/Moldova.png" },
+                    "teamB": { "name": "Noruega", "emblem": "Emblems/Norway.png" },
+                    "score": "X",
+                    "date": "22/03/2025 • 14:00",
+                    "description": "Moldávia tenta surpreender a Noruega em um confronto de estilos!"
+                },
+                {
+                    "championship": "FIFA World Cup",
+                    "teamA": { "name": "Sudão", "emblem": "Emblems/Sudan.png" },
+                    "teamB": { "name": "Senegal", "emblem": "Emblems/Senegal.png" },
+                    "score": "X",
+                    "date": "22/03/2025 • 16:00",
+                    "description": "Sudão enfrenta o forte Senegal em busca de uma zebra nas eliminatórias!"
+                },
+                {
+                    "championship": "World Championship",
+                    "teamA": { "name": "Israel", "emblem": "Emblems/Israel.png" },
+                    "teamB": { "name": "Estônia", "emblem": "Emblems/Estonia.png" },
+                    "score": "X",
+                    "date": "22/03/2025 • 16:45",
+                    "description": "Israel e Estônia disputam um jogo equilibrado com pontos importantes em jogo!"
+                },
+                {
+                    "championship": "UEFA Nations League",
+                    "teamA": { "name": "Hungria", "emblem": "Emblems/Hungary.png" },
+                    "teamB": { "name": "Turquia", "emblem": "Emblems/Turkiye.png" },
+                    "score": "X",
+                    "date": "23/03/2025 • 14:00",
+                    "description": "Hungria e Turquia em um confronto direto por uma vaga nas semifinais da Nations League!"
+                },
+                {
+                    "championship": "UEFA Nations League",
+                    "teamA": { "name": "Eslovénia", "emblem": "Emblems/Slovenia.png" },
+                    "teamB": { "name": "Eslováquia", "emblem": "Emblems/Slovakia.png" },
+                    "score": "X",
+                    "date": "23/03/2025 • 14:00",
+                    "description": "Eslovénia e Eslováquia repetem o duelo em busca de afirmação na Nations League!"
+                },
+                {
+                    "championship": "UEFA Nations League",
+                    "teamA": { "name": "Alemanha", "emblem": "Emblems/Germany.png" },
+                    "teamB": { "name": "Itália", "emblem": "Emblems/Italy.png" },
+                    "score": "X",
+                    "date": "23/03/2025 • 16:45",
+                    "description": "Revanche emocionante! Alemanha e Itália decidem quem avança na Nations League!"
+                },
+                {
+                    "championship": "UEFA Nations League",
+                    "teamA": { "name": "Espanha", "emblem": "Emblems/Spain.png" },
+                    "teamB": { "name": "Holanda", "emblem": "Emblems/Netherlands.png" },
+                    "score": "X",
+                    "date": "23/03/2025 • 16:45",
+                    "description": "Espanha e Holanda em um duelo de titãs pela supremacia na Nations League!"
+                },
+                {
+                    "championship": "UEFA Nations League",
+                    "teamA": { "name": "Portugal", "emblem": "Emblems/Portugal.png" },
+                    "teamB": { "name": "Dinamarca", "emblem": "Emblems/Denmark.png" },
+                    "score": "X",
+                    "date": "23/03/2025 • 16:45",
+                    "description": "Portugal enfrenta a Dinamarca em um jogo crucial para as semifinais da Nations League!"
+                },
+                {
+                    "championship": "UEFA Nations League",
+                    "teamA": { "name": "Escócia", "emblem": "Emblems/Scotland.png" },
+                    "teamB": { "name": "Grécia", "emblem": "Emblems/Greece.png" },
+                    "score": "X",
+                    "date": "23/03/2025 • 16:45",
+                    "description": "Jogo de grande importância devido à disputa por uma vaga nas semifinais da UEFA Nations League. Ambas as equipes buscam consolidar suas posições no grupo!"
+                }
+            ]
+        },
+        {
+            "weekLabel": "next",
+            "matches": [
+                {
+                    "championship": "World Championship Qual. UEFA",
+                    "teamA": { "name": "Lituânia", "emblem": "Emblems/Lithuania.png" },
+                    "teamB": { "name": "Finlândia", "emblem": "Emblems/Finland.png" },
+                    "score": "X",
+                    "date": "24/03/2025 • 14:00",
+                    "description": "Lituânia e Finlândia abrem a semana em busca de pontos na qualificação europeia!"
+                },
+                {
+                    "championship": "World Championship Qual. UEFA",
+                    "teamA": { "name": "Polônia", "emblem": "Emblems/Poland.png" },
+                    "teamB": { "name": "Malta", "emblem": "Emblems/Malta.png" },
+                    "score": "X",
+                    "date": "24/03/2025 • 16:45",
+                    "description": "Polônia enfrenta Malta em duelo pelas eliminatórias europeias!"
+                },
+                {
+                    "championship": "World Championship Qual. UEFA",
+                    "teamA": { "name": "Bósnia e Herzegovina", "emblem": "Emblems/Bosnia_Herzegovina.png" },
+                    "teamB": { "name": "Chipre", "emblem": "Emblems/Cyprus.png" },
+                    "score": "X",
+                    "date": "24/03/2025 • 16:45",
+                    "description": "Bósnia e Chipre disputam pontos cruciais na qualificatória europeia!"
+                },
+                {
+                    "championship": "World Championship Qual. UEFA",
+                    "teamA": { "name": "Moldávia", "emblem": "Emblems/Moldova.png" },
+                    "teamB": { "name": "Estônia", "emblem": "Emblems/Estonia.png" },
+                    "score": "X",
+                    "date": "25/03/2025 • 14:00",
+                    "description": "Moldávia e Estônia se enfrentam em busca de afirmação nas eliminatórias!"
+                },
+                {
+                    "championship": "World Championship Qual. UEFA",
+                    "teamA": { "name": "Israel", "emblem": "Emblems/Israel.png" },
+                    "teamB": { "name": "Noruega", "emblem": "Emblems/Norway.png" },
+                    "score": "X",
+                    "date": "25/03/2025 • 16:45",
+                    "description": "Israel e Noruega disputam um confronto decisivo nas eliminatórias!"
+                },
+                {
+                    "championship": "World Cup Qualificação CONMEBOL",
+                    "teamA": { "name": "Argentina", "emblem": "Emblems/Argentina.png" },
+                    "teamB": { "name": "Brasil", "emblem": "Emblems/Brazil.png" },
+                    "score": "X",
+                    "date": "25/03/2025 • 21:00",
+                    "description": "Clássico sul-americano! Argentina e Brasil prometem um duelo épico nas eliminatórias!"
+                },
+                {
+                    "championship": "World Cup Qualificação CONMEBOL",
+                    "teamA": { "name": "Venezuela", "emblem": "Emblems/Venezuela.png" },
+                    "teamB": { "name": "Peru", "emblem": "Emblems/Peru.png" },
+                    "score": "X",
+                    "date": "25/03/2025 • 21:00",
+                    "description": "Venezuela e Peru lutam por pontos importantes nas eliminatórias!"
+                },
+                {
+                    "championship": "Copa do Nordeste",
+                    "teamA": { "name": "Moto Club", "emblem": "Emblems/Moto_Club.png" },
+                    "teamB": { "name": "Vitória", "emblem": "Emblems/Vitoria.png" },
+                    "score": "X",
+                    "date": "26/03/2025 • 18:00",
+                    "description": "Moto Club e Vitória disputam um jogo quente na Copa do Nordeste!"
+                },
+                {
+                    "championship": "LaLiga",
+                    "teamA": { "name": "Barcelona", "emblem": "Emblems/Barcelona.png" },
+                    "teamB": { "name": "Osasuna", "emblem": "Emblems/Osasuna.png" },
+                    "score": "X",
+                    "date": "27/03/2025 • 16:00",
+                    "description": "Barcelona enfrenta o Osasuna em busca de mais uma vitória na LaLiga!"
+                },
+                {
+                    "championship": "Paulista Série A1 - Mata-mata",
+                    "teamA": { "name": "Corinthians", "emblem": "Emblems/Corinthians.png" },
+                    "teamB": { "name": "Palmeiras", "emblem": "Emblems/Palmeiras.png" },
+                    "score": "X",
+                    "date": "27/03/2025 • 18:30",
+                    "description": "Clássico paulista! Corinthians e Palmeiras decidem o título em um jogo eletrizante!"
+                },
+                {
+                    "championship": "Bundesliga",
+                    "teamA": { "name": "Leverkusen", "emblem": "Emblems/Bayer_04_Leverkusen.png" },
+                    "teamB": { "name": "Bochum", "emblem": "Emblems/VfL_Bochum.png" },
+                    "score": "X",
+                    "date": "28/03/2025 • 16:30",
+                    "description": "Leverkusen busca consolidar sua posição contra o Bochum na Bundesliga!"
+                },
+                {
+                    "championship": "LaLiga",
+                    "teamA": { "name": "Athletic Club", "emblem": "Emblems/Athletic_Club.png" },
+                    "teamB": { "name": "Osasuna", "emblem": "Emblems/Osasuna.png" },
+                    "score": "X",
+                    "date": "28/03/2025 • 17:00",
+                    "description": "Athletic Club enfrenta o Osasuna em um duelo espanhol equilibrado!"
+                },
+                {
+                    "championship": "Serie A",
+                    "teamA": { "name": "Juventus", "emblem": "Emblems/Juventus.png" },
+                    "teamB": { "name": "Genoa", "emblem": "Emblems/Genoa.png" },
+                    "score": "X",
+                    "date": "29/03/2025 • 14:00",
+                    "description": "Juventus busca os três pontos contra o Genoa na Serie A!"
+                },
+                {
+                    "championship": "LaLiga",
+                    "teamA": { "name": "Real Madrid", "emblem": "Emblems/Real_Madrid.png" },
+                    "teamB": { "name": "Leganés", "emblem": "Emblems/Leganes.png" },
+                    "score": "X",
+                    "date": "29/03/2025 • 17:00",
+                    "description": "Real Madrid enfrenta o Leganés em busca de mais uma vitória na LaLiga!"
+                },
+                {
+                    "championship": "Brasileirão Betano",
+                    "teamA": { "name": "Grêmio", "emblem": "Emblems/Gremio.png" },
+                    "teamB": { "name": "Atlético-MG", "emblem": "Emblems/Atletico_MG.png" },
+                    "score": "X",
+                    "date": "29/03/2025 • 18:30",
+                    "description": "Grêmio e Atlético-MG abrem o Brasileirão com um confronto quente!"
+                },
+                {
+                    "championship": "Brasileirão Betano",
+                    "teamA": { "name": "São Paulo", "emblem": "Emblems/Sao_Paulo.png" },
+                    "teamB": { "name": "Sport", "emblem": "Emblems/Sport.png" },
+                    "score": "X",
+                    "date": "29/03/2025 • 18:30",
+                    "description": "São Paulo enfrenta o Sport na estreia do Brasileirão Betano!"
+                },
+                {
+                    "championship": "Brasileirão Betano",
+                    "teamA": { "name": "Flamengo", "emblem": "Emblems/Flamengo.png" },
+                    "teamB": { "name": "Internacional", "emblem": "Emblems/Internacional.png" },
+                    "score": "X",
+                    "date": "29/03/2025 • 21:00",
+                    "description": "Flamengo e Internacional fecham o dia com um duelo de gigantes!"
+                },
+                {
+                    "championship": "LaLiga",
+                    "teamA": { "name": "Barcelona", "emblem": "Emblems/Barcelona.png" },
+                    "teamB": { "name": "Girona", "emblem": "Emblems/Girona.png" },
+                    "score": "X",
+                    "date": "30/03/2025 • 11:15",
+                    "description": "Clássico catalão! Barcelona e Girona prometem um jogo emocionante na LaLiga!"
+                },
+                {
+                    "championship": "Brasileirão Betano",
+                    "teamA": { "name": "Palmeiras", "emblem": "Emblems/Palmeiras.png" },
+                    "teamB": { "name": "Botafogo", "emblem": "Emblems/Botafogo.png" },
+                    "score": "X",
+                    "date": "30/03/2025 • 16:00",
+                    "description": "Palmeiras e Botafogo disputam pontos importantes no Brasileirão!"
+                },
+                {
+                    "championship": "Serie A",
+                    "teamA": { "name": "Napoli", "emblem": "Emblems/Napoli.png" },
+                    "teamB": { "name": "Milan", "emblem": "Emblems/Milan.png" },
+                    "score": "X",
+                    "date": "30/03/2025 • 15:45",
+                    "description": "Clássico italiano! Napoli e Milan duelam pela supremacia na Serie A!"
+                },
+                {
+                    "championship": "Brasileirão Betano",
+                    "teamA": { "name": "Vasco", "emblem": "Emblems/Vasco.png" },
+                    "teamB": { "name": "Santos", "emblem": "Emblems/Santos.png" },
+                    "score": "X",
+                    "date": "30/03/2025 • 18:30",
+                    "description": "Vasco e Santos fazem um confronto histórico no Brasileirão!"
+                },
+                {
+                    "championship": "Brasileirão Betano",
+                    "teamA": { "name": "Bahia", "emblem": "Emblems/Bahia.png" },
+                    "teamB": { "name": "Corinthians", "emblem": "Emblems/Corinthians.png" },
+                    "score": "X",
+                    "date": "30/03/2025 • 20:00",
+                    "description": "Bahia e Corinthians encerram a semana com um jogo eletrizante!"
+                }
+            ]
+        }
+    ]
+}
