@@ -41,27 +41,6 @@
             "weekLabel": "past",
             "matches": [
                 {
-                    "championship": "Copa do Brasil",
-                    "teamA": { "name": "Flamengo", "emblem": "images/emblems/flamengo.png" },
-                    "teamB": { "name": "Palmeiras", "emblem": "images/emblems/palmeiras.png" },
-                    "score": "2 x 1",
-                    "date": "05/03 • 20:00",
-                    "description": ""
-                },
-                {
-                    "championship": "Copa do Brasil",
-                    "teamA": { "name": "São Paulo", "emblem": "images/emblems/sao-paulo.png" },
-                    "teamB": { "name": "Internacional", "emblem": "images/emblems/internacional.png" },
-                    "score": "1 x 1",
-                    "date": "06/03 • 19:30",
-                    "description": ""
-                }
-            ]
-        },
-        {
-            "weekLabel": "current",
-            "matches": [
-                {
                     "championship": "FIFA World Cup",
                     "teamA": { "name": "Tanzânia", "emblem": "Emblems/tanzania.png" },
                     "teamB": { "name": "República do Congo", "emblem": "Emblems/Congo_Republic.png" },
@@ -232,7 +211,7 @@
             ]
         },
         {
-            "weekLabel": "next",
+            "weekLabel": "current",
             "matches": [
                 {
                     "championship": "World Championship Qual. UEFA",
@@ -410,6 +389,20 @@
                     "date": "30/03/2025 • 20:00",
                     "description": "Bahia e Corinthians encerram a semana com um jogo eletrizante!"
                 }
+            ]
+        },
+        {
+            "weekLabel": "next",
+            "matches": [
+                {
+                    "championship": "World Championship Qual. UEFA",
+                    "teamA": { "name": "x", "emblem": "Emblems/Lithuania.png" },
+                    "teamB": { "name": "x", "emblem": "Emblems/Finland.png" },
+                    "score": "X",
+                    "date": "24/03/2025 • 14:00",
+                    "description": "Lituânia e Finlândia abrem a semana em busca de pontos na qualificação europeia!"
+                }
+                
             ]
         }
     ]

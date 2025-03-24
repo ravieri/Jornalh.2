@@ -39,20 +39,7 @@
     "matchesData": [
         {
             "weekLabel": "past",
-            "matches": [
-                {
-                    "championship": "NBA",
-                    "teamA": { "name": "Celtics", "emblem": "images/emblems/celtics.png" },
-                    "teamB": { "name": "Heat", "emblem": "images/emblems/heat.png" },
-                    "score": "98 x 95",
-                    "date": "05/03 • 20:00",
-                    "description": ""
-                }
-            ]
-        },
-        {
-            "weekLabel": "current",
-            "matches": [
+           "matches": [
                 {
                     "championship": "NBA",
                     "teamA": { "name": "Rockets", "emblem": "Emblems/Basquete/Rockets.png" },
@@ -192,7 +179,7 @@
             ]
         },
         {
-            "weekLabel": "next",
+            "weekLabel": "current",
             "matches": [
                 {
                     "championship": "NBA",
@@ -370,6 +357,20 @@
                     "date": "30/03/2025 • 22:00",
                     "description": "Suns e Rockets encerram a semana com um confronto explosivo!"
                 }
+            ]
+        },
+        {
+            "weekLabel": "next",
+            "matches": [
+                {
+                    "championship": "NBA",
+                    "teamA": { "name": "x", "emblem": "Emblems/Basquete/Denver_Nuggets.png" },
+                    "teamB": { "name": "x", "emblem": "Emblems/Basquete/Chicago_Bulls.png" },
+                    "score": "X",
+                    "date": "24/03/2025 • 22:00",
+                    "description": "Nuggets abrem a semana enfrentando os Bulls em busca de mais uma vitória!"
+                }
+                
             ]
         }
     ]

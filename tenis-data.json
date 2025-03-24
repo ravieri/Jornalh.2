@@ -20,19 +20,6 @@
             "weekLabel": "past",
             "matches": [
                 {
-                    "championship": "Wimbledon",
-                    "teamA": { "name": "Serena Williams", "emblem": "images/emblems/serena.png" },
-                    "teamB": { "name": "Halep", "emblem": "images/emblems/halepe.png" },
-                    "score": "6-3 x 4-6",
-                    "date": "05/03 • 15:00",
-                    "description": ""
-                }
-            ]
-        },
-        {
-            "weekLabel": "current",
-            "matches": [
-                {
                     "championship": "ATP 1000 Miami, USA, Qualifying, 1ª rodada de qualificação",
                     "teamA": { "name": "A. Shevchenko", "emblem": "Emblems/Ukraine.png", "rank": "ATP 98" },
                     "teamB": { "name": "L. Klein", "emblem": "Emblems/Slovakia.png", "rank": "ATP 166" },
@@ -167,6 +154,19 @@
                     "score": "X",
                     "date": "21/03/2025 • 11:00",
                     "description": "Destaque! Sabalenka, nº 1 do mundo, enfrenta Tomova em Miami!"
+                }
+            ]
+        },
+        {
+            "weekLabel": "current",
+            "matches": [
+                {
+                    "championship": "US Open",
+                    "teamA": { "name": "Federer", "emblem": "images/emblems/federer.png" },
+                    "teamB": { "name": "Zverev", "emblem": "images/emblems/zverev.png" },
+                    "score": "X",
+                    "date": "19/03 • 14:30",
+                    "description": ""
                 }
             ]
         },
