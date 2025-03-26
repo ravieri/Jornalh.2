@@ -388,14 +388,269 @@
             "weekLabel": "next",
             "matches": [
                 {
-                    "championship": "World Championship Qual. UEFA",
-                    "teamA": { "name": "x", "emblem": "Emblems/Lithuania.png" },
-                    "teamB": { "name": "x", "emblem": "Emblems/Finland.png" },
+                    "championship": "Itália Serie A",
+                    "teamA": { "name": "Hellas Verona", "emblem": "Emblems/Verona.png" },
+                    "teamB": { "name": "Parma", "emblem": "Emblems/Parma.png" },
                     "score": "X",
-                    "date": "24/03/2025 • 14:00",
-                    "description": "Lituânia e Finlândia abrem a semana em busca de pontos na qualificação europeia!"
+                    "date": "31/03/2025 • 13:30",
+                    "description": "Hellas Verona e Parma abrem a rodada 30 da Serie A em um duelo equilibrado!"
+                },
+                {
+                    "championship": "Espanha LaLiga",
+                    "teamA": { "name": "Celta Vigo", "emblem": "Emblems/Celta.png" },
+                    "teamB": { "name": "Las Palmas", "emblem": "Emblems/Las_Palmas.png" },
+                    "score": "X",
+                    "date": "31/03/2025 • 16:00",
+                    "description": "Celta Vigo enfrenta Las Palmas em busca de pontos importantes na LaLiga!"
+                },
+                {
+                    "championship": "Brasil Brasileirão Betano",
+                    "teamA": { "name": "Red Bull Bragantino", "emblem": "Emblems/RB_Bragantino.png" },
+                    "teamB": { "name": "Ceará", "emblem": "Emblems/Ceara.png" },
+                    "score": "X",
+                    "date": "31/03/2025 • 20:00",
+                    "description": "Red Bull Bragantino e Ceará disputam a rodada 1 do Brasileirão Betano em um jogo quente!"
+                },
+                {
+                    "championship": "Inglaterra Premier League",
+                    "teamA": { "name": "Wolverhampton", "emblem": "Emblems/Wolves.png" },
+                    "teamB": { "name": "West Ham United", "emblem": "Emblems/West_Ham.png" },
+                    "score": "X",
+                    "date": "01/04/2025 • 15:45",
+                    "description": "Wolverhampton e West Ham abrem o dia na Premier League com um confronto direto!"
+                },
+                {
+                    "championship": "Inglaterra Premier League",
+                    "teamA": { "name": "Nottingham Forest", "emblem": "Emblems/Forest.png" },
+                    "teamB": { "name": "Manchester United", "emblem": "Emblems/Man_Utd.png" },
+                    "score": "X",
+                    "date": "01/04/2025 • 16:00",
+                    "description": "Nottingham Forest enfrenta o gigante Manchester United na rodada 30 da Premier League!"
+                },
+                {
+                    "championship": "Espanha Copa del Rey",
+                    "teamA": { "name": "Real Madrid", "emblem": "Emblems/Real_Madrid.png" },
+                    "teamB": { "name": "Real Sociedad", "emblem": "Emblems/Real_Sociedad.png" },
+                    "score": "X",
+                    "date": "01/04/2025 • 16:30",
+                    "description": "Real Madrid e Real Sociedad disputam uma vaga na final da Copa del Rey!"
+                },
+                {
+                    "championship": "América do Sul CONMEBOL Libertadores",
+                    "teamA": { "name": "Fortaleza", "emblem": "Emblems/Fortaleza.png" },
+                    "teamB": { "name": "Racing Club", "emblem": "Emblems/Racing.png" },
+                    "score": "X",
+                    "date": "01/04/2025 • 21:30",
+                    "description": "Fortaleza estreia na Libertadores contra o Racing Club em um duelo emocionante!"
+                },
+                {
+                    "championship": "Inglaterra Premier League",
+                    "teamA": { "name": "Brighton & Hove Albion", "emblem": "Emblems/Brighton.png" },
+                    "teamB": { "name": "Aston Villa", "emblem": "Emblems/Aston_Villa.png" },
+                    "score": "X",
+                    "date": "02/04/2025 • 15:45",
+                    "description": "Brighton e Aston Villa prometem um jogo disputado na Premier League!"
+                },
+                {
+                    "championship": "Inglaterra Premier League",
+                    "teamA": { "name": "Southampton", "emblem": "Emblems/Southampton.png" },
+                    "teamB": { "name": "Crystal Palace", "emblem": "Emblems/Crystal_Palace.png" },
+                    "score": "X",
+                    "date": "02/04/2025 • 15:45",
+                    "description": "Southampton e Crystal Palace buscam pontos cruciais na rodada 30 da Premier League!"
+                },
+                {
+                    "championship": "Espanha Copa del Rey",
+                    "teamA": { "name": "Atlético Madrid", "emblem": "Emblems/Atl_Madrid.png" },
+                    "teamB": { "name": "Barcelona", "emblem": "Emblems/Barcelona.png" },
+                    "score": "X",
+                    "date": "02/04/2025 • 16:30",
+                    "description": "Atlético Madrid e Barcelona decidem uma vaga na final da Copa del Rey em um clássico!"
+                },
+                {
+                    "championship": "América do Sul CONMEBOL Libertadores",
+                    "teamA": { "name": "Universidad de Chile", "emblem": "Emblems/Universidad_de_Chile.png" },
+                    "teamB": { "name": "Botafogo", "emblem": "Emblems/Botafogo.png" },
+                    "score": "X",
+                    "date": "02/04/2025 • 21:30",
+                    "description": "Universidad de Chile recebe o Botafogo na estreia do Grupo A da Libertadores!"
+                },
+                {
+                    "championship": "América do Sul CONMEBOL Libertadores",
+                    "teamA": { "name": "Talleres", "emblem": "Emblems/Talleres.png" },
+                    "teamB": { "name": "São Paulo", "emblem": "Emblems/Sao_Paulo.png" },
+                    "score": "X",
+                    "date": "02/04/2025 • 21:30",
+                    "description": "Talleres e São Paulo disputam pontos importantes no Grupo D da Libertadores!"
+                },
+                {
+                    "championship": "América do Sul CONMEBOL Libertadores",
+                    "teamA": { "name": "Bahia", "emblem": "Emblems/Bahia.png" },
+                    "teamB": { "name": "Internacional", "emblem": "Emblems/Internacional.png" },
+                    "score": "X",
+                    "date": "03/04/2025 • 19:00",
+                    "description": "Bahia e Internacional fazem um confronto brasileiro na estreia do Grupo F da Libertadores!"
+                },
+                {
+                    "championship": "América do Sul CONMEBOL Libertadores",
+                    "teamA": { "name": "Club Sporting Cristal", "emblem": "Emblems/Sporting_Cristal.png" },
+                    "teamB": { "name": "Palmeiras", "emblem": "Emblems/Palmeiras.png" },
+                    "score": "X",
+                    "date": "03/04/2025 • 19:00",
+                    "description": "Sporting Cristal enfrenta o Palmeiras em um duelo quente pelo Grupo G da Libertadores!"
+                },
+                {
+                    "championship": "Inglaterra Premier League",
+                    "teamA": { "name": "Chelsea", "emblem": "Emblems/Chelsea.png" },
+                    "teamB": { "name": "Tottenham Hotspur", "emblem": "Emblems/Tottenham.png" },
+                    "score": "X",
+                    "date": "03/04/2025 • 16:00",
+                    "description": "Chelsea e Tottenham protagonizam um clássico londrino na Premier League!"
+                },
+                {
+                    "championship": "Itália Serie A",
+                    "teamA": { "name": "Genoa", "emblem": "Emblems/Genoa.png" },
+                    "teamB": { "name": "Udinese", "emblem": "Emblems/Udinese.png" },
+                    "score": "X",
+                    "date": "04/04/2025 • 15:45",
+                    "description": "Genoa e Udinese abrem a rodada 31 da Serie A em busca de afirmação!"
+                },
+                {
+                    "championship": "Espanha LaLiga",
+                    "teamA": { "name": "Rayo Vallecano", "emblem": "Emblems/Rayo_Vallecano.png" },
+                    "teamB": { "name": "Espanyol", "emblem": "Emblems/Espanyol.png" },
+                    "score": "X",
+                    "date": "04/04/2025 • 16:00",
+                    "description": "Rayo Vallecano enfrenta o Espanyol em um duelo espanhol pela LaLiga!"
+                },
+                {
+                    "championship": "Brasil Brasileirão Série B",
+                    "teamA": { "name": "Paysandu SC", "emblem": "Emblems/Paysandu.png" },
+                    "teamB": { "name": "Athletico", "emblem": "Emblems/Athletico.png" },
+                    "score": "X",
+                    "date": "04/04/2025 • 21:00",
+                    "description": "Paysandu e Athletico estreiam na Série B com um confronto quente!"
+                },
+                {
+                    "championship": "Alemanha Bundesliga",
+                    "teamA": { "name": "SC Freiburg", "emblem": "Emblems/Freiburg.png" },
+                    "teamB": { "name": "Borussia Dortmund", "emblem": "Emblems/Dortmund.png" },
+                    "score": "X",
+                    "date": "05/04/2025 • 10:30",
+                    "description": "Freiburg enfrenta o Borussia Dortmund em um jogo eletrizante pela Bundesliga!"
+                },
+                {
+                    "championship": "Holanda Eredivisie",
+                    "teamA": { "name": "AZ Alkmaar", "emblem": "Emblems/AZ.png" },
+                    "teamB": { "name": "Feyenoord", "emblem": "Emblems/Feyenoord.png" },
+                    "score": "X",
+                    "date": "05/04/2025 • 11:30",
+                    "description": "AZ Alkmaar e Feyenoord disputam um clássico holandês na Eredivisie!"
+                },
+                {
+                    "championship": "Inglaterra Premier League",
+                    "teamA": { "name": "Crystal Palace", "emblem": "Emblems/Crystal_Palace.png" },
+                    "teamB": { "name": "Brighton & Hove Albion", "emblem": "Emblems/Brighton.png" },
+                    "score": "X",
+                    "date": "05/04/2025 • 11:00",
+                    "description": "Crystal Palace e Brighton abrem a rodada 31 da Premier League!"
+                },
+                {
+                    "championship": "Espanha LaLiga",
+                    "teamA": { "name": "Real Madrid", "emblem": "Emblems/Real_Madrid.png" },
+                    "teamB": { "name": "Valencia", "emblem": "Emblems/Valencia.png" },
+                    "score": "X",
+                    "date": "05/04/2025 • 11:15",
+                    "description": "Real Madrid enfrenta o Valencia em busca de mais uma vitória na LaLiga!"
+                },
+                {
+                    "championship": "Inglaterra Premier League",
+                    "teamA": { "name": "Aston Villa", "emblem": "Emblems/Aston_Villa.png" },
+                    "teamB": { "name": "Nottingham Forest", "emblem": "Emblems/Forest.png" },
+                    "score": "X",
+                    "date": "05/04/2025 • 13:30",
+                    "description": "Aston Villa e Nottingham Forest disputam pontos importantes na Premier League!"
+                },
+                {
+                    "championship": "Espanha LaLiga",
+                    "teamA": { "name": "Barcelona", "emblem": "Emblems/Barcelona.png" },
+                    "teamB": { "name": "Real Betis", "emblem": "Emblems/Real_Betis.png" },
+                    "score": "X",
+                    "date": "05/04/2025 • 16:00",
+                    "description": "Barcelona enfrenta o Real Betis em um duelo emocionante pela LaLiga!"
+                },
+                {
+                    "championship": "Brasil Brasileirão Betano",
+                    "teamA": { "name": "Atlético Mineiro", "emblem": "Emblems/Atletico_MG.png" },
+                    "teamB": { "name": "São Paulo", "emblem": "Emblems/Sao_Paulo.png" },
+                    "score": "X",
+                    "date": "06/04/2025 • 15:00",
+                    "description": "Atlético-MG e São Paulo abrem a rodada 2 do Brasileirão Betano com um grande duelo!"
+                },
+                {
+                    "championship": "Brasil Brasileirão Betano",
+                    "teamA": { "name": "Corinthians", "emblem": "Emblems/Corinthians.png" },
+                    "teamB": { "name": "Vasco da Gama", "emblem": "Emblems/Vasco.png" },
+                    "score": "X",
+                    "date": "06/04/2025 • 15:00",
+                    "description": "Corinthians e Vasco fazem um clássico histórico na rodada 2 do Brasileirão!"
+                },
+                {
+                    "championship": "Brasil Brasileirão Betano",
+                    "teamA": { "name": "Internacional", "emblem": "Emblems/Internacional.png" },
+                    "teamB": { "name": " Cruzeiro", "emblem": "Emblems/Cruzeiro.png" },
+                    "score": "X",
+                    "date": "06/04/2025 • 15:00",
+                    "description": "Internacional e Cruzeiro disputam pontos cruciais na rodada 2 do Brasileirão!"
+                },
+                {
+                    "championship": "Brasil Brasileirão Betano",
+                    "teamA": { "name": "Santos", "emblem": "Emblems/Santos.png" },
+                    "teamB": { "name": "Bahia", "emblem": "Emblems/Bahia.png" },
+                    "score": "X",
+                    "date": "06/04/2025 • 15:00",
+                    "description": "Santos e Bahia prometem um confronto quente na rodada 2 do Brasileirão!"
+                },
+                {
+                    "championship": "Brasil Brasileirão Betano",
+                    "teamA": { "name": "Sport Recife", "emblem": "Emblems/Sport.png" },
+                    "teamB": { "name": "Palmeiras", "emblem": "Emblems/Palmeiras.png" },
+                    "score": "X",
+                    "date": "06/04/2025 • 15:00",
+                    "description": "Sport Recife enfrenta o Palmeiras em um duelo desafiador na rodada 2!"
+                },
+                {
+                    "championship": "Brasil Brasileirão Betano",
+                    "teamA": { "name": "Vitória", "emblem": "Emblems/Vitoria.png" },
+                    "teamB": { "name": "Flamengo", "emblem": "Emblems/Flamengo.png" },
+                    "score": "X",
+                    "date": "06/04/2025 • 15:00",
+                    "description": "Vitória e Flamengo fecham o dia com um confronto eletrizante no Brasileirão!"
+                },
+                {
+                    "championship": "Inglaterra Premier League",
+                    "teamA": { "name": "Manchester United", "emblem": "Emblems/Man_Utd.png" },
+                    "teamB": { "name": "Manchester City", "emblem": "Emblems/Man_City.png" },
+                    "score": "X",
+                    "date": "06/04/2025 • 12:30",
+                    "description": "Clássico de Manchester! United e City duelam pela supremacia na Premier League!"
+                },
+                {
+                    "championship": "Espanha LaLiga",
+                    "teamA": { "name": "Sevilla", "emblem": "Emblems/Sevilla.png" },
+                    "teamB": { "name": "Atlético Madrid", "emblem": "Emblems/Atl_Madrid.png" },
+                    "score": "X",
+                    "date": "06/04/2025 • 11:15",
+                    "description": "Sevilla e Atlético Madrid protagonizam um clássico espanhol na LaLiga!"
+                },
+                {
+                    "championship": "Itália Serie A",
+                    "teamA": { "name": "Roma", "emblem": "Emblems/Roma.png" },
+                    "teamB": { "name": "Juventus", "emblem": "Emblems/Juventus.png" },
+                    "score": "X",
+                    "date": "06/04/2025 • 15:45",
+                    "description": "Roma e Juventus fazem um clássico italiano pela liderança na Serie A!"
                 }
-                
             ]
         }
     ]

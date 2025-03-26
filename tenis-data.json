@@ -198,6 +198,46 @@
                     "score": "x",
                     "date": "25/03/2025 • 11:00",
                     "description": "Musetti desafia Djokovic em um grande jogo nos oitavos."
+                },
+                {
+                    "championship": "ATP 1000 Miami, USA, Quartas de final",
+                    "teamA": { "name": "F. Cerundolo", "emblem": "Emblems/Argentina.png", "rank": "ATP 24" },
+                    "teamB": { "name": "G. Dimitrov", "emblem": "Emblems/Bulgaria.png", "rank": "ATP 15" },
+                    "score": "X",
+                    "date": "26/03/2025 • 17:10",
+                    "description": "Cerundolo e Dimitrov duelam nas quartas de final do Miami Open em um confronto equilibrado!"
+                },
+                {
+                    "championship": "WTA 1000 Miami, USA, Quartas de final",
+                    "teamA": { "name": "E. Raducanu", "emblem": "Emblems/UK.png", "rank": "WTA 60" },
+                    "teamB": { "name": "J. Pegula", "emblem": "Emblems/USA.png", "rank": "WTA 4" },
+                    "score": "X",
+                    "date": "26/03/2025 • 20:00",
+                    "description": "Raducanu desafia Pegula em um jogo emocionante pelas quartas do Miami Open!"
+                },
+                {
+                    "championship": "ATP 1000 Miami, USA, Quartas de final",
+                    "teamA": { "name": "S. Korda", "emblem": "Emblems/USA.png", "rank": "ATP 25" },
+                    "teamB": { "name": "N. Djokovic", "emblem": "Emblems/Serbia.png", "rank": "ATP 5" },
+                    "score": "X",
+                    "date": "26/03/2025 • 21:30",
+                    "description": "Korda enfrenta o lendário Djokovic em um duelo épico nas quartas de final!"
+                },
+                {
+                    "championship": "ATP 1000 Miami, USA, Quartas de final",
+                    "teamA": { "name": "T. Fritz", "emblem": "Emblems/USA.png", "rank": "ATP 4" },
+                    "teamB": { "name": "M. Berrettini", "emblem": "Emblems/Italy.png", "rank": "ATP 30" },
+                    "score": "X",
+                    "date": "27/03/2025 • 11:00",
+                    "description": "Fritz e Berrettini abrem o dia com um confronto de peso nas quartas do Miami Open!"
+                },
+                {
+                    "championship": "WTA 1000 Miami, USA, Semifinal",
+                    "teamA": { "name": "A. Sabalenka", "emblem": "Emblems/Belarus.png", "rank": "WTA 1" },
+                    "teamB": { "name": "J. Paolini", "emblem": "Emblems/Italy.png", "rank": "WTA 7" },
+                    "score": "X",
+                    "date": "27/03/2025 • 11:00",
+                    "description": "Sabalenka, nº 1 do mundo, enfrenta Paolini em uma semifinal eletrizante em Miami!"
                 }
             ]
         },
