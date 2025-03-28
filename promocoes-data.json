@@ -1,0 +1,87 @@
+{
+    "promotionsData": {
+      "m12": {
+        "past": [
+          {
+            "title": "M12 - Semana Passada",
+            "description": "Aqui ficarão as promoções.",
+            "date": ""
+          }
+        ],
+        "current": [
+          {
+            "title": "",
+            "description": "Aqui ficarão as promoções",
+            "date": ""
+          }
+        ],
+        "next": [
+          {
+            "title": "M12 - Próxima Semana",
+            "description": "Aqui ficarão as promoções.",
+            "date": ""
+          }
+        ]
+      },
+
+
+
+      "100x": {
+        "past": [
+          {
+            "title": "100X - Semana Passada",
+            "description": "Aqui ficarão as promoções.",
+            "date": ""
+          }
+        ],
+
+
+        "current": [
+          {
+            "title": "",
+            "description": "Aqui ficarão as promoções",
+            "date": ""
+          }
+        ],
+
+
+        "next": [
+          {
+            "title": "100X - Próxima Semana",
+            "description": "Aqui ficarão as promoções.",
+            "date": ""
+          }
+        ]
+      },
+
+
+
+      "super-odds": {
+    "past": [
+        {
+            "title": "Super Odds - Semana Passada",
+            "description": "Eliminatoria-Europa Macedônia do Norte x Páis de Gales 16:45 25/03\nEliminatoria-Europa Moldávia x Estonia 14:00 25/03\nMundial-de-Seleções Bolivía x Uruguai 17:00 25/03\nEliminatoria-África Mauritânia x RD Congo 18:00 25/03\nLiga-Profesional Aldosivi x Unión de Santa Fé 15:30 27/03\nLiga-Profesional Independiente Rivadavia x Racing 21:00 27/03\n1-Divisão-Chile Everton-CHI x Universidad de Chile 20:30 27/03\nEFL-CHAMPIONSHIP Sheffield United x Coventry City 17:00 28/03\nLIGUE-1 Strasbourg Alsace x Olympique Lyonnais 16:45 28/03\nLiga-Profesional Platense x Atlético Tucumán 21:30 28/03\nLiga-Profesional San Lorenzo x Lanús 19:15 28/03\nBrasil-Serie-A Juventude-RS x Vitória 18:30 29/03\nBrasil-Serie-A Fortaleza x Fluminense 18:30 29/03\nEFL-CHAMPIONSHIP Norwich City x West Bromwich Albion 12:00 29/03\nLiga-Portugal Casa Pia AC x Rio Ave 12:30 29/03\nFA-CUP Bournemouth x Manchester City 12:30 30/03\nLIGUE-1 Lille OSC x Lens 15:45 30/03\nLiga-Portugal Moreirense x Vitoria Guimaraes 16:30 30/03\nPrimeira-Divisão-Chile Unión La Calera x Cobresal 20:30 30/03",
+            "date": ""
+        }
+    ],
+
+
+    "current": [
+        {
+            "title": "",
+            "description": "Turquia  Eyupspor x Istanbul Basaksehir 14:00 31/03\nHolanda Jong PSV Eindhoven x FC Den Bosch 15:00 31/03\nItália Hellas Verona x Parma Calcio 1913 13:30 31/03\n Brasil Bragantino x Ceará 20:00 31/03",
+            "date": ""
+        }
+    ],
+
+    
+    "next": [
+        {
+            "title": "Super Odds - Próxima Semana",
+            "description": "As melhores cotações estarão disponíveis na próxima semana.",
+            "date": "15/03/2025 - 21/03/2025"
+        }
+        ]
+      }
+    }
+}

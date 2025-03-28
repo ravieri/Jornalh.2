@@ -544,3 +544,275 @@ body.page-turn {
 .carousel-indicators span.active {
     background: #FF66FF; /* Magenta vibrante para o item ativo */
 }
+
+
+
+
+/* Promotions Section Styles */
+.promotions-section {
+    max-width: 1200px;
+    margin: 40px auto; /* Mantém a margem para mais espaço */
+    padding: 30px; /* Mantém o padding para um layout arejado */
+    background: linear-gradient(to bottom, #2A004A, #920092); /* Gradiente roxo mais escuro e vibrante */
+    border-radius: 15px; /* Bordas arredondadas */
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2); /* Sombra suave para profundidade */
+}
+
+.promotions-section h2 {
+    font-size: 28px; /* Título maior */
+    font-weight: bold;
+    margin-bottom: 30px; /* Mais espaço abaixo do título */
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase; /* Título em maiúsculas */
+    letter-spacing: 2px; /* Espaçamento entre letras para um visual elegante */
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.3); /* Sombra no texto para destaque */
+}
+
+/* Promo Tabs Styles */
+.promo-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Mantém o espaço entre os botões */
+    margin: 20px 0; /* Espaçamento acima e abaixo */
+    /* Sem fundo, borda ou sombra */
+    background: none;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 0; /* Remove o padding */
+}
+
+.promo-tab-button {
+    padding: 12px 25px; /* Mantém o padding dos botões */
+    background: linear-gradient(to bottom, #4A0072, #C200C2); /* Gradiente roxo */
+    color: #ffffff;
+    border: none;
+    border-radius: 20px; /* Bordas arredondadas */
+    font-size: 16px;
+    font-weight: bold; /* Texto em negrito */
+    cursor: pointer;
+    transition: all 0.3s ease; /* Transição suave para hover e seleção */
+    position: relative; /* Para efeitos de partículas ou brilho */
+    overflow: hidden; /* Para efeitos visuais */
+}
+
+.promo-tab-button:hover {
+    background: linear-gradient(to bottom, #5A0082, #D200D2); /* Gradiente mais claro no hover */
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.4); /* Brilho mais forte no hover */
+    transform: scale(1.05); /* Leve aumento no hover */
+}
+
+.promo-tab-button.selected {
+    background: linear-gradient(to bottom, #6A0092, #E200E2); /* Gradiente mais vibrante para o botão selecionado */
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.6); /* Brilho mais intenso */
+    transform: scale(1.1); /* Botão selecionado um pouco maior */
+}
+
+/* Efeito de partículas (opcional, para um toque extra) */
+.promo-tab-button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.3) 10%, transparent 10%);
+    background-size: 20px 20px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.promo-tab-button:hover::before,
+.promo-tab-button.selected::before {
+    opacity: 0.2; /* Partículas visíveis no hover e na seleção */
+}
+
+/* Week Tabs Styles */
+.week-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 12px; /* Mantém o espaço entre os botões */
+    margin: 20px 0; /* Espaçamento acima e abaixo */
+    /* Remove o fundo, borda e sombra */
+    background: none;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 0; /* Remove o padding */
+    transition: opacity 0.3s ease; /* Adiciona uma transição suave para a exibição */
+}
+
+.week-tabs.hidden {
+    opacity: 0; /* Para uma transição suave ao mostrar/esconder */
+}
+
+.week-tab-button {
+    padding: 10px 20px; /* Mantém o padding para botões confortáveis */
+    background: linear-gradient(to bottom, #4A0072, #C200C2); /* Gradiente roxo */
+    color: #ffffff;
+    border: none;
+    border-radius: 15px; /* Bordas arredondadas */
+    font-size: 14px;
+    font-weight: bold; /* Texto em negrito */
+    cursor: pointer;
+    transition: all 0.3s ease; /* Transição suave */
+}
+
+.week-tab-button:hover {
+    background: linear-gradient(to bottom, #5A0082, #D200D2); /* Gradiente mais claro no hover */
+    box-shadow: 0 0 12px rgba(255, 255, 255, 0.3); /* Brilho no hover */
+    transform: scale(1.05); /* Leve aumento no hover */
+}
+
+.week-tab-button.selected {
+    background: linear-gradient(to bottom, #6A0092, #E200E2); /* Gradiente mais vibrante para o botão selecionado */
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5); /* Brilho mais intenso */
+    transform: scale(1.1); /* Botão selecionado um pouco maior */
+}
+
+/* Promotions Container Styles */
+.promotions-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Espaço entre os itens de promoção */
+    padding: 25px; /* Mantém o padding interno */
+    background: linear-gradient(to bottom, #3A005A, #B200B2); /* Gradiente roxo */
+    border-radius: 15px; /* Bordas arredondadas */
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2); /* Sombra suave */
+}
+
+/* Promo Content Styles */
+.promo-content {
+    background: rgba(255, 255, 255, 0.1); /* Fundo semi-transparente */
+    padding: 20px; /* Mantém o padding para o conteúdo */
+    border-radius: 10px; /* Bordas arredondadas */
+    color: #ffffff;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transição suave para hover */
+}
+
+.promo-content:hover {
+    transform: translateY(-5px); /* Leve elevação no hover */
+    box-shadow: 0 5px 20px rgba(255, 255, 255, 0.4); /* Brilho mais forte no hover */
+}
+
+/* Estilos para cada linha de partida */
+.promo-line {
+    display: flex;
+    justify-content: space-between; /* Alinha as três partes com espaço entre elas */
+    align-items: center;
+    padding: 10px 0; /* Espaçamento vertical entre linhas */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* Linha separadora entre partidas */
+}
+
+.promo-line:last-child {
+    border-bottom: none; /* Remove a linha separadora da última partida */
+}
+
+.promo-event {
+    flex: 1; /* O evento ocupa 1/3 do espaço */
+    text-align: left; /* Alinha à esquerda */
+    font-weight: bold; /* Deixa o evento em negrito */
+}
+
+.promo-match {
+    flex: 1; /* A partida ocupa 1/3 do espaço */
+    text-align: center; /* Alinha ao centro */
+}
+
+.promo-datetime {
+    flex: 1; /* A data e hora ocupam 1/3 do espaço */
+    text-align: right; /* Alinha à direita */
+    font-style: italic; /* Deixa a data e hora em itálico para destaque */
+}
+
+.promo-content h3 {
+    font-size: 22px; /* Título maior */
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #ffffff;
+    text-transform: uppercase; /* Título em maiúsculas */
+}
+
+.promo-content p {
+    font-size: 16px; /* Texto maior para melhor legibilidade */
+    margin: 5px 0;
+    line-height: 1.5; /* Melhor espaçamento entre linhas */
+}
+
+/* Responsividade */
+/* Responsividade */
+@media (max-width: 768px) {
+    .promotions-section {
+        margin: 20px;
+        padding: 15px; /* Reduz o padding para economizar espaço */
+    }
+
+    .promotions-section h2 {
+        font-size: 22px; /* Reduz um pouco mais o tamanho do título */
+        margin-bottom: 15px; /* Reduz o espaço abaixo do título */
+    }
+
+    .promo-tabs {
+        flex-wrap: wrap; /* Permite que os botões quebrem linha em telas menores */
+        gap: 8px; /* Reduz o espaço entre os botões */
+        padding: 0; /* Remove o padding */
+    }
+
+    .promo-tab-button {
+        padding: 8px 16px; /* Reduz o padding dos botões */
+        font-size: 13px; /* Reduz o tamanho da fonte */
+        border-radius: 15px; /* Bordas um pouco menores */
+    }
+
+    .week-tabs {
+        flex-wrap: wrap; /* Permite que os botões quebrem linha em telas menores */
+        gap: 6px; /* Reduz o espaço entre os botões */
+        padding: 0; /* Remove o padding */
+    }
+
+    .week-tab-button {
+        padding: 6px 12px; /* Reduz o padding dos botões */
+        font-size: 11px; /* Reduz o tamanho da fonte */
+        border-radius: 10px; /* Bordas um pouco menores */
+    }
+
+    .promotions-container {
+        padding: 10px; /* Reduz o padding do container */
+        gap: 10px; /* Reduz o espaço entre os itens */
+    }
+
+    .promo-content {
+        padding: 10px; /* Reduz o padding do conteúdo */
+        border-radius: 8px; /* Bordas um pouco menores */
+    }
+
+    /* Ajustes para as linhas de partidas */
+    .promo-line {
+        flex-direction: column; /* Empilha as partes verticalmente */
+        align-items: flex-start; /* Alinha tudo à esquerda */
+        gap: 4px; /* Espaço entre as partes */
+        padding: 8px 0; /* Reduz o padding vertical */
+    }
+
+    .promo-event,
+    .promo-match,
+    .promo-datetime {
+        flex: none; /* Remove a proporção fixa */
+        text-align: left; /* Alinha tudo à esquerda */
+        font-size: 12px; /* Reduz o tamanho da fonte para telas menores */
+    }
+
+    .promo-event {
+        font-weight: bold; /* Mantém o evento em negrito */
+    }
+
+    .promo-datetime {
+        font-style: italic; /* Mantém a data e hora em itálico */
+    }
+}
+
+
+/* Classe para esconder elementos */
+.hidden {
+    display: none;
+}

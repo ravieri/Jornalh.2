@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jornal de Esportes - H2CLUB (Promoções)</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="top-bar">
+        <div class="logo">
+            <img src="logo/h2club.svg.svg" alt="H2CLUB Logo" class="logo-img">
+        </div>
+        <nav class="nav-menu">
+            <ul>
+                <!-- Espaço para links futuros, como "Ao vivo", "Política", etc. -->
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção de botões de esportes -->
+    <section class="sports-buttons">
+        <a href="index.html" class="button">Futebol</a>
+        <a href="basquete.html" class="button">Basquete</a>
+        <a href="tenis.html" class="button">Tênis</a>
+        <a href="promocoes.html" class="button selected">Promoções</a>
+    </section>
+
+    <!-- Seção de conteúdo para promoções -->
+    <section class="promotions-section">
+        <h2>PROMOÇÕES</h2>
+        <!-- Abas para M12, 100X e Super Odds -->
+        <div class="promo-tabs">
+            <button class="promo-tab-button selected" data-tab="m12">M12</button>
+            <button class="promo-tab-button" data-tab="100x">100X</button>
+            <button class="promo-tab-button" data-tab="super-odds">Super Odds</button>
+        </div>
+        <!-- Botões para alternar entre semanas -->
+        <div class="week-tabs" id="week-tabs">
+            <button class="week-tab-button selected" data-week="past">Semana Passada</button>
+            <button class="week-tab-button" data-week="current">Semana Atual</button>
+            <button class="week-tab-button" data-week="next">Próxima Semana</button>
+        </div>
+        <!-- Container para o conteúdo dinâmico -->
+        <div class="promotions-container" id="promotions-container">
+            <!-- O conteúdo será preenchido pelo JavaScript -->
+        </div>
+    </section>
+
+    <!-- Scripts -->
+    <script src="transition.js"></script>
+    <script src="promotions.js"></script>
+    <script src="promocoes-data.json"></script>
+</body>
+</html>
