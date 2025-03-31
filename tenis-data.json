@@ -3,161 +3,21 @@
         {
             "imgSrc": "tenis img/fonseca.jpg",
             "alt": "Jogo de Tênis",
-            "categoryTag": "Challenger Miami",
-            "title": "Jogo de Fonseca contra nº 11 do mundo tem horário definido",
+            "categoryTag": "Mutua Madrid Open",
+            "title": "Jogo de Fonseca volta a jogar em Mutua Madrid Open",
             "description": "Estreia sólida rumo ao top 50!"
         },
         {
-            "imgSrc": "tenis img/Captura de tela 2025-03-14 131144.png",
+            "imgSrc": "tenis img/cc_event_monte_carlo_rolex_masters_0050.webp",
             "alt": "Jogo de Tênis",
-            "categoryTag": "ATP 1000 Miami",
-            "title": "Miami Open esquenta com os melhores",
-            "description": "Estrelas prontas para a quadra dura!"
+            "categoryTag": "Rolex Monte-Carlo Masters",
+            "title": "Rolex Monte-Carlo Masters esquenta com os melhores",
+            "description": "primeiro de três torneios ATP Masters 1000 disputados em saibro!"
         }
     ],
     "matchesData": [
         {
             "weekLabel": "past",
-            "matches": [
-                {
-                    "championship": "ATP 1000 Miami, USA, Qualifying, 1ª rodada de qualificação",
-                    "teamA": { "name": "A. Shevchenko", "emblem": "Emblems/Ukraine.png", "rank": "ATP 98" },
-                    "teamB": { "name": "L. Klein", "emblem": "Emblems/Slovakia.png", "rank": "ATP 166" },
-                    "score": "10",
-                    "date": "17/03/2025 • 13:10",
-                    "description": "Primeira rodada de qualificação no ATP 1000 Miami."
-                },
-                {
-                    "championship": "ATP 1000 Miami, USA, Qualifying, 1ª rodada de qualificação",
-                    "teamA": { "name": "C. O'Connell", "emblem": "Emblems/Australia.png", "rank": "ATP 78" },
-                    "teamB": { "name": "L. Harris", "emblem": "Emblems/South_Africa.png", "rank": "ATP 142" },
-                    "score": "4",
-                    "date": "17/03/2025 • 13:10",
-                    "description": "Primeira rodada de qualificação no ATP 1000 Miami."
-                },
-                {
-                    "championship": "ATP 1000 Miami, USA, Qualifying, 1ª rodada de qualificação",
-                    "teamA": { "name": "E. Quinn", "emblem": "Emblems/USA.png", "rank": "ATP 135" },
-                    "teamB": { "name": "A. Mannarino", "emblem": "Emblems/France.png", "rank": "ATP 145" },
-                    "score": "-",
-                    "date": "17/03/2025 • 13:10",
-                    "description": "Primeira rodada de qualificação no ATP 1000 Miami."
-                },
-                {
-                    "championship": "WTA 1000 Miami, USA, Qualifying, 2ª rodada de qualificação",
-                    "teamA": { "name": "S. Kartal", "emblem": "Emblems/Ukraine.png", "rank": "WTA 63" },
-                    "teamB": { "name": "T. Townsend", "emblem": "Emblems/USA.png", "rank": "WTA 90" },
-                    "score": "8",
-                    "date": "17/03/2025 • 14:20",
-                    "description": "Segunda rodada de qualificação no WTA 1000 Miami."
-                },
-                {
-                    "championship": "WTA 1000 Miami, USA, Qualifying, 2ª rodada de qualificação",
-                    "teamA": { "name": "T. Maria", "emblem": "Emblems/Germany.png", "rank": "WTA 87" },
-                    "teamB": { "name": "Y. Starodubtseva", "emblem": "Emblems/Ukraine.png", "rank": "WTA 110" },
-                    "score": "11",
-                    "date": "17/03/2025 • 13:10",
-                    "description": "Segunda rodada de qualificação no WTA 1000 Miami."
-                },
-                {
-                    "championship": "WTA 1000 Miami, USA, 64avos-de-final",
-                    "teamA": { "name": "A. Kalinina", "emblem": "Emblems/Ukraine.png", "rank": "WTA 54" },
-                    "teamB": { "name": "V. Azarenka", "emblem": "Emblems/Belarus.png", "rank": "WTA 35" },
-                    "score": "-",
-                    "date": "18/03/2025 • 12:00",
-                    "description": "64avos-de-final no WTA 1000 Miami."
-                },
-                {
-                    "championship": "WTA 1000 Miami, USA, 64avos-de-final",
-                    "teamA": { "name": "A. Pavlyuchenkova", "emblem": "Emblems/Russia.png", "rank": "WTA 40" },
-                    "teamB": { "name": "M. Linette", "emblem": "Emblems/Poland.png", "rank": "WTA 36" },
-                    "score": "-",
-                    "date": "18/03/2025 • 12:00",
-                    "description": "64avos-de-final no WTA 1000 Miami."
-                },
-                {
-                    "championship": "WTA 1000 Miami, USA, 64avos-de-final",
-                    "teamA": { "name": "D. Yastremska", "emblem": "Emblems/Ukraine.png", "rank": "WTA 46" },
-                    "teamB": { "name": "B. Bencic", "emblem": "Emblems/Switzerland.png", "rank": "WTA 58" },
-                    "score": "-",
-                    "date": "18/03/2025 • 12:00",
-                    "description": "64avos-de-final no WTA 1000 Miami."
-                },
-                {
-                    "championship": "WTA 1000 Miami, USA, 64avos-de-final",
-                    "teamA": { "name": "V. Kudermetova", "emblem": "Emblems/Russia.png", "rank": "WTA 51" },
-                    "teamB": { "name": "X. Wang", "emblem": "Emblems/China.png", "rank": "WTA 42" },
-                    "score": "-",
-                    "date": "18/03/2025 • 12:00",
-                    "description": "64avos-de-final no WTA 1000 Miami."
-                },
-                {
-                    "championship": "WTA 1000 Miami",
-                    "teamA": { "name": "K. Boulter", "emblem": "Emblems/UK.png", "rank": "WTA 35" },
-                    "teamB": { "name": "P. Stearns", "emblem": "Emblems/USA.png", "rank": "WTA 43" },
-                    "score": "X",
-                    "date": "19/03/2025 • 15:00",
-                    "description": "Boulter e Stearns abrem o dia em um confronto equilibrado no Miami Open!"
-                },
-                {
-                    "championship": "WTA 1000 Miami",
-                    "teamA": { "name": "A. Kalinina", "emblem": "Emblems/Ukraine.png", "rank": "WTA 55" },
-                    "teamB": { "name": "V. Azarenka", "emblem": "Emblems/Belarus.png", "rank": "WTA 32" },
-                    "score": "X",
-                    "date": "19/03/2025 • 20:00",
-                    "description": "Jogão! Kalinina desafia a experiente Azarenka em Miami!"
-                },
-                {
-                    "championship": "ATP 1000 Miami",
-                    "teamA": { "name": "T. S. Wild", "emblem": "Emblems/Brazil.png", "rank": "ATP 96" },
-                    "teamB": { "name": "Q. Halys", "emblem": "Emblems/France.png", "rank": "ATP 57" },
-                    "score": "X",
-                    "date": "19/03/2025 • 21:30",
-                    "description": "Wild enfrenta Halys em um duelo intenso no Miami Open!"
-                },
-                {
-                    "championship": "ATP 1000 Miami",
-                    "teamA": { "name": "J. Fonseca", "emblem": "Emblems/Brazil.png", "rank": "ATP 60" },
-                    "teamB": { "name": "L. Tien", "emblem": "Emblems/USA.png", "rank": "ATP 66" },
-                    "score": "X",
-                    "date": "20/03/2025 • 20:00",
-                    "description": "Fonseca e Tien disputam uma vaga nos 32avos em Miami!"
-                },
-                {
-                    "championship": "ATP 1000 Miami",
-                    "teamA": { "name": "L. Sonego", "emblem": "Emblems/Italy.png", "rank": "ATP 38" },
-                    "teamB": { "name": "M. Navone", "emblem": "Emblems/Argentina.png", "rank": "ATP 62" },
-                    "score": "X",
-                    "date": "20/03/2025 • 12:00",
-                    "description": "Sonego enfrenta Navone em um jogo equilibrado!"
-                },
-                {
-                    "championship": "ATP 1000 Miami",
-                    "teamA": { "name": "T. Griekspoor", "emblem": "Emblems/Netherlands.png", "rank": "ATP 34" },
-                    "teamB": { "name": "T. M. Etcheverry", "emblem": "Emblems/Argentina.png", "rank": "ATP 44" },
-                    "score": "X",
-                    "date": "20/03/2025 • 12:00",
-                    "description": "Griekspoor e Etcheverry duelam por uma vaga nos 32avos!"
-                },
-                {
-                    "championship": "WTA 1000 Miami",
-                    "teamA": { "name": "L. Fruhvirtova", "emblem": "Emblems/Czech_Republic.png", "rank": "WTA 215" },
-                    "teamB": { "name": "B. H. Maia", "emblem": "Emblems/Brazil.png", "rank": "WTA 18" },
-                    "score": "X",
-                    "date": "21/03/2025 • 11:00",
-                    "description": "Fruhvirtova desafia Maia nos 32avos do Miami Open!"
-                },
-                {
-                    "championship": "WTA 1000 Miami",
-                    "teamA": { "name": "A. Sabalenka", "emblem": "Emblems/Belarus.png", "rank": "WTA 1" },
-                    "teamB": { "name": "V. Tomova", "emblem": "Emblems/Bulgaria.png", "rank": "WTA 64" },
-                    "score": "X",
-                    "date": "21/03/2025 • 11:00",
-                    "description": "Destaque! Sabalenka, nº 1 do mundo, enfrenta Tomova em Miami!"
-                }
-            ]
-        },
-        {"weekLabel": "current",
             "matches": [
                 {
                     "championship": "ATP 1000 Miami, USA, 16Avos-de-final",
@@ -241,13 +101,25 @@
                 }
             ]
         },
+        {"weekLabel": "current",
+            "matches": [
+                {
+                    "championship": "ATP 1000 Miami, USA, 16Avos-de-final",
+                    "teamA": { "name": "x. x", "emblem": "Embxlems/Italy.png", "rank": "ATP 30" },
+                    "teamB": { "name": "x", "emblem": "Emblxems/Belgium.png", "rank": "ATP 51" },
+                    "score": "x",
+                    "date": "x",
+                    "description": "Berrettini enfrenta Bergs nos 16avos-de-final do Miami Open."
+                }
+            ]
+        },
         {
             "weekLabel": "next",
             "matches": [
                 {
                     "championship": "US Open",
-                    "teamA": { "name": "Federer", "emblem": "images/emblems/federer.png" },
-                    "teamB": { "name": "Zverev", "emblem": "images/emblems/zverev.png" },
+                    "teamA": { "name": "x", "emblem": "images/emblems/fexderer.png" },
+                    "teamB": { "name": "x", "emblem": "images/emblems/zvxerev.png" },
                     "score": "X",
                     "date": "19/03 • 14:30",
                     "description": ""

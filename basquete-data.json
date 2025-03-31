@@ -1,186 +1,45 @@
 {
     "carouselData": [
         {
-            "imgSrc": "basquete img/76ersxraptors.jpg",
+            "imgSrc": "basquete img/lakersxwarriors.webp",
             "alt": "Jogo de Basquete",
             "categoryTag": "NBA",
-            "title": "Duelo no Leste! 76ers e Raptors disputam um jogo intenso",
-            "description": "Tabela da NBA em destaque. 76ers buscam consolidar posição na Conferência Leste!"
+            "title": "Clássico da Costa Oeste! Lakers enfrentam Warriors",
+            "description": "Tabela da NBA em alta. Lakers e Warriors prometem um duelo eletrizante!"
         },
         {
-            "imgSrc": "basquete img/bullsxlakers.jpg",
+            "imgSrc": "basquete img/celticsxsuns.jpg",
             "alt": "Jogo de Basquete",
             "categoryTag": "NBA",
-            "title": "Clássico da NBA! Bulls e Lakers prometem confronto quente",
-            "description": "Tabela da NBA em alta. Lakers enfrentam um Bulls resiliente em busca da vitória!"
+            "title": "Duelo de líderes! Celtics e Suns em Boston",
+            "description": "Tabela da NBA em foco. Confronto entre gigantes de Leste e Oeste!"
         },
         {
-            "imgSrc": "basquete img/nuggets x jazz.avif",
+            "imgSrc": "basquete img/bucksxsuns.webp",
             "alt": "Jogo de Basquete",
             "categoryTag": "NBA",
-            "title": "Supremacia no Oeste! Nuggets e Jazz duelam em grande estilo",
-            "description": "Tabela da NBA em evidência. Confronto decisivo na Conferência Oeste!"
+            "title": "Revanche épica! Bucks e Suns duelam novamente",
+            "description": "Tabela da NBA em destaque. Reedição da final de 2021 entre titãs!"
         },
         {
-            "imgSrc": "basquete img/spursxceltics.jpg",
+            "imgSrc": "basquete img/76ersxbucks.webp",
             "alt": "Jogo de Basquete",
             "categoryTag": "NBA",
-            "title": "Desafio interconferências! Spurs enfrentam os Celtics",
-            "description": "Tabela da NBA em foco. Spurs tentam surpreender o líder do Leste!"
+            "title": "Gigantes do Leste! 76ers desafiam os Bucks",
+            "description": "Tabela da NBA atualizada. 76ers e Bucks em um confronto de peso!"
         },
         {
-            "imgSrc": "basquete img/suns x bucks.png",
+            "imgSrc": "basquete img/knicksx76ers.jpg",
             "alt": "Jogo de Basquete",
             "categoryTag": "NBA",
-            "title": "Jogo de alto nível! Suns e Bucks prometem um duelo épico",
-            "description": "Tabela da NBA atualizada. Reedição de grandes embates entre campeões!"
+            "title": "Clássico do Leste! Knicks enfrentam 76ers",
+            "description": "Tabela da NBA em evidência. Knicks e 76ers disputam supremacia regional!"
         }
     ],
     "matchesData": [
         {
             "weekLabel": "past",
            "matches": [
-                {
-                    "championship": "NBA",
-                    "teamA": { "name": "Rockets", "emblem": "Emblems/Basquete/Rockets.png" },
-                    "teamB": { "name": "76ers", "emblem": "Emblems/Basquete/76ers.png" },
-                    "score": "X",
-                    "date": "17/03/2025 • 21:00",
-                    "description": "Confronto equilibrado na NBA! Rockets e 76ers disputam pontos valiosos na Conferência Oeste."
-                },
-                {
-                    "championship": "NBA",
-                    "teamA": { "name": "Jazz", "emblem": "Emblems/Basquete/Utah_Jazz.png" },
-                    "teamB": { "name": "Bulls", "emblem": "Emblems/Basquete/Chicago_Bulls.png" },
-                    "score": "X",
-                    "date": "17/03/2025 • 22:00",
-                    "description": "Jazz enfrenta os Bulls em um jogo de recuperação na tabela da NBA!"
-                },
-                {
-                    "championship": "NBA",
-                    "teamA": { "name": "Lakers", "emblem": "Emblems/Basquete/Los_Angeles_Lakers.png" },
-                    "teamB": { "name": "Spurs", "emblem": "Emblems/Basquete/San_Antonio_Spurs.png" },
-                    "score": "X",
-                    "date": "17/03/2025 • 23:30",
-                    "description": "Clássico da NBA! Lakers e Spurs prometem um duelo intenso em Los Angeles."
-                },
-                {
-                    "championship": "NBA",
-                    "teamA": { "name": "Celtics", "emblem": "Emblems/Basquete/Boston_Celtics.png" },
-                    "teamB": { "name": "Nets", "emblem": "Emblems/Basquete/Brooklyn_Nets.png" },
-                    "score": "X",
-                    "date": "18/03/2025 • 20:30",
-                    "description": "Duelo no Leste! Celtics e Nets disputam a liderança da Conferência."
-                },
-                {
-                    "championship": "NBA",
-                    "teamA": { "name": "Warriors", "emblem": "Emblems/Basquete/Golden_State_Warriors.png" },
-                    "teamB": { "name": "Bucks", "emblem": "Emblems/Basquete/Milwaukee_Bucks.png" },
-                    "score": "X",
-                    "date": "18/03/2025 • 23:00",
-                    "description": "Final antecipada? Warriors e Bucks prometem um confronto de gigantes!"
-                },
-                {
-                    "championship": "NBA",
-                    "teamA": { "name": "Jazz", "emblem": "Emblems/Basquete/Utah_Jazz.png" },
-                    "teamB": { "name": "Wizards", "emblem": "Emblems/Basquete/Washington_Wizards.png" },
-                    "score": "X",
-                    "date": "19/03/2025 • 22:00",
-                    "description": "Jazz busca se recuperar contra um Wizards em ascensão."
-                },
-                {
-                    "championship": "NBA",
-                    "teamA": { "name": "Lakers", "emblem": "Emblems/Basquete/Los_Angeles_Lakers.png" },
-                    "teamB": { "name": "Nuggets", "emblem": "Emblems/Basquete/Denver_Nuggets.png" },
-                    "score": "X",
-                    "date": "19/03/2025 • 23:00",
-                    "description": "Rivalidade acirrada! Lakers e Nuggets disputam o topo da Conferência Oeste."
-                },
-                {
-                    "championship": "NBA",
-                    "teamA": { "name": "Suns", "emblem": "Emblems/Basquete/Phoenix_Suns.png" },
-                    "teamB": { "name": "Bulls", "emblem": "Emblems/Basquete/Chicago_Bulls.png" },
-                    "score": "X",
-                    "date": "19/03/2025 • 23:00",
-                    "description": "Suns enfrentam os Bulls em busca de uma sequência positiva."
-                },
-                {
-                    "championship": "NBA",
-                    "teamA": { "name": "Warriors", "emblem": "Emblems/Basquete/Golden_State_Warriors.png" },
-                    "teamB": { "name": "Raptors", "emblem": "Emblems/Basquete/Toronto_Raptors.png" },
-                    "score": "X",
-                    "date": "20/03/2025 • 23:00",
-                    "description": "Warriors buscam consolidar posição contra um Raptors em reconstrução."
-                },
-                {
-                    "championship": "NBA",
-                    "teamA": { "name": "Lakers", "emblem": "Emblems/Basquete/Los_Angeles_Lakers.png" },
-                    "teamB": { "name": "Bucks", "emblem": "Emblems/Basquete/Milwaukee_Bucks.png" },
-                    "score": "X",
-                    "date": "20/03/2025 • 23:30",
-                    "description": "Jogo de gigantes! Lakers e Bucks prometem um confronto de estrelas."
-                },
-                {
-                    "championship": "NBA",
-                    "teamA": { "name": "Spurs", "emblem": "Emblems/Basquete/San_Antonio_Spurs.png" },
-                    "teamB": { "name": "76ers", "emblem": "Emblems/Basquete/76ers.png" },
-                    "score": "X",
-                    "date": "21/03/2025 • 21:00",
-                    "description": "Spurs tentam surpreender os 76ers em casa."
-                },
-                {
-                    "championship": "NBA",
-                    "teamA": { "name": "Jazz", "emblem": "Emblems/Basquete/Utah_Jazz.png" },
-                    "teamB": { "name": "Celtics", "emblem": "Emblems/Basquete/Boston_Celtics.png" },
-                    "score": "X",
-                    "date": "21/03/2025 • 22:30",
-                    "description": "Jazz enfrenta o líder Celtics em busca de uma vitória improvável."
-                },
-                {
-                    "championship": "NBA",
-                    "teamA": { "name": "Suns", "emblem": "Emblems/Basquete/Phoenix_Suns.png" },
-                    "teamB": { "name": "Cavaliers", "emblem": "Emblems/Basquete/Cleveland_Cavaliers.png" },
-                    "score": "X",
-                    "date": "21/03/2025 • 23:00",
-                    "description": "Suns e Cavaliers disputam uma vaga no top 5 do Oeste."
-                },
-                {
-                    "championship": "NBA",
-                    "teamA": { "name": "Kings", "emblem": "Emblems/Basquete/Sacramento_Kings.png" },
-                    "teamB": { "name": "Bucks", "emblem": "Emblems/Basquete/Milwaukee_Bucks.png" },
-                    "score": "X",
-                    "date": "22/03/2025 • 23:00",
-                    "description": "Kings desafiam os Bucks em um jogo de altíssima intensidade."
-                },
-                {
-                    "championship": "NBA",
-                    "teamA": { "name": "Lakers", "emblem": "Emblems/Basquete/Los_Angeles_Lakers.png" },
-                    "teamB": { "name": "Bulls", "emblem": "Emblems/Basquete/Chicago_Bulls.png" },
-                    "score": "X",
-                    "date": "22/03/2025 • 23:30",
-                    "description": "Lakers buscam manter a liderança contra um Bulls resiliente."
-                },
-                {
-                    "championship": "NBA",
-                    "teamA": { "name": "Trail Blazers", "emblem": "Emblems/Basquete/Portland_Trail_Blazers.png" },
-                    "teamB": { "name": "Celtics", "emblem": "Emblems/Basquete/Boston_Celtics.png" },
-                    "score": "X",
-                    "date": "23/03/2025 • 19:00",
-                    "description": "Trail Blazers tentam surpreender o líder Celtics em casa."
-                },
-                {
-                    "championship": "NBA",
-                    "teamA": { "name": "Rockets", "emblem": "Emblems/Basquete/Rockets.png" },
-                    "teamB": { "name": "Nuggets", "emblem": "Emblems/Basquete/Denver_Nuggets.png" },
-                    "score": "X",
-                    "date": "23/03/2025 • 20:00",
-                    "description": "Rockets enfrentam os Nuggets em um jogo decisivo para os playoffs."
-                }
-            ]
-        },
-        {
-            "weekLabel": "current",
-            "matches": [
                 {
                     "championship": "NBA",
                     "teamA": { "name": "Nuggets", "emblem": "Emblems/Basquete/Denver_Nuggets.png" },
@@ -360,7 +219,7 @@
             ]
         },
         {
-            "weekLabel": "next",
+            "weekLabel": "current",
             "matches": [
                 {
                     "championship": "EUA NBA",
@@ -529,6 +388,20 @@
                     "score": "X",
                     "date": "06/04/2025 • 21:30",
                     "description": "Pelicans e Bucks encerram a semana com um confronto de peso na NBA!"
+                }
+            ]
+        },
+        {
+            "weekLabel": "next",
+            "matches": [
+                
+                {
+                    "championship": "EUA NBA",
+                    "teamA": { "name": "x", "emblem": "Emblexms/Basquete/Oklahoma_City_Thunder.png" },
+                    "teamB": { "name": "x", "emblem": "Emblexms/Basquete/Chicago_Bulls.png" },
+                    "score": "X",
+                    "date": "x",
+                    "description": "Thunder enfrenta os Bulls em um duelo de velocidade e resistência!"
                 }
             ]
         }
