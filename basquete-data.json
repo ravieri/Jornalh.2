@@ -394,15 +394,174 @@
         {
             "weekLabel": "next",
             "matches": [
-                
-                {
-                    "championship": "EUA NBA",
-                    "teamA": { "name": "x", "emblem": "Emblexms/Basquete/Oklahoma_City_Thunder.png" },
-                    "teamB": { "name": "x", "emblem": "Emblexms/Basquete/Chicago_Bulls.png" },
-                    "score": "X",
-                    "date": "x",
-                    "description": "Thunder enfrenta os Bulls em um duelo de velocidade e resistência!"
-                }
+        {
+            "championship": "EUA NBA",
+            "teamA": { "name": "Pistons", "emblem": "Emblems/Basquete/Detroit_Pistons.png" },
+            "teamB": { "name": "Kings", "emblem": "Emblems/Basquete/Sacramento_Kings.png" },
+            "score": "X",
+            "date": "07/04/2025 • 20:00",
+            "description": "Pistons e Kings abrem a semana com um confronto equilibrado entre conferências!"
+        },
+        {
+            "championship": "EUA NBA",
+            "teamA": { "name": "Heat", "emblem": "Emblems/Basquete/Miami_Heat.png" },
+            "teamB": { "name": "76ers", "emblem": "Emblems/Basquete/Philadelphia_76ers.png" },
+            "score": "X",
+            "date": "07/04/2025 • 20:30",
+            "description": "Heat e 76ers prometem um duelo intenso no Leste!"
+        },
+        {
+            "championship": "EUA NBA",
+            "teamA": { "name": "Cavaliers", "emblem": "Emblems/Basquete/Cleveland_Cavaliers.png" },
+            "teamB": { "name": "Bulls", "emblem": "Emblems/Basquete/Chicago_Bulls.png" },
+            "score": "X",
+            "date": "08/04/2025 • 20:00",
+            "description": "Cavaliers enfrentam os Bulls em um clássico do Leste!"
+        },
+        {
+            "championship": "EUA NBA",
+            "teamA": { "name": "Knicks", "emblem": "Emblems/Basquete/New_York_Knicks.png" },
+            "teamB": { "name": "Celtics", "emblem": "Emblems/Basquete/Boston_Celtics.png" },
+            "score": "X",
+            "date": "08/04/2025 • 20:30",
+            "description": "Knicks e Celtics disputam um jogo eletrizante no Leste!"
+        },
+        {
+            "championship": "EUA NBA",
+            "teamA": { "name": "Bucks", "emblem": "Emblems/Basquete/Milwaukee_Bucks.png" },
+            "teamB": { "name": "Timberwolves", "emblem": "Emblems/Basquete/Minnesota_Timberwolves.png" },
+            "score": "X",
+            "date": "08/04/2025 • 21:00",
+            "description": "Bucks e Timberwolves fazem um confronto interconferências de peso!"
+        },
+        {
+            "championship": "EUA NBA",
+            "teamA": { "name": "Wizards", "emblem": "Emblems/Basquete/Washington_Wizards.png" },
+            "teamB": { "name": "76ers", "emblem": "Emblems/Basquete/Philadelphia_76ers.png" },
+            "score": "X",
+            "date": "09/04/2025 • 20:00",
+            "description": "Wizards entram em quadra em busca de uma vitória na NBA!"
+        },
+        {
+            "championship": "EUA NBA",
+            "teamA": { "name": "Mavericks", "emblem": "Emblems/Basquete/Dallas_Mavericks.png" },
+            "teamB": { "name": "Lakers", "emblem": "Emblems/Basquete/Los_Angeles_Lakers.png" },
+            "score": "X",
+            "date": "09/04/2025 • 20:30",
+            "description": "Mavericks e Lakers prometem um duelo quente no Oeste!"
+        },
+        {
+            "championship": "EUA NBA",
+            "teamA": { "name": "Kings", "emblem": "Emblems/Basquete/Sacramento_Kings.png" },
+            "teamB": { "name": "Nuggets", "emblem": "Emblems/Basquete/Denver_Nuggets.png" },
+            "score": "X",
+            "date": "09/04/2025 • 23:00",
+            "description": "Kings desafiam os Nuggets em um confronto explosivo no Oeste!"
+        },
+        {
+            "championship": "EUA NBA",
+            "teamA": { "name": "Pistons", "emblem": "Emblems/Basquete/Detroit_Pistons.png" },
+            "teamB": { "name": "Knicks", "emblem": "Emblems/Basquete/New_York_Knicks.png" },
+            "score": "X",
+            "date": "10/04/2025 • 20:00",
+            "description": "Pistons e Knicks disputam um jogo intenso no Leste!"
+        },
+        {
+            "championship": "EUA NBA",
+            "teamA": { "name": "Bucks", "emblem": "Emblems/Basquete/Milwaukee_Bucks.png" },
+            "teamB": { "name": "Pelicans", "emblem": "Emblems/Basquete/New_Orleans_Pelicans.png" },
+            "score": "X",
+            "date": "10/04/2025 • 21:00",
+            "description": "Bucks enfrentam os Pelicans em um duelo interconferências animado!"
+        },
+        {
+            "championship": "EUA NBA",
+            "teamA": { "name": "Grizzlies", "emblem": "Emblems/Basquete/Memphis_Grizzlies.png" },
+            "teamB": { "name": "Timberwolves", "emblem": "Emblems/Basquete/Minnesota_Timberwolves.png" },
+            "score": "X",
+            "date": "10/04/2025 • 22:30",
+            "description": "Grizzlies e Timberwolves prometem um confronto equilibrado no Oeste!"
+        },
+        {
+            "championship": "EUA NBA",
+            "teamA": { "name": "Bulls", "emblem": "Emblems/Basquete/Chicago_Bulls.png" },
+            "teamB": { "name": "Wizards", "emblem": "Emblems/Basquete/Washington_Wizards.png" },
+            "score": "X",
+            "date": "11/04/2025 • 21:00",
+            "description": "Bulls e Wizards disputam um jogo de tirar o fôlego no Leste!"
+        },
+        {
+            "championship": "EUA NBA",
+            "teamA": { "name": "Nuggets", "emblem": "Emblems/Basquete/Denver_Nuggets.png" },
+            "teamB": { "name": "Grizzlies", "emblem": "Emblems/Basquete/Memphis_Grizzlies.png" },
+            "score": "X",
+            "date": "11/04/2025 • 22:00",
+            "description": "Nuggets e Grizzlies fazem um confronto de gigantes no Oeste!"
+        },
+        {
+            "championship": "EUA NBA",
+            "teamA": { "name": "Suns", "emblem": "Emblems/Basquete/Phoenix_Suns.png" },
+            "teamB": { "name": "Spurs", "emblem": "Emblems/Basquete/San_Antonio_Spurs.png" },
+            "score": "X",
+            "date": "11/04/2025 • 23:00",
+            "description": "Suns e Spurs encerram a noite com um duelo quente no Oeste!"
+        },
+        {
+            "championship": "EUA NBA",
+            "teamA": { "name": "Lakers", "emblem": "Emblems/Basquete/Los_Angeles_Lakers.png" },
+            "teamB": { "name": "Rockets", "emblem": "Emblems/Basquete/Houston_Rockets.png" },
+            "score": "X",
+            "date": "11/04/2025 • 23:30",
+            "description": "Lakers e Rockets prometem um jogo eletrizante para fechar o dia!"
+        },
+        {
+            "championship": "EUA NBA",
+            "teamA": { "name": "Hawks", "emblem": "Emblems/Basquete/Atlanta_Hawks.png" },
+            "teamB": { "name": "Magic", "emblem": "Emblems/Basquete/Orlando_Magic.png" },
+            "score": "X",
+            "date": "13/04/2025 • 14:00",
+            "description": "Hawks e Magic abrem o domingo com um confronto animado no Leste!"
+        },
+        {
+            "championship": "EUA NBA",
+            "teamA": { "name": "Celtics", "emblem": "Emblems/Basquete/Boston_Celtics.png" },
+            "teamB": { "name": "Hornets", "emblem": "Emblems/Basquete/Charlotte_Hornets.png" },
+            "score": "X",
+            "date": "13/04/2025 • 14:00",
+            "description": "Celtics enfrentam os Hornets em um duelo de estilos no Leste!"
+        },
+        {
+            "championship": "EUA NBA",
+            "teamA": { "name": "Bucks", "emblem": "Emblems/Basquete/Milwaukee_Bucks.png" },
+            "teamB": { "name": "Pistons", "emblem": "Emblems/Basquete/Detroit_Pistons.png" },
+            "score": "X",
+            "date": "13/04/2025 • 14:00",
+            "description": "Bucks e Pistons disputam um jogo intenso no Leste!"
+        },
+        {
+            "championship": "EUA NBA",
+            "teamA": { "name": "Warriors", "emblem": "Emblems/Basquete/Golden_State_Warriors.png" },
+            "teamB": { "name": "Clippers", "emblem": "Emblems/Basquete/Los_Angeles_Clippers.png" },
+            "score": "X",
+            "date": "13/04/2025 • 16:30",
+            "description": "Warriors e Clippers protagonizam um clássico do Oeste!"
+        },
+        {
+            "championship": "EUA NBA",
+            "teamA": { "name": "Timberwolves", "emblem": "Emblems/Basquete/Minnesota_Timberwolves.png" },
+            "teamB": { "name": "Jazz", "emblem": "Emblems/Basquete/Utah_Jazz.png" },
+            "score": "X",
+            "date": "13/04/2025 • 16:30",
+            "description": "Timberwolves e Jazz fazem um confronto equilibrado no Oeste!"
+        },
+        {
+            "championship": "EUA NBA",
+            "teamA": { "name": "Trail Blazers", "emblem": "Emblems/Basquete/Portland_Trail_Blazers.png" },
+            "teamB": { "name": "Lakers", "emblem": "Emblems/Basquete/Los_Angeles_Lakers.png" },
+            "score": "X",
+            "date": "13/04/2025 • 16:30",
+            "description": "Trail Blazers e Lakers encerram a semana com um duelo animado!"
+        }
             ]
         }
     ]
