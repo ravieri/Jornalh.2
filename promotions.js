@@ -50,7 +50,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (!line) return;
 
                 // Usa uma expressão regular ajustada para dividir a linha em três partes
-                // Captura o evento até o primeiro time, considerando espaços no nome do evento
                 const match = line.match(/(.*?)\s+(.+?)\s+x\s+(.+?)\s+(\d{2}:\d{2}\s+\d{2}\/\d{2})$/);
                 if (match) {
                     hasMatches = true;
@@ -69,20 +68,13 @@ document.addEventListener('DOMContentLoaded', () => {
                     `;
                     promoElement.appendChild(lineElement);
                 } else {
-                    // Fallback: se a regex não corresponder, exibe a linha como texto simples
+                    // Renderiza a linha como texto simples
                     const lineElement = document.createElement('div');
                     lineElement.classList.add('promo-line');
                     lineElement.innerHTML = `<p>${line}</p>`;
                     promoElement.appendChild(lineElement);
                 }
             });
-
-            // Se não houver partidas no formato esperado, renderiza a descrição como texto simples
-            if (!hasMatches) {
-                const descriptionElement = document.createElement('p');
-                descriptionElement.innerHTML = promo.description.replace(/\n/g, '<br>');
-                promoElement.appendChild(descriptionElement);
-            }
 
             promotionsContainer.appendChild(promoElement);
         });
