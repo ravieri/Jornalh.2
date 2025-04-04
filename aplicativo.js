@@ -117,10 +117,12 @@ function getDataFile() {
     switch (currentPage) {
         case 'index.html':
             return 'futebol-data.json';
-        case 'basquete.html':
+        case 'basquete.html':   
             return 'basquete-data.json';
         case 'tenis.html':
             return 'tenis-data.json';
+        case 'ufc.html':
+            return 'ufc-data.json';
         default:
             return 'futebol-data.json'; // Padrão para index.html ou erro
     }

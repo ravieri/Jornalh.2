@@ -1,0 +1,59 @@
+{
+    "carouselData": [
+        {
+            "imgSrc": "UFC imagens/1mg.png",
+            "alt": "UFC Fight Night",
+            "categoryTag": "UFC",
+            "title": "UFC Fight Night: Emmett vs. Murphy",
+            "description": "Pesos-pena lideram card com cinco brasileiros no UFC Apex!"
+        },
+        {
+            "imgSrc": "UFC imagens/2mg.png",
+            "alt": "UFC 314",
+            "categoryTag": "UFC",
+            "title": "UFC 304: Alexander Volkanovski vs. Diego Lopes",
+            "description": "Peso-pena Disputa de Cinturão."
+        }
+    ],
+    "matchesData": [
+        {
+            "weekLabel": "past",
+            "matches": [
+                {
+                    "championship": "UFC Fight Night",
+                    "teamA": { "name": "Amanda Lemos", "emblem": "images/lemos.png" },
+                    "teamB": { "name": "Virna Jandiroba", "emblem": "images/jandiroba.png" },
+                    "score": "KO (2º Round)",
+                    "date": "20/03/2025 22:00",
+                    "description": "Lemos nocauteou Jandiroba no segundo round."
+                }
+            ]
+        },
+        {
+            "weekLabel": "current",
+            "matches": [
+                {
+                    "championship": "UFC 305",
+                    "teamA": { "name": "Leon Edwards", "emblem": "images/edwards.png" },
+                    "teamB": { "name": "Belal Muhammad", "emblem": "images/muhammad.png" },
+                    "score": "A definir",
+                    "date": "04/04/2025 23:00",
+                    "description": "Luta pelo título dos meio-médios."
+                }
+            ]
+        },
+        {
+            "weekLabel": "next",
+            "matches": [
+                {
+                    "championship": "UFC Fight Night",
+                    "teamA": { "name": "Tom Aspinall", "emblem": "images/aspinall.png" },
+                    "teamB": { "name": "Curtis Blaydes", "emblem": "images/blaydes.png" },
+                    "score": "A definir",
+                    "date": "11/04/2025 21:00",
+                    "description": "Revancha nos pesos pesados."
+                }
+            ]
+        }
+    ]
+}
