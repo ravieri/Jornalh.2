@@ -33,12 +33,52 @@
             "weekLabel": "current",
             "matches": [
                 {
-                    "championship": "UFC 305",
-                    "teamA": { "name": "Leon Edwards", "emblem": "images/edwards.png" },
-                    "teamB": { "name": "Belal Muhammad", "emblem": "images/muhammad.png" },
+                    "championship": "UFC Fight Night - Peso-Pena",
+                    "teamA": { "name": "Josh Emmett", "emblem": "Emblems/USA.png" },
+                    "teamB": { "name": "Lerone Murphy", "emblem": "Emblems/ENGLAND.png" },
+                    "score": "A definir",
+                    "date": "04/04/2025 22:00",
+                    "description": "Emmett enfrenta Murphy em uma luta explosiva no peso-pena."
+                },
+                {
+                    "championship": "UFC Fight Night - Peso-Pena",
+                    "teamA": { "name": "Pat Sabatini", "emblem": "Emblems/USA.png" },
+                    "teamB": { "name": "Joanderson Brito", "emblem": "Emblems/BRAZIL.png" },
+                    "score": "A definir",
+                    "date": "04/04/2025 22:30",
+                    "description": "Sabatini e Brito prometem uma luta técnica e agressiva."
+                },
+                {
+                    "championship": "UFC Fight Night - Peso-Galo",
+                    "teamA": { "name": "Cortavius Romious", "emblem": "Emblems/USA.png" },
+                    "teamB": { "name": "Changho Lee", "emblem": "Emblems/SOUTH_KOREA.png" },
                     "score": "A definir",
                     "date": "04/04/2025 23:00",
-                    "description": "Luta pelo título dos meio-médios."
+                    "description": "Romious e Lee se enfrentam no peso-galo."
+                },
+                {
+                    "championship": "UFC Fight Night - Peso-Médio",
+                    "teamA": { "name": "Brad Tavares", "emblem": "Emblems/USA.png" },
+                    "teamB": { "name": "Gerald Meerschaert", "emblem": "Emblems/USA.png" },
+                    "score": "A definir",
+                    "date": "04/04/2025 23:30",
+                    "description": "Tavares e Meerschaert em uma batalha de veteranos."
+                },
+                {
+                    "championship": "UFC Fight Night - Peso-Mosca",
+                    "teamA": { "name": "Ode' Osbourne", "emblem": "Emblems/JAMAICA.png" },
+                    "teamB": { "name": "Luis Gurule", "emblem": "Emblems/USA.png" },
+                    "score": "A definir",
+                    "date": "04/04/2025 21:30",
+                    "description": "Osbourne e Gurule abrem o card com uma luta no peso-mosca."
+                },
+                {
+                    "championship": "UFC Fight Night - Peso-Médio",
+                    "teamA": { "name": "Torrez Finney", "emblem": "Emblems/USA.png" },
+                    "teamB": { "name": "Robert Valentin", "emblem": "Emblems/SWITZERLAND.png" },
+                    "score": "A definir",
+                    "date": "04/04/2025 21:00",
+                    "description": "Finney e Valentin em uma luta de estreantes no peso-médio."
                 }
             ]
         },
