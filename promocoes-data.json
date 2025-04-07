@@ -1,87 +1,78 @@
 {
-    "promotionsData": {
+  "promotionsData": {
       "m12": {
-        "past": [
-          {
-            "title": "M12 - Semana Passada",
-            "description": "Aqui ficarão as promoções.",
-            "date": ""
-          }
-        ],
-        "current": [
-        {
-          "title": "",
-          "description": "Ganham seus jogos (05/04): Corinthians, Botafogo e Grêmio.\nGanham seus jogos (05/04): Arsenal, Aston Villa e Brighton.\nGanham seus jogos (06/04): Santos, Internacional e Mirassol.",
-          "date": ""
-          }
-        ],
-        "next": [
-          {
-            "title": "M12 - Próxima Semana",
-            "description": "Aqui ficarão as promoções.",
-            "date": ""
-          }
-        ]
+          "past": [
+              {
+                  "title": "M12 - Semana Passada",
+                  "description": "Aqui ficarão as promoções.",
+                  "date": ""
+              }
+          ],
+          "current": [
+              {
+                  "title": "",
+                  "description": "Ganham seus jogos (05/04): Corinthians, Botafogo e Grêmio.\nGanham seus jogos (05/04): Arsenal, Aston Villa e Brighton.\nGanham seus jogos (06/04): Santos, Internacional e Mirassol.",
+                  "date": ""
+              }
+          ],
+          "next": [
+              {
+                  "title": "M12 - Próxima Semana",
+                  "description": "Aqui ficarão as promoções.",
+                  "date": ""
+              }
+          ]
       },
-
-
-
       "100x": {
-        "past": [
-          {
-            "title": "100X - Semana Passada",
-            "description": "Aqui ficarão as promoções.",
-            "date": ""
-          }
-        ],
-
-
-        "current": [
-          {
-            "title": "",
-            "description": "Aqui ficarão as promoções",
-            "date": ""
-          }
-        ],
-
-
-        "next": [
-          {
-            "title": "100X - Próxima Semana",
-            "description": "Aqui ficarão as promoções.",
-            "date": ""
-          }
-        ]
+          "past": [
+              {
+                  "title": "100X - Semana Passada",
+                  "description": "Aqui ficarão as promoções.",
+                  "date": ""
+              }
+          ],
+          "current": [
+              {
+                  "title": "",
+                  "description": "Aqui ficarão as promoções",
+                  "date": ""
+              }
+          ],
+          "next": [
+              {
+                  "title": "100X - Próxima Semana",
+                  "description": "Aqui ficarão as promoções.",
+                  "date": ""
+              }
+          ]
       },
-
-
-
       "super-odds": {
-    "past": [
-        {
-            "title": "Super Odds - Semana Passada",
-            "description": "Eliminatoria-Europa Macedônia do Norte x Páis de Gales 16:45 25/03\nEliminatoria-Europa Moldávia x Estonia 14:00 25/03\nMundial-de-Seleções Bolivía x Uruguai 17:00 25/03\nEliminatoria-África Mauritânia x RD Congo 18:00 25/03\nLiga-Profesional Aldosivi x Unión de Santa Fé 15:30 27/03\nLiga-Profesional Independiente Rivadavia x Racing 21:00 27/03\n1-Divisão-Chile Everton-CHI x Universidad de Chile 20:30 27/03\nEFL-CHAMPIONSHIP Sheffield United x Coventry City 17:00 28/03\nLIGUE-1 Strasbourg Alsace x Olympique Lyonnais 16:45 28/03\nLiga-Profesional Platense x Atlético Tucumán 21:30 28/03\nLiga-Profesional San Lorenzo x Lanús 19:15 28/03\nBrasil-Serie-A Juventude-RS x Vitória 18:30 29/03\nBrasil-Serie-A Fortaleza x Fluminense 18:30 29/03\nEFL-CHAMPIONSHIP Norwich City x West Bromwich Albion 12:00 29/03\nLiga-Portugal Casa Pia AC x Rio Ave 12:30 29/03\nFA-CUP Bournemouth x Manchester City 12:30 30/03\nLIGUE-1 Lille OSC x Lens 15:45 30/03\nLiga-Portugal Moreirense x Vitoria Guimaraes 16:30 30/03\nPrimeira-Divisão-Chile Unión La Calera x Cobresal 20:30 30/03",
-            "date": ""
-        }
-    ],
-
-
-    "current": [
-        {
-            "title": "",
-           "description": "Itália Hellas Verona x Parma Calcio 1913 13:30 31/03\nTurquia Eyupspor x Istanbul Basaksehir 14:00 31/03\nHolanda Jong PSV Eindhoven x FC Den Bosch 15:00 31/03\nBrasil Bragantino x Ceará 20:00 31/03\nAmerica_do_Sul Melgar x Vasco da Gama 19:00 01/04\nAmerica_do_Sul Cienciano x Atlético-MG 19:00 01/04\nAmerica_do_Sul Fortaleza x Racing 21:30 01/04\nEuropa Nottingham Forest x Manchester United 16:00 01/04\nEuropa Derby County x Preston North End 15:45 02/04\nAmerica_do_Sul Universidad de Chile x Botafogo-RJ 16:00 02/04\nAmerica_do_Sul Talleres x São Paulo 21:30 02/04\nAmerica_do_Sul Atlético Grau x Godoy Cruz 23:00 02/04\nAmerica_do_Sul CD Gualberto Villarroel San Jose x Unión Española 19:00 03/04\nAmerica_do_Sul Cerro Largo x Defensa y Justicia 21:30 03/04\nÁsia Al Orobah FC x Al Akhdoud Club 11:45 04/04\nEuropa Blackburn Rovers x Middlesbrough 16:00 04/04\nEuropa AVS Vila das Aves x Estoril Praia 16:15 04/04\nBrasil Paysandu x Athletico Paranaense 21:00 04/04\nEuropa Millwall x Portsmouth 11:00 05/04\nEuropa Mallorca x Celta de Vigo 13:30 05/04\nEuropa Olympique Lyonnais x Lille OSC 16:05 05/04\nBrasil Ceará x Grêmio 18:30 05/04\nEuropa Go Ahead Eagles Deventer x Utrecht 09:30 06/04\nBrasil Atlético-MG x São Paulo 16:00 06/04\nBrasil Mirassol x Fortaleza 18:30 06/04\nBrasil Associacao Ferroviaria de Esportes x Remo PA 19:00 06/04\nBrasil Avaí x Grêmio Novorizontino 20:00 06/04",
-"date": ""
-        }
-    ],
-
-    
-    "next": [
-        {
-            "title": "Super Odds - Próxima Semana",
-            "description": "As melhores cotações estarão disponíveis na próxima semana.",
-            "date": "15/03/2025 - 21/03/2025"
-        }
-        ]
+          "past": [
+              {
+                  "title": "Super Odds - Semana Passada",
+                  "description": "Eliminatoria-Europa Macedônia do Norte x Páis de Gales 16:45 25/03\nEliminatoria-Europa Moldávia x Estonia 14:00 25/03\nMundial-de-Seleções Bolivía x Uruguai 17:00 25/03\nEliminatoria-África Mauritânia x RD Congo 18:00 25/03\nLiga-Profesional Aldosivi x Unión de Santa Fé 15:30 27/03\nLiga-Profesional Independiente Rivadavia x Racing 21:00 27/03\n1-Divisão-Chile Everton-CHI x Universidad de Chile 20:30 27/03\nEFL-CHAMPIONSHIP Sheffield United x Coventry City 17:00 28/03\nLIGUE-1 Strasbourg Alsace x Olympique Lyonnais 16:45 28/03\nLiga-Profesional Platense x Atlético Tucumán 21:30 28/03\nLiga-Profesional San Lorenzo x Lanús 19:15 28/03\nBrasil-Serie-A Juventude-RS x Vitória 18:30 29/03\nBrasil-Serie-A Fortaleza x Fluminense 18:30 29/03\nEFL-CHAMPIONSHIP Norwich City x West Bromwich Albion 12:00 29/03\nLiga-Portugal Casa Pia AC x Rio Ave 12:30 29/03\nFA-CUP Bournemouth x Manchester City 12:30 30/03\nLIGUE-1 Lille OSC x Lens 15:45 30/03\nLiga-Portugal Moreirense x Vitoria Guimaraes 16:30 30/03\nPrimeira-Divisão-Chile Unión La Calera x Cobresal 20:30 30/03",
+                  "date": ""
+              },
+              {
+                  "title": "",
+                  "description": "Itália Hellas Verona x Parma Calcio 1913 13:30 31/03\nTurquia Eyupspor x Istanbul Basaksehir 14:00 31/03\nHolanda Jong PSV Eindhoven x FC Den Bosch 15:00 31/03\nBrasil Bragantino x Ceará 20:00 31/03\nAmerica_do_Sul Melgar x Vasco da Gama 19:00 01/04\nAmerica_do_Sul Cienciano x Atlético-MG 19:00 01/04\nAmerica_do_Sul Fortaleza x Racing 21:30 01/04\nEuropa Nottingham Forest x Manchester United 16:00 01/04\nEuropa Derby County x Preston North End 15:45 02/04\nAmerica_do_Sul Universidad de Chile x Botafogo-RJ 16:00 02/04\nAmerica_do_Sul Talleres x São Paulo 21:30 02/04\nAmerica_do_Sul Atlético Grau x Godoy Cruz 23:00 02/04\nAmerica_do_Sul CD Gualberto Villarroel San Jose x Unión Española 19:00 03/04\nAmerica_do_Sul Cerro Largo x Defensa y Justicia 21:30 03/04\nÁsia Al Orobah FC x Al Akhdoud Club 11:45 04/04\nEuropa Blackburn Rovers x Middlesbrough 16:00 04/04\nEuropa AVS Vila das Aves x Estoril Praia 16:15 04/04\nBrasil Paysandu x Athletico Paranaense 21:00 04/04\nEuropa Millwall x Portsmouth 11:00 05/04\nEuropa Mallorca x Celta de Vigo 13:30 05/04\nEuropa Olympique Lyonnais x Lille OSC 16:05 05/04\nBrasil Ceará x Grêmio 18:30 05/04\nEuropa Go Ahead Eagles Deventer x Utrecht 09:30 06/04\nBrasil Atlético-MG x São Paulo 16:00 06/04\nBrasil Mirassol x Fortaleza 18:30 06/04\nBrasil Associacao Ferroviaria de Esportes x Remo PA 19:00 06/04\nBrasil Avaí x Grêmio Novorizontino 20:00 06/04",
+                  "date": ""
+              }
+          ],
+          "current": [
+              {
+                  "title": "",
+                  "description": "Brasil Atlético-GO x Athletic Club 19:00 07/04\nPortugal SC Farense x Casa Pia AC 14:45 07/04\nArgentina Atlético Tucumán x Instituto AC Cordoba 21:00 07/04\nTurquia Goztepe SK x Gaziantep FK 14:00 07/04\nAmerica_do_Sul América x Corinthians 21:30 08/04\nInglaterra Preston North End x Cardiff City 15:45 08/04\nInglaterra Watford x Hull City 15:45 08/04\nAmerica_do_Sul Olimpia x Vélez Sarsfield 19:00 09/04\nInglaterra Oxford United x Queens Park Rangers 15:45 09/04\nAmerica_do_Sul Unión Española x Once Caldas 21:30 09/04\nEquador Vinotinto FC Ecuador x Delfín 21:00 09/04\nAmerica_do_Sul CD Colo Colo x Fortaleza 21:30 10/04\nBrasil Cuiabá x Avaí 21:30 10/04\nAmerica_do_Sul Atlético-MG x CD Iquique 21:30 10/04\nEuropa Glasgow Rangers x Athletic Bilbao 16:00 10/04\nArábia_Saudita Damac FC x Al Wehda Mecca 13:00 10/04\nEspanha Cordoba CF x Levante 15:30 11/04\nAlemanha VfL Wolfsburg x RB Leipzig 15:30 11/04\nItália Udinese x AC Milan 15:45 11/04\nEquador Emelec x FC Libertad 21:00 11/04\nBrasil Operário-PR x Goiás 20:00 12/04\nFrança Toulouse x Lille OSC 14:00 12/04\nAlemanha Borussia Monchengladbach x Freiburg 10:30 12/04\nArábia_Saudita Al Khaleej Saihat x Al Fateh SC 12:35 12/04\nBrasil Fortaleza x Internacional 20:00 13/04\nBrasil Remo PA x América-MG 16:00 13/04\nItália Lazio x AS Roma 15:45 13/04\nFrança AJ Auxerre x Olympique Lyonnais 15:45 13/04\nBrasil Atlético-MG x Vitória 20:30 13/04",
+                  "date": ""
+              }
+          ],
+          "next": [
+              {
+                  "title": "Super Odds - Próxima Semana",
+                  "description": "As melhores cotações estarão disponíveis na próxima semana.",
+                  "date": "15/03/2025 - 21/03/2025"
+              }
+          ]
       }
-    }
+  }
 }
