@@ -1,225 +1,44 @@
 {
     "carouselData": [
         {
-            "imgSrc": "futebol imagens/realxreal_sociedad.jpg",
+            "imgSrc": "futebol imagens/arsenalxreal.avif",
             "alt": "Jogo de Futebol",
-            "categoryTag": "Espanha Copa del Rey",
-            "title": "Real Madrid e Real Sociedad disputam vaga na final",
-            "description": "Real Madrid e Real Sociedad decidem uma semifinal épica na Copa del Rey!"
+            "categoryTag": "Liga dos Campeões da UEFA",
+            "title": "Arsenal e Real Madrid em duelo épico",
+            "description": "Arsenal e Real Madrid disputam as quartas de final da Liga dos Campeões!"
         },
         {
-            "imgSrc": "futebol imagens/atleticoxbarcelona.webp",
+            "imgSrc": "futebol imagens/barcelonaxborusia.jpeg",
             "alt": "Jogo de Futebol",
-            "categoryTag": "Espanha Copa del Rey",
-            "title": "Clássico! Atlético Madrid e Barcelona em duelo decisivo",
-            "description": "Atlético Madrid e Barcelona lutam por uma vaga na final da Copa del Rey!"
+            "categoryTag": "Liga dos Campeões da UEFA",
+            "title": "Barcelona enfrenta Borussia Dortmund",
+            "description": "Barcelona e Dortmund lutam por uma vaga nas semifinais da Liga dos Campeões!"
         },
         {
-            "imgSrc": "futebol imagens/chelseaxtottenham.jpg",
+            "imgSrc": "futebol imagens/psgxaston.webp",
             "alt": "Jogo de Futebol",
-            "categoryTag": "Inglaterra Premier League",
-            "title": "Dérbi londrino! Chelsea enfrenta Tottenham",
-            "description": "Chelsea e Tottenham protagonizam um clássico quente na Premier League!"
+            "categoryTag": "Liga dos Campeões da UEFA",
+            "title": "PSG e Aston Villa nas quartas de final",
+            "description": "PSG e Aston Villa decidem um lugar nas semifinais da Liga dos Campeões!"
         },
         {
-            "imgSrc": "futebol imagens/manutdxmancity.jpg",
+            "imgSrc": "futebol imagens/united.webp",
             "alt": "Jogo de Futebol",
-            "categoryTag": "Inglaterra Premier League",
-            "title": "Clássico de Manchester! United vs. City",
-            "description": "Manchester United e Manchester City duelam pela supremacia na Premier League!"
+            "categoryTag": "UEFA Liga Europa",
+            "title": "Lyon e Manchester United em confronto quente",
+            "description": "Lyon e Manchester United disputam as quartas da Liga Europa!"
         },
         {
-            "imgSrc": "futebol imagens/romaxjuventus.jpg",
+            "imgSrc": "futebol imagens/tottenham.jpg",
             "alt": "Jogo de Futebol",
-            "categoryTag": "Itália Serie A",
-            "title": "Clássico italiano! Roma e Juventus na briga pelo topo",
-            "description": "Roma e Juventus fazem um confronto histórico pela liderança na Serie A!"
+            "categoryTag": "UEFA Liga Europa",
+            "title": "Tottenham e Frankfurt na Liga Europa",
+            "description": "Tottenham e Eintracht Frankfurt prometem um duelo equilibrado nas quartas!"
         }
     ],
     "matchesData": [
         {
             "weekLabel": "past",
-            "matches": [
-                {
-                    "championship": "World Championship Qual. UEFA",
-                    "teamA": { "name": "Lituânia", "emblem": "Emblems/Lithuania.png" },
-                    "teamB": { "name": "Finlândia", "emblem": "Emblems/Finland.png" },
-                    "score": "X",
-                    "date": "24/03/2025 • 14:00",
-                    "description": "Lituânia e Finlândia abrem a semana em busca de pontos na qualificação europeia!"
-                },
-                {
-                    "championship": "World Championship Qual. UEFA",
-                    "teamA": { "name": "Polônia", "emblem": "Emblems/Poland.png" },
-                    "teamB": { "name": "Malta", "emblem": "Emblems/Malta.png" },
-                    "score": "X",
-                    "date": "24/03/2025 • 16:45",
-                    "description": "Polônia enfrenta Malta em duelo pelas eliminatórias europeias!"
-                },
-                {
-                    "championship": "World Championship Qual. UEFA",
-                    "teamA": { "name": "Bósnia e Herzegovina", "emblem": "Emblems/Bosnia_Herzegovina.png" },
-                    "teamB": { "name": "Chipre", "emblem": "Emblems/Cyprus.png" },
-                    "score": "X",
-                    "date": "24/03/2025 • 16:45",
-                    "description": "Bósnia e Chipre disputam pontos cruciais na qualificatória europeia!"
-                },
-                {
-                    "championship": "World Championship Qual. UEFA",
-                    "teamA": { "name": "Moldávia", "emblem": "Emblems/Moldova.png" },
-                    "teamB": { "name": "Estônia", "emblem": "Emblems/Estonia.png" },
-                    "score": "X",
-                    "date": "25/03/2025 • 14:00",
-                    "description": "Moldávia e Estônia se enfrentam em busca de afirmação nas eliminatórias!"
-                },
-                {
-                    "championship": "World Championship Qual. UEFA",
-                    "teamA": { "name": "Israel", "emblem": "Emblems/Israel.png" },
-                    "teamB": { "name": "Noruega", "emblem": "Emblems/Norway.png" },
-                    "score": "X",
-                    "date": "25/03/2025 • 16:45",
-                    "description": "Israel e Noruega disputam um confronto decisivo nas eliminatórias!"
-                },
-                {
-                    "championship": "World Cup Qualificação CONMEBOL",
-                    "teamA": { "name": "Argentina", "emblem": "Emblems/Argentina.png" },
-                    "teamB": { "name": "Brasil", "emblem": "Emblems/Brazil.png" },
-                    "score": "X",
-                    "date": "25/03/2025 • 21:00",
-                    "description": "Clássico sul-americano! Argentina e Brasil prometem um duelo épico nas eliminatórias!"
-                },
-                {
-                    "championship": "World Cup Qualificação CONMEBOL",
-                    "teamA": { "name": "Venezuela", "emblem": "Emblems/Venezuela.png" },
-                    "teamB": { "name": "Peru", "emblem": "Emblems/Peru.png" },
-                    "score": "X",
-                    "date": "25/03/2025 • 21:00",
-                    "description": "Venezuela e Peru lutam por pontos importantes nas eliminatórias!"
-                },
-                {
-                    "championship": "Copa do Nordeste",
-                    "teamA": { "name": "Moto Club", "emblem": "Emblems/Moto_Club.png" },
-                    "teamB": { "name": "Vitória", "emblem": "Emblems/Vitoria.png" },
-                    "score": "X",
-                    "date": "26/03/2025 • 18:00",
-                    "description": "Moto Club e Vitória disputam um jogo quente na Copa do Nordeste!"
-                },
-                {
-                    "championship": "LaLiga",
-                    "teamA": { "name": "Barcelona", "emblem": "Emblems/Barcelona.png" },
-                    "teamB": { "name": "Osasuna", "emblem": "Emblems/Osasuna.png" },
-                    "score": "X",
-                    "date": "27/03/2025 • 16:00",
-                    "description": "Barcelona enfrenta o Osasuna em busca de mais uma vitória na LaLiga!"
-                },
-                {
-                    "championship": "Paulista Série A1 - Mata-mata",
-                    "teamA": { "name": "Corinthians", "emblem": "Emblems/Corinthians.png" },
-                    "teamB": { "name": "Palmeiras", "emblem": "Emblems/Palmeiras.png" },
-                    "score": "X",
-                    "date": "27/03/2025 • 18:30",
-                    "description": "Clássico paulista! Corinthians e Palmeiras decidem o título em um jogo eletrizante!"
-                },
-                {
-                    "championship": "Bundesliga",
-                    "teamA": { "name": "Leverkusen", "emblem": "Emblems/Bayer_04_Leverkusen.png" },
-                    "teamB": { "name": "Bochum", "emblem": "Emblems/VfL_Bochum.png" },
-                    "score": "X",
-                    "date": "28/03/2025 • 16:30",
-                    "description": "Leverkusen busca consolidar sua posição contra o Bochum na Bundesliga!"
-                },
-                {
-                    "championship": "LaLiga",
-                    "teamA": { "name": "Athletic Club", "emblem": "Emblems/Athletic_Club.png" },
-                    "teamB": { "name": "Osasuna", "emblem": "Emblems/Osasuna.png" },
-                    "score": "X",
-                    "date": "28/03/2025 • 17:00",
-                    "description": "Athletic Club enfrenta o Osasuna em um duelo espanhol equilibrado!"
-                },
-                {
-                    "championship": "Serie A",
-                    "teamA": { "name": "Juventus", "emblem": "Emblems/Juventus.png" },
-                    "teamB": { "name": "Genoa", "emblem": "Emblems/Genoa.png" },
-                    "score": "X",
-                    "date": "29/03/2025 • 14:00",
-                    "description": "Juventus busca os três pontos contra o Genoa na Serie A!"
-                },
-                {
-                    "championship": "LaLiga",
-                    "teamA": { "name": "Real Madrid", "emblem": "Emblems/Real_Madrid.png" },
-                    "teamB": { "name": "Leganés", "emblem": "Emblems/Leganes.png" },
-                    "score": "X",
-                    "date": "29/03/2025 • 17:00",
-                    "description": "Real Madrid enfrenta o Leganés em busca de mais uma vitória na LaLiga!"
-                },
-                {
-                    "championship": "Brasileirão Betano",
-                    "teamA": { "name": "Grêmio", "emblem": "Emblems/Gremio.png" },
-                    "teamB": { "name": "Atlético-MG", "emblem": "Emblems/Atletico_MG.png" },
-                    "score": "X",
-                    "date": "29/03/2025 • 18:30",
-                    "description": "Grêmio e Atlético-MG abrem o Brasileirão com um confronto quente!"
-                },
-                {
-                    "championship": "Brasileirão Betano",
-                    "teamA": { "name": "São Paulo", "emblem": "Emblems/Sao_Paulo.png" },
-                    "teamB": { "name": "Sport", "emblem": "Emblems/Sport.png" },
-                    "score": "X",
-                    "date": "29/03/2025 • 18:30",
-                    "description": "São Paulo enfrenta o Sport na estreia do Brasileirão Betano!"
-                },
-                {
-                    "championship": "Brasileirão Betano",
-                    "teamA": { "name": "Flamengo", "emblem": "Emblems/Flamengo.png" },
-                    "teamB": { "name": "Internacional", "emblem": "Emblems/Internacional.png" },
-                    "score": "X",
-                    "date": "29/03/2025 • 21:00",
-                    "description": "Flamengo e Internacional fecham o dia com um duelo de gigantes!"
-                },
-                {
-                    "championship": "LaLiga",
-                    "teamA": { "name": "Barcelona", "emblem": "Emblems/Barcelona.png" },
-                    "teamB": { "name": "Girona", "emblem": "Emblems/Girona.png" },
-                    "score": "X",
-                    "date": "30/03/2025 • 11:15",
-                    "description": "Clássico catalão! Barcelona e Girona prometem um jogo emocionante na LaLiga!"
-                },
-                {
-                    "championship": "Brasileirão Betano",
-                    "teamA": { "name": "Palmeiras", "emblem": "Emblems/Palmeiras.png" },
-                    "teamB": { "name": "Botafogo", "emblem": "Emblems/Botafogo.png" },
-                    "score": "X",
-                    "date": "30/03/2025 • 16:00",
-                    "description": "Palmeiras e Botafogo disputam pontos importantes no Brasileirão!"
-                },
-                {
-                    "championship": "Serie A",
-                    "teamA": { "name": "Napoli", "emblem": "Emblems/Napoli.png" },
-                    "teamB": { "name": "Milan", "emblem": "Emblems/Milan.png" },
-                    "score": "X",
-                    "date": "30/03/2025 • 15:45",
-                    "description": "Clássico italiano! Napoli e Milan duelam pela supremacia na Serie A!"
-                },
-                {
-                    "championship": "Brasileirão Betano",
-                    "teamA": { "name": "Vasco", "emblem": "Emblems/Vasco.png" },
-                    "teamB": { "name": "Santos", "emblem": "Emblems/Santos.png" },
-                    "score": "X",
-                    "date": "30/03/2025 • 18:30",
-                    "description": "Vasco e Santos fazem um confronto histórico no Brasileirão!"
-                },
-                {
-                    "championship": "Brasileirão Betano",
-                    "teamA": { "name": "Bahia", "emblem": "Emblems/Bahia.png" },
-                    "teamB": { "name": "Corinthians", "emblem": "Emblems/Corinthians.png" },
-                    "score": "X",
-                    "date": "30/03/2025 • 20:00",
-                    "description": "Bahia e Corinthians encerram a semana com um jogo eletrizante!"
-                }
-            ]
-        },
-        {
-            "weekLabel": "current",
             "matches": [
                 {
                     "championship": "Itália Serie A",
@@ -488,7 +307,7 @@
             ]
         },
         {
-            "weekLabel": "next",
+            "weekLabel": "current",
             "matches": [
         {
             "championship": "Brasil Brasileirão Série B",
@@ -706,6 +525,20 @@
             "date": "13/04/2025 • 09:00",
             "description": "Osasuna e Girona fazem um duelo equilibrado na rodada 31 da LaLiga!"
         }
+            ]
+        },
+        {
+            "weekLabel": "next",
+            "matches": [
+        {
+            "championship": "Brasil x Série B",
+            "teamA": { "name": "x", "emblem": "Embx.png" },
+            "teamB": { "name": "x", "emblem": "Emblems/Atx.png" },
+            "score": "X",
+            "date": "07/04/2025 • 19:00",
+            "description": "Atlético-GO e Athletic Club estreiam na Série B com um duelo emocionante!"
+        }
+        
             ]
         }
     ]

@@ -1,18 +1,19 @@
 {
     "carouselData": [
-        {
-            "imgSrc": "UFC imagens/1mg.png",
-            "alt": "UFC Fight Night",
-            "categoryTag": "UFC",
-            "title": "UFC Fight Night: Emmett vs. Murphy",
-            "description": "Pesos-pena lideram card com cinco brasileiros no UFC Apex!"
-        },
+        
         {
             "imgSrc": "UFC imagens/2mg.png",
             "alt": "UFC 314",
             "categoryTag": "UFC",
             "title": "UFC 304: Alexander Volkanovski vs. Diego Lopes",
             "description": "Peso-pena Disputa de Cinturão."
+        },
+        {
+            "imgSrc": "UFC imagens/1mg.png",
+            "alt": "UFC Fight Night",
+            "categoryTag": "UFC",
+            "title": "UFC Fight Night: Machado Garry vs  Prates",
+            "description": "Carlos Prates representando o Brasil no UFC FIGHT NIGHT!"
         }
     ],
     "matchesData": [
