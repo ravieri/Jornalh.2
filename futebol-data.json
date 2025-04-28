@@ -1,46 +1,45 @@
 {
     "carouselData": [
         {
-            "imgSrc": "futebol imagens/botafogoxfluminense.jpg",
-            "alt": "Jogo de Futebol",
-            "categoryTag": "Brasil Brasileirão Betano",
-            "title": "Botafogo x Fluminense",
-            "description": "Botafogo e Fluminense fazem um clássico carioca na rodada 6 do Brasileirão!"
-        },
-        {
-            "imgSrc": "futebol imagens/flamengoxcorinthians.avif",
-            "alt": "Jogo de Futebol",
-            "categoryTag": "Brasil Brasileirão Betano",
-            "title": "Flamengo x Corinthians",
-            "description": "Flamengo e Corinthians disputam um confronto eletrizante na rodada 6 do Brasileirão!"
-        },
-        {
-            "imgSrc": "futebol imagens/arsenalxcrystalpalace.webp",
-            "alt": "Jogo de Futebol",
-            "categoryTag": "Inglaterra Premier League",
-            "title": "Arsenal x Crystal Palace",
-            "description": "Arsenal enfrenta Crystal Palace na rodada 34 da Premier League!"
-        },
-        {
-            "imgSrc": "futebol imagens/corinthiansxracingmontevideo.jpg",
-            "alt": "Jogo de Futebol",
-            "categoryTag": "América do Sul CONMEBOL Sudamericana",
-            "title": "Corinthians x Racing de Montevideo",
-            "description": "Corinthians e Racing de Montevideo duelam na rodada 3 da Sudamericana!"
-        },
-        {
-            "imgSrc": "futebol imagens/realmadridxarsenal.jpg",
+            "imgSrc": "futebol imagens/arsenalcparissaintgermain.webp",
             "alt": "Jogo de Futebol",
             "categoryTag": "Liga dos Campeões da UEFA",
-            "title": "Real Madrid x Arsenal",
-            "description": "Real Madrid e Arsenal fizeram um confronto épico nas quartas da Liga dos Campeões!"
+            "title": "Arsenal x Paris Saint-Germain",
+            "description": "Arsenal e PSG disputam uma vaga na final nas semifinais da Liga dos Campeões!"
+        },
+        {
+            "imgSrc": "futebol imagens/saopauloxnautico.avif",
+            "alt": "Jogo de Futebol",
+            "categoryTag": "Copa Betano do Brasil",
+            "title": "São Paulo x Náutico",
+            "description": "São Paulo e Náutico enfrentam-se na rodada 3 da Copa Betano do Brasil!"
+        },
+        {
+            "imgSrc": "futebol imagens/barcelonaxinter.webp",
+            "alt": "Jogo de Futebol",
+            "categoryTag": "Liga dos Campeões da UEFA",
+            "title": "Barcelona x Inter",
+            "description": "Barcelona e Inter duelam por uma vaga na final da Liga dos Campeões!"
+        },
+        {
+            "imgSrc": "futebol imagens/tottenhamhotspurxbodoglimt.webp",
+            "alt": "Jogo de Futebol",
+            "categoryTag": "UEFA Liga Europa",
+            "title": "Tottenham Hotspur x Bodø/Glimt",
+            "description": "Tottenham e Bodø/Glimt disputam as semifinais da Liga Europa!"
+        },
+        {
+            "imgSrc": "futebol imagens/realmadridxceltavigo.webp",
+            "alt": "Jogo de Futebol",
+            "categoryTag": "LaLiga",
+            "title": "Real Madrid x Celta Vigo",
+            "description": "Real Madrid enfrenta Celta Vigo na rodada 34 da LaLiga!"
         }
     ],
     "matchesData": [
         {
             "weekLabel": "past",
             "matches": [
-                
                 {
                     "championship": "Itália Serie A",
                     "teamA": { "name": "Hellas Verona", "emblem": "Emblems/Verona.png" },
@@ -49,7 +48,6 @@
                     "date": "31/03/2025 • 13:30",
                     "description": "Hellas Verona e Parma abrem a rodada 30 da Serie A em um duelo equilibrado!"
                 },
-               
                 {
                     "championship": "Inglaterra Premier League",
                     "teamA": { "name": "Bournemouth", "emblem": "Emblems/Bournemouth.png" },
@@ -241,12 +239,7 @@
                     "score": "X",
                     "date": "20/04/2025 • 18:30",
                     "description": "Fortaleza e Palmeiras prometem um duelo quente na rodada 5 do Brasileirão!"
-                }
-            ]
-        },
-        {
-           "weekLabel": "current",
-            "matches": [
+                },
                 {
                     "championship": "Inglaterra Premier League",
                     "teamA": { "name": "Arsenal", "emblem": "Emblems/Arsenal.png" },
@@ -374,6 +367,211 @@
                     "score": "X",
                     "date": "27/04/2025 • 20:30",
                     "description": "Santos e RB Bragantino disputam a rodada 6 do Brasileirão Betano!"
+                }
+            ]
+        },
+        {
+            "weekLabel": "current",
+            "matches": [
+                {
+                    "championship": "Liga dos Campeões da UEFA",
+                    "teamA": { "name": "Arsenal", "emblem": "Emblems/Arsenal.png" },
+                    "teamB": { "name": "Paris Saint-Germain", "emblem": "Emblems/PSG.png" },
+                    "score": "X",
+                    "date": "29/04/2025 • 16:00",
+                    "description": "Arsenal e PSG decidem uma vaga na final nas semifinais da Liga dos Campeões!"
+                },
+                {
+                    "championship": "Copa Betano do Brasil",
+                    "teamA": { "name": "Maringá FC", "emblem": "Emblems/Maringa.png" },
+                    "teamB": { "name": "Atlético Mineiro", "emblem": "Emblems/Atletico_MG.png" },
+                    "score": "X",
+                    "date": "29/04/2025 • 19:30",
+                    "description": "Maringá FC e Atlético-MG disputam a rodada 3 da Copa Betano do Brasil!"
+                },
+                {
+                    "championship": "Copa Betano do Brasil",
+                    "teamA": { "name": "São Paulo", "emblem": "Emblems/Sao_Paulo.png" },
+                    "teamB": { "name": "Náutico", "emblem": "Emblems/Nautico.png" },
+                    "score": "X",
+                    "date": "29/04/2025 • 21:30",
+                    "description": "São Paulo e Náutico disputam a rodada 3 da Copa Betano do Brasil!"
+                },
+                {
+                    "championship": "Liga dos Campeões da UEFA",
+                    "teamA": { "name": "Barcelona", "emblem": "Emblems/Barcelona.png" },
+                    "teamB": { "name": "Inter", "emblem": "Emblems/Inter.png" },
+                    "score": "X",
+                    "date": "30/04/2025 • 16:00",
+                    "description": "Barcelona e Inter decidem uma vaga na final nas semifinais da Liga dos Campeões!"
+                },
+                {
+                    "championship": "Copa Betano do Brasil",
+                    "teamA": { "name": "Ceará", "emblem": "Emblems/Ceara.png" },
+                    "teamB": { "name": "Palmeiras", "emblem": "Emblems/Palmeiras.png" },
+                    "score": "X",
+                    "date": "30/04/2025 • 19:30",
+                    "description": "Ceará e Palmeiras disputam a rodada 3 da Copa Betano do Brasil!"
+                },
+                {
+                    "championship": "Copa Betano do Brasil",
+                    "teamA": { "name": "Novorizontino", "emblem": "Emblems/Novorizontino.png" },
+                    "teamB": { "name": "Corinthians", "emblem": "Emblems/Corinthians.png" },
+                    "score": "X",
+                    "date": "30/04/2025 • 21:30",
+                    "description": "Novorizontino e Corinthians disputam a rodada 3 da Copa Betano do Brasil!"
+                },
+                {
+                    "championship": "UEFA Liga Europa",
+                    "teamA": { "name": "Tottenham Hotspur", "emblem": "Emblems/Tottenham.png" },
+                    "teamB": { "name": "Bodø/Glimt", "emblem": "Emblems/Bodo_Glimt.png" },
+                    "score": "X",
+                    "date": "01/05/2025 • 16:00",
+                    "description": "Tottenham e Bodø/Glimt duelam nas semifinais da Liga Europa!"
+                },
+                {
+                    "championship": "UEFA Conference League",
+                    "teamA": { "name": "Real Betis", "emblem": "Emblems/Real_Betis.png" },
+                    "teamB": { "name": "Fiorentina", "emblem": "Emblems/Fiorentina.png" },
+                    "score": "X",
+                    "date": "01/05/2025 • 16:00",
+                    "description": "Real Betis e Fiorentina disputam as semifinais da UEFA Conference League!"
+                },
+                {
+                    "championship": "Copa Betano do Brasil",
+                    "teamA": { "name": "Operário-PR", "emblem": "Emblems/Operario_PR.png" },
+                    "teamB": { "name": "Vasco da Gama", "emblem": "Emblems/Vasco.png" },
+                    "score": "X",
+                    "date": "01/05/2025 • 16:00",
+                    "description": "Operário-PR e Vasco da Gama disputam a rodada 3 da Copa Betano do Brasil!"
+                },
+                {
+                    "championship": "Copa Betano do Brasil",
+                    "teamA": { "name": "Santos", "emblem": "Emblems/Santos.png" },
+                    "teamB": { "name": "CRB", "emblem": "Emblems/CRB.png" },
+                    "score": "X",
+                    "date": "01/05/2025 • 18:00",
+                    "description": "Santos e CRB disputam a rodada 3 da Copa Betano do Brasil!"
+                },
+                {
+                    "championship": "Copa Betano do Brasil",
+                    "teamA": { "name": "Botafogo-PB", "emblem": "Emblems/Botafogo_PB.png" },
+                    "teamB": { "name": "Flamengo", "emblem": "Emblems/Flamengo.png" },
+                    "score": "X",
+                    "date": "01/05/2025 • 20:00",
+                    "description": "Botafogo-PB e Flamengo disputam a rodada 3 da Copa Betano do Brasil!"
+                },
+                {
+                    "championship": "Premier League",
+                    "teamA": { "name": "Manchester City", "emblem": "Emblems/Man_City.png" },
+                    "teamB": { "name": "Wolverhampton", "emblem": "Emblems/Wolves.png" },
+                    "score": "X",
+                    "date": "02/05/2025 • 16:00",
+                    "description": "Manchester City e Wolverhampton disputam a rodada 35 da Premier League!"
+                },
+                {
+                    "championship": "LaLiga",
+                    "teamA": { "name": "Rayo Vallecano", "emblem": "Emblems/Rayo_Vallecano.png" },
+                    "teamB": { "name": "Getafe", "emblem": "Emblems/Getafe.png" },
+                    "score": "X",
+                    "date": "02/05/2025 • 16:00",
+                    "description": "Rayo Vallecano e Getafe disputam a rodada 34 da LaLiga!"
+                },
+                {
+                    "championship": "Brasileirão Betano",
+                    "teamA": { "name": "São Paulo", "emblem": "Emblems/Sao_Paulo.png" },
+                    "teamB": { "name": "Fortaleza", "emblem": "Emblems/Fortaleza.png" },
+                    "score": "X",
+                    "date": "02/05/2025 • 21:30",
+                    "description": "São Paulo e Fortaleza disputam a rodada 7 do Brasileirão Betano!"
+                },
+                {
+                    "championship": "Premier League",
+                    "teamA": { "name": "Aston Villa", "emblem": "Emblems/Aston_Villa.png" },
+                    "teamB": { "name": "Fulham", "emblem": "Emblems/Fulham.png" },
+                    "score": "X",
+                    "date": "03/05/2025 • 08:30",
+                    "description": "Aston Villa e Fulham disputam a rodada 35 da Premier League!"
+                },
+                {
+                    "championship": "Serie A",
+                    "teamA": { "name": "Inter", "emblem": "Emblems/Inter.png" },
+                    "teamB": { "name": "Hellas Verona", "emblem": "Emblems/Verona.png" },
+                    "score": "X",
+                    "date": "03/05/2025 • 15:45",
+                    "description": "Inter e Hellas Verona disputam a rodada 35 da Serie A!"
+                },
+                {
+                    "championship": "Brasileirão Betano",
+                    "teamA": { "name": "Corinthians", "emblem": "Emblems/Corinthians.png" },
+                    "teamB": { "name": "Internacional", "emblem": "Emblems/Internacional.png" },
+                    "score": "X",
+                    "date": "03/05/2025 • 18:30",
+                    "description": "Corinthians e Internacional disputam a rodada 7 do Brasileirão Betano!"
+                },
+                {
+                    "championship": "Brasileirão Betano",
+                    "teamA": { "name": "Bahia", "emblem": "Emblems/Bahia.png" },
+                    "teamB": { "name": "Botafogo", "emblem": "Emblems/Botafogo.png" },
+                    "score": "X",
+                    "date": "03/05/2025 • 21:00",
+                    "description": "Bahia e Botafogo disputam a rodada 7 do Brasileirão Betano!"
+                },
+                {
+                    "championship": "LaLiga",
+                    "teamA": { "name": "Real Madrid", "emblem": "Emblems/Real_Madrid.png" },
+                    "teamB": { "name": "Celta Vigo", "emblem": "Emblems/Celta.png" },
+                    "score": "X",
+                    "date": "04/05/2025 • 09:00",
+                    "description": "Real Madrid e Celta Vigo disputam a rodada 34 da LaLiga!"
+                },
+                {
+                    "championship": "Serie A",
+                    "teamA": { "name": "Roma", "emblem": "Emblems/Roma.png" },
+                    "teamB": { "name": "Fiorentina", "emblem": "Emblems/Fiorentina.png" },
+                    "score": "X",
+                    "date": "04/05/2025 • 13:00",
+                    "description": "Roma e Fiorentina disputam a rodada 35 da Serie A!"
+                },
+                {
+                    "championship": "Ligue 1",
+                    "teamA": { "name": "Olympique Lyonnais", "emblem": "Emblems/Lyon.png" },
+                    "teamB": { "name": "RC Lens", "emblem": "Emblems/Lens.png" },
+                    "score": "X",
+                    "date": "04/05/2025 • 12:15",
+                    "description": "Lyon e RC Lens disputam a rodada 32 da Ligue 1!"
+                },
+                {
+                    "championship": "Serie A",
+                    "teamA": { "name": "Bologna", "emblem": "Emblems/Bologna.png" },
+                    "teamB": { "name": "Juventus", "emblem": "Emblems/Juventus.png" },
+                    "score": "X",
+                    "date": "04/05/2025 • 15:45",
+                    "description": "Bologna e Juventus disputam a rodada 35 da Serie A!"
+                },
+                {
+                    "championship": "Brasileirão Betano",
+                    "teamA": { "name": "Grêmio", "emblem": "Emblems/Gremio.png" },
+                    "teamB": { "name": "Santos", "emblem": "Emblems/Santos.png" },
+                    "score": "X",
+                    "date": "04/05/2025 • 16:00",
+                    "description": "Grêmio e Santos disputam a rodada 7 do Brasileirão Betano!"
+                },
+                {
+                    "championship": "Brasileirão Betano",
+                    "teamA": { "name": "Vasco da Gama", "emblem": "Emblems/Vasco.png" },
+                    "teamB": { "name": "Palmeiras", "emblem": "Emblems/Palmeiras.png" },
+                    "score": "X",
+                    "date": "04/05/2025 • 16:00",
+                    "description": "Vasco da Gama e Palmeiras disputam a rodada 7 do Brasileirão Betano!"
+                },
+                {
+                    "championship": "Brasileirão Betano",
+                    "teamA": { "name": "Cruzeiro", "emblem": "Emblems/Cruzeiro.png" },
+                    "teamB": { "name": "Flamengo", "emblem": "Emblems/Flamengo.png" },
+                    "score": "X",
+                    "date": "04/05/2025 • 18:30",
+                    "description": "Cruzeiro e Flamengo disputam a rodada 7 do Brasileirão Betano!"
                 }
             ]
         },
