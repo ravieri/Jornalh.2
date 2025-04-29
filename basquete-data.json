@@ -40,7 +40,6 @@
         {
             "weekLabel": "past",
             "matches": [
-                
                 {
                     "championship": "EUA NBA",
                     "teamA": { "name": "Memphis Grizzlies", "emblem": "Emblems/Basquete/Memphis_Grizzlies.png" },
@@ -49,7 +48,6 @@
                     "date": "31/03/2025 • 20:30",
                     "description": "Grizzlies e Celtics abrem a semana com um confronto explosivo entre conferências!"
                 },
-               
                 {
                     "championship": "NBA, Play-IN Tournament",
                     "teamA": { "name": "Orlando Magic", "emblem": "Emblems/Basquete/Orlando_Magic.png" },
@@ -113,6 +111,126 @@
                     "score": "X",
                     "date": "19/04/2025 • 21:30",
                     "description": "Lakers e Timberwolves encerram o dia com um confronto épico no Oeste!"
+                },
+                {
+                    "championship": "NBA, Mata-mata, Eastern conference first round",
+                    "teamA": { "name": "Indiana Pacers", "emblem": "Emblems/Basquete/Indiana_Pacers.png" },
+                    "teamB": { "name": "Milwaukee Bucks", "emblem": "Emblems/Basquete/Milwaukee_Bucks.png" },
+                    "score": "X",
+                    "date": "29/04/2025 • 19:00",
+                    "description": "Pacers e Bucks voltam a se enfrentar em mais um confronto decisivo no Leste!"
+                },
+                {
+                    "championship": "NBA, Mata-mata, Eastern conference first round",
+                    "teamA": { "name": "Boston Celtics", "emblem": "Emblems/Basquete/Boston_Celtics.png" },
+                    "teamB": { "name": "Orlando Magic", "emblem": "Emblems/Basquete/Orlando_Magic.png" },
+                    "score": "X",
+                    "date": "29/04/2025 • 21:30",
+                    "description": "Celtics e Magic continuam a série com um jogo eletrizante no Leste!"
+                },
+                {
+                    "championship": "NBA, Mata-mata, Western conference first round",
+                    "teamA": { "name": "Denver Nuggets", "emblem": "Emblems/Basquete/Denver_Nuggets.png" },
+                    "teamB": { "name": "Los Angeles Clippers", "emblem": "Emblems/Basquete/Los_Angeles_Clippers.png" },
+                    "score": "X",
+                    "date": "29/04/2025 • 23:00",
+                    "description": "Nuggets e Clippers em mais uma batalha intensa no Oeste!"
+                },
+                {
+                    "championship": "NBA, Mata-mata, Western conference first round",
+                    "teamA": { "name": "Houston Rockets", "emblem": "Emblems/Basquete/Houston_Rockets.png" },
+                    "teamB": { "name": "Golden State Warriors", "emblem": "Emblems/Basquete/Golden_State_Warriors.png" },
+                    "score": "X",
+                    "date": "30/04/2025 • 20:30",
+                    "description": "Rockets e Warriors fazem mais um duelo emocionante no Oeste!"
+                },
+                {
+                    "championship": "NBA, Mata-mata, Western conference first round",
+                    "teamA": { "name": "Los Angeles Lakers", "emblem": "Emblems/Basquete/Los_Angeles_Lakers.png" },
+                    "teamB": { "name": "Minnesota Timberwolves", "emblem": "Emblems/Basquete/Minnesota_Timberwolves.png" },
+                    "score": "X",
+                    "date": "30/04/2025 • 23:00",
+                    "description": "Lakers e Timberwolves continuam a série com mais emoção no Oeste!"
+                },
+                {
+                    "championship": "NBA, Mata-mata, Western conference first round",
+                    "teamA": { "name": "Los Angeles Clippers", "emblem": "Emblems/Basquete/Los_Angeles_Clippers.png" },
+                    "teamB": { "name": "Denver Nuggets", "emblem": "Emblems/Basquete/Denver_Nuggets.png" },
+                    "score": "X",
+                    "date": "01/05/2025 • 20:00",
+                    "description": "Clippers e Nuggets seguem sua disputa acirrada nos playoffs do Oeste!"
+                },
+                {
+                    "championship": "NBA, Mata-mata, Eastern conference first round",
+                    "teamA": { "name": "Orlando Magic", "emblem": "Emblems/Basquete/Orlando_Magic.png" },
+                    "teamB": { "name": "Boston Celtics", "emblem": "Emblems/Basquete/Boston_Celtics.png" },
+                    "score": "X",
+                    "date": "01/05/2025 • 20:00",
+                    "description": "Magic e Celtics voltam à quadra em mais um capítulo da série do Leste!"
+                },
+                {
+                    "championship": "NBA, Mata-mata, Western conference first round",
+                    "teamA": { "name": "Golden State Warriors", "emblem": "Emblems/Basquete/Golden_State_Warriors.png" },
+                    "teamB": { "name": "Houston Rockets", "emblem": "Emblems/Basquete/Houston_Rockets.png" },
+                    "score": "X",
+                    "date": "02/05/2025 • 20:00",
+                    "description": "Warriors e Rockets continuam o duelo intenso no Oeste!"
+                },
+                {
+                    "championship": "NBA, Mata-mata, Eastern conference first round",
+                    "teamA": { "name": "Milwaukee Bucks", "emblem": "Emblems/Basquete/Milwaukee_Bucks.png" },
+                    "teamB": { "name": "Indiana Pacers", "emblem": "Emblems/Basquete/Indiana_Pacers.png" },
+                    "score": "X",
+                    "date": "02/05/2025 • 20:00",
+                    "description": "Bucks e Pacers seguem a disputa acirrada nos playoffs do Leste!"
+                },
+                {
+                    "championship": "NBA, Mata-mata, Western conference first round",
+                    "teamA": { "name": "Minnesota Timberwolves", "emblem": "Emblems/Basquete/Minnesota_Timberwolves.png" },
+                    "teamB": { "name": "Los Angeles Lakers", "emblem": "Emblems/Basquete/Los_Angeles_Lakers.png" },
+                    "score": "X",
+                    "date": "02/05/2025 • 20:00",
+                    "description": "Timberwolves e Lakers prometem mais um jogaço nos playoffs do Oeste!"
+                },
+                {
+                    "championship": "NBA, Mata-mata, Eastern conference first round",
+                    "teamA": { "name": "Boston Celtics", "emblem": "Emblems/Basquete/Boston_Celtics.png" },
+                    "teamB": { "name": "Orlando Magic", "emblem": "Emblems/Basquete/Orlando_Magic.png" },
+                    "score": "X",
+                    "date": "03/05/2025 • 20:00",
+                    "description": "Celtics e Magic seguem duelando firme por uma vaga no Leste!"
+                },
+                {
+                    "championship": "NBA, Mata-mata, Western conference first round",
+                    "teamA": { "name": "Denver Nuggets", "emblem": "Emblems/Basquete/Denver_Nuggets.png" },
+                    "teamB": { "name": "Los Angeles Clippers", "emblem": "Emblems/Basquete/Los_Angeles_Clippers.png" },
+                    "score": "X",
+                    "date": "03/05/2025 • 20:00",
+                    "description": "Nuggets e Clippers travam mais uma batalha na conferência Oeste!"
+                },
+                {
+                    "championship": "NBA, Mata-mata, Western conference first round",
+                    "teamA": { "name": "Houston Rockets", "emblem": "Emblems/Basquete/Houston_Rockets.png" },
+                    "teamB": { "name": "Golden State Warriors", "emblem": "Emblems/Basquete/Golden_State_Warriors.png" },
+                    "score": "X",
+                    "date": "04/05/2025 • 20:00",
+                    "description": "Rockets e Warriors continuam a rivalidade em mais um confronto do Oeste!"
+                },
+                {
+                    "championship": "NBA, Mata-mata, Eastern conference first round",
+                    "teamA": { "name": "Indiana Pacers", "emblem": "Emblems/Basquete/Indiana_Pacers.png" },
+                    "teamB": { "name": "Milwaukee Bucks", "emblem": "Emblems/Basquete/Milwaukee_Bucks.png" },
+                    "score": "X",
+                    "date": "04/05/2025 • 20:00",
+                    "description": "Pacers e Bucks se enfrentam novamente em jogo decisivo do Leste!"
+                },
+                {
+                    "championship": "NBA, Mata-mata, Western conference first round",
+                    "teamA": { "name": "Los Angeles Lakers", "emblem": "Emblems/Basquete/Los_Angeles_Lakers.png" },
+                    "teamB": { "name": "Minnesota Timberwolves", "emblem": "Emblems/Basquete/Minnesota_Timberwolves.png" },
+                    "score": "X",
+                    "date": "04/05/2025 • 20:00",
+                    "description": "Lakers e Timberwolves encerram a sequência com mais um jogão no Oeste!"
                 }
             ]
         },
@@ -124,128 +242,120 @@
                     "teamA": { "name": "Indiana Pacers", "emblem": "Emblems/Basquete/Indiana_Pacers.png" },
                     "teamB": { "name": "Milwaukee Bucks", "emblem": "Emblems/Basquete/Milwaukee_Bucks.png" },
                     "score": "X",
-                    "date": "22/04/2025 • 20:00",
-                    "description": "Pacers e Bucks disputam um confronto intenso na primeira rodada dos playoffs do Leste!"
-                },
-                {
-                    "championship": "NBA, Mata-mata, Western conference first round",
-                    "teamA": { "name": "Los Angeles Lakers", "emblem": "Emblems/Basquete/Los_Angeles_Lakers.png" },
-                    "teamB": { "name": "Minnesota Timberwolves", "emblem": "Emblems/Basquete/Minnesota_Timberwolves.png" },
-                    "score": "X",
-                    "date": "22/04/2025 • 23:00",
-                    "description": "Lakers e Timberwolves prometem um duelo épico na primeira rodada dos playoffs do Oeste!"
+                    "date": "29/04/2025 • 19:00",
+                    "description": "Pacers e Bucks voltam a se enfrentar em mais um confronto decisivo no Leste!"
                 },
                 {
                     "championship": "NBA, Mata-mata, Eastern conference first round",
                     "teamA": { "name": "Boston Celtics", "emblem": "Emblems/Basquete/Boston_Celtics.png" },
                     "teamB": { "name": "Orlando Magic", "emblem": "Emblems/Basquete/Orlando_Magic.png" },
                     "score": "X",
-                    "date": "23/04/2025 • 20:00",
-                    "description": "Celtics e Magic disputam uma batalha intensa na primeira rodada dos playoffs do Leste!"
+                    "date": "29/04/2025 • 21:30",
+                    "description": "Celtics e Magic continuam a série com um jogo eletrizante no Leste!"
+                },
+                {
+                    "championship": "NBA, Mata-mata, Western conference first round",
+                    "teamA": { "name": "Denver Nuggets", "emblem": "Emblems/Basquete/Denver_Nuggets.png" },
+                    "teamB": { "name": "Los Angeles Clippers", "emblem": "Emblems/Basquete/Los_Angeles_Clippers.png" },
+                    "score": "X",
+                    "date": "29/04/2025 • 23:00",
+                    "description": "Nuggets e Clippers em mais uma batalha intensa no Oeste!"
                 },
                 {
                     "championship": "NBA, Mata-mata, Western conference first round",
                     "teamA": { "name": "Houston Rockets", "emblem": "Emblems/Basquete/Houston_Rockets.png" },
                     "teamB": { "name": "Golden State Warriors", "emblem": "Emblems/Basquete/Golden_State_Warriors.png" },
                     "score": "X",
-                    "date": "23/04/2025 • 22:30",
-                    "description": "Rockets e Warriors fazem um confronto eletrizante na primeira rodada dos playoffs do Oeste!"
-                },
-                {
-                    "championship": "NBA, Mata-mata, Eastern conference first round",
-                    "teamA": { "name": "Detroit Pistons", "emblem": "Emblems/Basquete/Detroit_Pistons.png" },
-                    "teamB": { "name": "New York Knicks", "emblem": "Emblems/Basquete/New_York_Knicks.png" },
-                    "score": "X",
-                    "date": "24/04/2025 • 20:00",
-                    "description": "Pistons e Knicks disputam um jogo intenso na primeira rodada dos playoffs do Leste!"
+                    "date": "30/04/2025 • 20:30",
+                    "description": "Rockets e Warriors fazem mais um duelo emocionante no Oeste!"
                 },
                 {
                     "championship": "NBA, Mata-mata, Western conference first round",
-                    "teamA": { "name": "Memphis Grizzlies", "emblem": "Emblems/Basquete/Memphis_Grizzlies.png" },
-                    "teamB": { "name": "Oklahoma City Thunder", "emblem": "Emblems/Basquete/Oklahoma_City_Thunder.png" },
+                    "teamA": { "name": "Los Angeles Lakers", "emblem": "Emblems/Basquete/Los_Angeles_Lakers.png" },
+                    "teamB": { "name": "Minnesota Timberwolves", "emblem": "Emblems/Basquete/Minnesota_Timberwolves.png" },
                     "score": "X",
-                    "date": "24/04/2025 • 22:30",
-                    "description": "Grizzlies e Thunder prometem um duelo quente na primeira rodada dos playoffs do Oeste!"
+                    "date": "30/04/2025 • 23:00",
+                    "description": "Lakers e Timberwolves continuam a série com mais emoção no Oeste!"
                 },
                 {
                     "championship": "NBA, Mata-mata, Western conference first round",
                     "teamA": { "name": "Los Angeles Clippers", "emblem": "Emblems/Basquete/Los_Angeles_Clippers.png" },
                     "teamB": { "name": "Denver Nuggets", "emblem": "Emblems/Basquete/Denver_Nuggets.png" },
                     "score": "X",
-                    "date": "24/04/2025 • 23:00",
-                    "description": "Clippers e Nuggets encerram o dia com um confronto explosivo na primeira rodada dos playoffs do Oeste!"
+                    "date": "01/05/2025 • 20:00",
+                    "description": "Clippers e Nuggets seguem sua disputa acirrada nos playoffs do Oeste!"
                 },
                 {
                     "championship": "NBA, Mata-mata, Eastern conference first round",
                     "teamA": { "name": "Orlando Magic", "emblem": "Emblems/Basquete/Orlando_Magic.png" },
                     "teamB": { "name": "Boston Celtics", "emblem": "Emblems/Basquete/Boston_Celtics.png" },
                     "score": "X",
-                    "date": "25/04/2025 • 20:00",
-                    "description": "Magic e Celtics fazem um confronto decisivo na primeira rodada dos playoffs do Leste!"
-                },
-                {
-                    "championship": "NBA, Mata-mata, Eastern conference first round",
-                    "teamA": { "name": "Milwaukee Bucks", "emblem": "Emblems/Basquete/Milwaukee_Bucks.png" },
-                    "teamB": { "name": "Indiana Pacers", "emblem": "Emblems/Basquete/Indiana_Pacers.png" },
-                    "score": "X",
-                    "date": "25/04/2025 • 21:00",
-                    "description": "Bucks e Pacers disputam um jogo crucial na primeira rodada dos playoffs do Leste!"
-                },
-                {
-                    "championship": "NBA, Mata-mata, Western conference first round",
-                    "teamA": { "name": "Minnesota Timberwolves", "emblem": "Emblems/Basquete/Minnesota_Timberwolves.png" },
-                    "teamB": { "name": "Los Angeles Lakers", "emblem": "Emblems/Basquete/Los_Angeles_Lakers.png" },
-                    "score": "X",
-                    "date": "25/04/2025 • 22:30",
-                    "description": "Timberwolves e Lakers prometem um duelo intenso na primeira rodada dos playoffs do Oeste!"
-                },
-                {
-                    "championship": "NBA, Mata-mata, Western conference first round",
-                    "teamA": { "name": "Memphis Grizzlies", "emblem": "Emblems/Basquete/Memphis_Grizzlies.png" },
-                    "teamB": { "name": "Oklahoma City Thunder", "emblem": "Emblems/Basquete/Oklahoma_City_Thunder.png" },
-                    "score": "X",
-                    "date": "26/04/2025 • 16:30",
-                    "description": "Grizzlies e Thunder abrem o dia com um confronto quente na primeira rodada dos playoffs do Oeste!"
-                },
-                {
-                    "championship": "NBA, Mata-mata, Western conference first round",
-                    "teamA": { "name": "Los Angeles Clippers", "emblem": "Emblems/Basquete/Los_Angeles_Clippers.png" },
-                    "teamB": { "name": "Denver Nuggets", "emblem": "Emblems/Basquete/Denver_Nuggets.png" },
-                    "score": "X",
-                    "date": "26/04/2025 • 19:00",
-                    "description": "Clippers e Nuggets disputam um jogo intenso na primeira rodada dos playoffs do Oeste!"
+                    "date": "01/05/2025 • 20:00",
+                    "description": "Magic e Celtics voltam à quadra em mais um capítulo da série do Leste!"
                 },
                 {
                     "championship": "NBA, Mata-mata, Western conference first round",
                     "teamA": { "name": "Golden State Warriors", "emblem": "Emblems/Basquete/Golden_State_Warriors.png" },
                     "teamB": { "name": "Houston Rockets", "emblem": "Emblems/Basquete/Houston_Rockets.png" },
                     "score": "X",
-                    "date": "26/04/2025 • 21:30",
-                    "description": "Warriors e Rockets encerram o dia com um confronto eletrizante na primeira rodada dos playoffs do Oeste!"
-                },
-                {
-                    "championship": "NBA, Mata-mata, Western conference first round",
-                    "teamA": { "name": "Minnesota Timberwolves", "emblem": "Emblems/Basquete/Minnesota_Timberwolves.png" },
-                    "teamB": { "name": "Los Angeles Lakers", "emblem": "Emblems/Basquete/Los_Angeles_Lakers.png" },
-                    "score": "X",
-                    "date": "27/04/2025 • 16:30",
-                    "description": "Timberwolves e Lakers abrem o dia com um confronto crucial na primeira rodada dos playoffs do Oeste!"
-                },
-                {
-                    "championship": "NBA, Mata-mata, Eastern conference first round",
-                    "teamA": { "name": "Orlando Magic", "emblem": "Emblems/Basquete/Orlando_Magic.png" },
-                    "teamB": { "name": "Boston Celtics", "emblem": "Emblems/Basquete/Boston_Celtics.png" },
-                    "score": "X",
-                    "date": "27/04/2025 • 20:00",
-                    "description": "Magic e Celtics disputam um jogo intenso na primeira rodada dos playoffs do Leste!"
+                    "date": "02/05/2025 • 20:00",
+                    "description": "Warriors e Rockets continuam o duelo intenso no Oeste!"
                 },
                 {
                     "championship": "NBA, Mata-mata, Eastern conference first round",
                     "teamA": { "name": "Milwaukee Bucks", "emblem": "Emblems/Basquete/Milwaukee_Bucks.png" },
                     "teamB": { "name": "Indiana Pacers", "emblem": "Emblems/Basquete/Indiana_Pacers.png" },
                     "score": "X",
-                    "date": "27/04/2025 • 22:30",
-                    "description": "Bucks e Pacers encerram o dia com um confronto decisivo na primeira rodada dos playoffs do Leste!"
+                    "date": "02/05/2025 • 20:00",
+                    "description": "Bucks e Pacers seguem a disputa acirrada nos playoffs do Leste!"
+                },
+                {
+                    "championship": "NBA, Mata-mata, Western conference first round",
+                    "teamA": { "name": "Minnesota Timberwolves", "emblem": "Emblems/Basquete/Minnesota_Timberwolves.png" },
+                    "teamB": { "name": "Los Angeles Lakers", "emblem": "Emblems/Basquete/Los_Angeles_Lakers.png" },
+                    "score": "X",
+                    "date": "02/05/2025 • 20:00",
+                    "description": "Timberwolves e Lakers prometem mais um jogaço nos playoffs do Oeste!"
+                },
+                {
+                    "championship": "NBA, Mata-mata, Eastern conference first round",
+                    "teamA": { "name": "Boston Celtics", "emblem": "Emblems/Basquete/Boston_Celtics.png" },
+                    "teamB": { "name": "Orlando Magic", "emblem": "Emblems/Basquete/Orlando_Magic.png" },
+                    "score": "X",
+                    "date": "03/05/2025 • 20:00",
+                    "description": "Celtics e Magic seguem duelando firme por uma vaga no Leste!"
+                },
+                {
+                    "championship": "NBA, Mata-mata, Western conference first round",
+                    "teamA": { "name": "Denver Nuggets", "emblem": "Emblems/Basquete/Denver_Nuggets.png" },
+                    "teamB": { "name": "Los Angeles Clippers", "emblem": "Emblems/Basquete/Los_Angeles_Clippers.png" },
+                    "score": "X",
+                    "date": "03/05/2025 • 20:00",
+                    "description": "Nuggets e Clippers travam mais uma batalha na conferência Oeste!"
+                },
+                {
+                    "championship": "NBA, Mata-mata, Western conference first round",
+                    "teamA": { "name": "Houston Rockets", "emblem": "Emblems/Basquete/Houston_Rockets.png" },
+                    "teamB": { "name": "Golden State Warriors", "emblem": "Emblems/Basquete/Golden_State_Warriors.png" },
+                    "score": "X",
+                    "date": "04/05/2025 • 20:00",
+                    "description": "Rockets e Warriors continuam a rivalidade em mais um confronto do Oeste!"
+                },
+                {
+                    "championship": "NBA, Mata-mata, Eastern conference first round",
+                    "teamA": { "name": "Indiana Pacers", "emblem": "Emblems/Basquete/Indiana_Pacers.png" },
+                    "teamB": { "name": "Milwaukee Bucks", "emblem": "Emblems/Basquete/Milwaukee_Bucks.png" },
+                    "score": "X",
+                    "date": "04/05/2025 • 20:00",
+                    "description": "Pacers e Bucks se enfrentam novamente em jogo decisivo do Leste!"
+                },
+                {
+                    "championship": "NBA, Mata-mata, Western conference first round",
+                    "teamA": { "name": "Los Angeles Lakers", "emblem": "Emblems/Basquete/Los_Angeles_Lakers.png" },
+                    "teamB": { "name": "Minnesota Timberwolves", "emblem": "Emblems/Basquete/Minnesota_Timberwolves.png" },
+                    "score": "X",
+                    "date": "04/05/2025 • 20:00",
+                    "description": "Lakers e Timberwolves encerram a sequência com mais um jogão no Oeste!"
                 }
             ]
         },
