@@ -3,6 +3,11 @@
       "m12": {
           "past": [
               {
+                  "title": "",
+                  "description": "Ganham seus jogos (05/04): Corinthians, Botafogo e Grêmio.\nGanham seus jogos (05/04): Arsenal, Aston Villa e Brighton.\nGanham seus jogos (06/04): Santos, Internacional e Mirassol.",
+                  "date": ""
+              },
+              {
                   "title": "M12 - Semana Passada",
                   "description": "Aqui ficarão as promoções.",
                   "date": ""
@@ -11,7 +16,7 @@
           "current": [
               {
                   "title": "",
-                  "description": "Ganham seus jogos (05/04): Corinthians, Botafogo e Grêmio.\nGanham seus jogos (05/04): Arsenal, Aston Villa e Brighton.\nGanham seus jogos (06/04): Santos, Internacional e Mirassol.",
+                  "description": "Ganham seus jogos (29/04): Atlético-MG, São Paulo, Fluminense e Retrô\nEmpatam seus jogos (30/04): Palmeiras e Grêmio\nEmpatam seus jogos (01/05): Criciúma e Brusque\nGanham seus jogos (03/05): Barcelona, Atletico Madrid, Las Palmas e Villarreal\nGanham seus jogos (03/05): Aston Villa, Arsenal e Southampton",
                   "date": ""
               }
           ],
@@ -34,7 +39,7 @@
           "current": [
               {
                   "title": "",
-                  "description": "Aqui ficarão as promoções",
+                  "description": "Ganham seus jogos (01/05): Vasco, Criciúma, Flamengo, Cruzeiro, Brusque e Santos\nGanham seus jogos (03/04): Botafogo, Fluminense, Internacional e Vitória",
                   "date": ""
               }
           ],
