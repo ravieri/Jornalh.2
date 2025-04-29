@@ -1,39 +1,39 @@
 {
     "carouselData": [
         {
-            "imgSrc": "basquete img/pacersxbucks.jpg",
+            "imgSrc": "basquete img/pacersxbucks.webp",
             "alt": "Jogo de Basquete",
             "categoryTag": "NBA Playoffs",
             "title": "Pacers vs. Bucks",
-            "description": "Playoffs da NBA em alta! Pacers e Bucks abrem a primeira rodada com um duelo explosivo no Leste!"
-        },
-        {
-            "imgSrc": "basquete img/lakersxtimberwolves.webp",
-            "alt": "Jogo de Basquete",
-            "categoryTag": "NBA Playoffs",
-            "title": "Lakers vs. Timberwolves",
-            "description": "Playoffs da NBA em destaque! Lakers e Timberwolves prometem um confronto épico no Oeste!"
+            "description": "Playoffs da NBA em alta! Pacers e Bucks travam um duelo decisivo no Leste!"
         },
         {
             "imgSrc": "basquete img/celticsxmagic.jpg",
             "alt": "Jogo de Basquete",
             "categoryTag": "NBA Playoffs",
             "title": "Celtics vs. Magic",
-            "description": "Playoffs da NBA em foco! Celtics e Magic disputam uma batalha intensa no Leste!"
+            "description": "Playoffs da NBA em foco! Celtics e Magic prometem uma batalha eletrizante no Leste!"
         },
         {
-            "imgSrc": "basquete img/warriorsxrockets.webp",
+            "imgSrc": "basquete img/nuggetsxclippers.webp",
+            "alt": "Jogo de Basquete",
+            "categoryTag": "NBA Playoffs",
+            "title": "Nuggets vs. Clippers",
+            "description": "Playoffs da NBA aquecem! Nuggets e Clippers disputam um confronto intenso no Oeste!"
+        },
+        {
+            "imgSrc": "basquete img/lakersxtimberwolves.avif",
+            "alt": "Jogo de Basquete",
+            "categoryTag": "NBA Playoffs",
+            "title": "Lakers vs. Timberwolves",
+            "description": "Playoffs da NBA em destaque! Lakers e Timberwolves entregam um jogo épico no Oeste!"
+        },
+        {
+            "imgSrc": "basquete img/warriorsxrockets.jpg",
             "alt": "Jogo de Basquete",
             "categoryTag": "NBA Playoffs",
             "title": "Warriors vs. Rockets",
-            "description": "Playoffs da NBA aquecem! Warriors e Rockets encerram o dia com um duelo eletrizante no Oeste!"
-        },
-        {
-            "imgSrc": "basquete img/bucksxpacers.webp",
-            "alt": "Jogo de Basquete",
-            "categoryTag": "NBA Playoffs",
-            "title": "Bucks vs. Pacers",
-            "description": "Playoffs da NBA em evidência! Bucks e Pacers fecham a semana com um confronto decisivo no Leste!"
+            "description": "Playoffs da NBA pegam fogo! Warriors e Rockets encerram com um duelo vibrante no Oeste!"
         }
     ],
     "matchesData": [
