@@ -1,218 +1,214 @@
 {
     "carouselData": [
         {
-            "imgSrc": "tenis img/fonseca.jpg",
+            "imgSrc": "tenis img/sinnerxrinderknech.webp",
             "alt": "Jogo de Tênis",
-            "categoryTag": "Mutua Madrid Open",
-            "title": "Jogo de Fonseca volta a jogar em Mutua Madrid Open",
-            "description": "Estreia sólida rumo ao top 50!"
+            "categoryTag": "French Open",
+            "title": "J. Sinner vs. A. Rinderknech",
+            "description": "Sinner, nº 1 do mundo, enfrenta Rinderknech nos 64avos do French Open!"
         },
         {
-            "imgSrc": "tenis img/cc_event_monte_carlo_rolex_masters_0050.webp",
+            "imgSrc": "tenis img/zeppierixalcaraz.webp",
             "alt": "Jogo de Tênis",
-            "categoryTag": "Rolex Monte-Carlo Masters",
-            "title": "Rolex Monte-Carlo Masters esquenta com os melhores",
-            "description": "primeiro de três torneios ATP Masters 1000 disputados em saibro!"
+            "categoryTag": "French Open",
+            "title": "G. Zeppieri vs. C. Alcaraz",
+            "description": "Zeppieri desafia Alcaraz, nº 2 do mundo, em um duelo nos 64avos do French Open!"
+        },
+        {
+            "imgSrc": "tenis img/sramkovaxswiatek.webp",
+            "alt": "Jogo de Tênis",
+            "categoryTag": "French Open",
+            "title": "R. Sramkova vs. I. Swiatek",
+            "description": "Sramkova enfrenta Swiatek, nº 5 do mundo, nos 64avos do French Open!"
+        },
+        {
+            "imgSrc": "tenis img/hurkaczxfonseca.webp",
+            "alt": "Jogo de Tênis",
+            "categoryTag": "French Open",
+            "title": "H. Hurkacz vs. J. Fonseca",
+            "description": "Fonseca, promessa brasileira, desafia Hurkacz nos 64avos do French Open!"
+        },
+        {
+            "imgSrc": "tenis img/sabalenkaxtiechmann.webp",
+            "alt": "Jogo de Tênis",
+            "categoryTag": "French Open",
+            "title": "A. Sabalenka vs. J. Teichmann",
+            "description": "Sabalenka, nº 1 do mundo, enfrenta Teichmann nos 32avos do French Open!"
         }
     ],
     "matchesData": [
         {
             "weekLabel": "past",
+            "matches": []
+        },
+        {
+            "weekLabel": "current",
             "matches": [
                 {
-                    "championship": "ATP 1000 Miami, USA, 16Avos-de-final",
-                    "teamA": { "name": "M. Berrettini", "emblem": "Emblems/Italy.png", "rank": "ATP 30" },
-                    "teamB": { "name": "Z. Bergs", "emblem": "Emblems/Belgium.png", "rank": "ATP 51" },
-                    "score": "x",
-                    "date": "24/03/2025 • 17:05",
-                    "description": "Berrettini enfrenta Bergs nos 16avos-de-final do Miami Open."
-                },
-                {
-                    "championship": "ATP 1000 Miami, USA, 16Avos-de-final",
-                    "teamA": { "name": "A. de Minaur", "emblem": "Emblems/Australia.png", "rank": "ATP 11" },
-                    "teamB": { "name": "J. Fonseca", "emblem": "Emblems/Brazil.png", "rank": "ATP 60" },
-                    "score": "x",
-                    "date": "24/03/2025 • 20:00",
-                    "description": "De Minaur e Fonseca disputam uma vaga nos oitavos em Miami."
-                },
-                {
-                    "championship": "ATP 1000 Miami, USA, 16Avos-de-final",
-                    "teamA": { "name": "A. Zverev", "emblem": "Emblems/Germany.png", "rank": "ATP 2" },
-                    "teamB": { "name": "J. Thompson", "emblem": "Emblems/Australia.png", "rank": "ATP 37" },
-                    "score": "x",
-                    "date": "24/03/2025 • 13:00",
-                    "description": "Zverev enfrenta Thompson em um confronto nos 16avos-de-final."
-                },
-                {
-                    "championship": "ATP 1000 Miami, USA, Oitavos-de-final",
-                    "teamA": { "name": "C. Ruud", "emblem": "Emblems/Norway.png", "rank": "ATP 6" },
-                    "teamB": { "name": "F. Cerundolo", "emblem": "Emblems/Argentina.png", "rank": "ATP 24" },
-                    "score": "x",
-                    "date": "25/03/2025 • 11:00",
-                    "description": "Ruud e Cerundolo duelam nos oitavos-de-final do Miami Open."
-                },
-                {
-                    "championship": "ATP 1000 Miami, USA, Oitavos-de-final",
-                    "teamA": { "name": "L. Musetti", "emblem": "Emblems/Italy.png", "rank": "ATP 16" },
-                    "teamB": { "name": "N. Djokovic", "emblem": "Emblems/Serbia.png", "rank": "ATP 5" },
-                    "score": "x",
-                    "date": "25/03/2025 • 11:00",
-                    "description": "Musetti desafia Djokovic em um grande jogo nos oitavos."
-                },
-                {
-                    "championship": "ATP 1000 Miami, USA, Quartas de final",
-                    "teamA": { "name": "F. Cerundolo", "emblem": "Emblems/Argentina.png", "rank": "ATP 24" },
-                    "teamB": { "name": "G. Dimitrov", "emblem": "Emblems/Bulgaria.png", "rank": "ATP 15" },
+                    "championship": "French Open, Paris, France, 64Avos-de-final",
+                    "teamA": { "name": "Casper Ruud", "emblem": "Emblems/Norway.png", "rank": "ATP 8" },
+                    "teamB": { "name": "Albert Ramos-Vinolas", "emblem": "Emblems/Spain.png", "rank": "ATP 251" },
                     "score": "X",
-                    "date": "26/03/2025 • 17:10",
-                    "description": "Cerundolo e Dimitrov duelam nas quartas de final do Miami Open em um confronto equilibrado!"
+                    "date": "26/05/2025 • 06:00",
+                    "description": "Ruud enfrenta Ramos-Vinolas nos 64avos do French Open!"
                 },
                 {
-                    "championship": "WTA 1000 Miami, USA, Quartas de final",
-                    "teamA": { "name": "E. Raducanu", "emblem": "Emblems/UK.png", "rank": "WTA 60" },
-                    "teamB": { "name": "J. Pegula", "emblem": "Emblems/USA.png", "rank": "WTA 4" },
+                    "championship": "French Open, Paris, France, 64Avos-de-final",
+                    "teamA": { "name": "Rebecca Sramkova", "emblem": "Emblems/Slovakia.png", "rank": "WTA 42" },
+                    "teamB": { "name": "Iga Swiatek", "emblem": "Emblems/Poland.png", "rank": "WTA 5" },
                     "score": "X",
-                    "date": "26/03/2025 • 20:00",
-                    "description": "Raducanu desafia Pegula em um jogo emocionante pelas quartas do Miami Open!"
+                    "date": "26/05/2025 • 07:00",
+                    "description": "Sramkova enfrenta Swiatek em um duelo nos 64avos do French Open!"
                 },
                 {
-                    "championship": "ATP 1000 Miami, USA, Quartas de final",
-                    "teamA": { "name": "S. Korda", "emblem": "Emblems/USA.png", "rank": "ATP 25" },
-                    "teamB": { "name": "N. Djokovic", "emblem": "Emblems/Serbia.png", "rank": "ATP 5" },
+                    "championship": "French Open, Paris, France, 64Avos-de-final",
+                    "teamA": { "name": "Giulio Zeppieri", "emblem": "Emblems/Italy.png", "rank": "ATP 310" },
+                    "teamB": { "name": "Carlos Alcaraz", "emblem": "Emblems/Spain.png", "rank": "ATP 2" },
                     "score": "X",
-                    "date": "26/03/2025 • 21:30",
-                    "description": "Korda enfrenta o lendário Djokovic em um duelo épico nas quartas de final!"
+                    "date": "26/05/2025 • 07:30",
+                    "description": "Zeppieri desafia Alcaraz em um confronto nos 64avos do French Open!"
                 },
                 {
-                    "championship": "ATP 1000 Miami, USA, Quartas de final",
-                    "teamA": { "name": "T. Fritz", "emblem": "Emblems/USA.png", "rank": "ATP 4" },
-                    "teamB": { "name": "M. Berrettini", "emblem": "Emblems/Italy.png", "rank": "ATP 30" },
+                    "championship": "French Open, Paris, France, 64Avos-de-final",
+                    "teamA": { "name": "Tomas Martin Etcheverry", "emblem": "Emblems/Argentina.png", "rank": "ATP 53" },
+                    "teamB": { "name": "Stefanos Tsitsipas", "emblem": "Emblems/Greece.png", "rank": "ATP 20" },
                     "score": "X",
-                    "date": "27/03/2025 • 11:00",
-                    "description": "Fritz e Berrettini abrem o dia com um confronto de peso nas quartas do Miami Open!"
+                    "date": "26/05/2025 • 08:30",
+                    "description": "Etcheverry enfrenta Tsitsipas nos 64avos do French Open!"
                 },
                 {
-                    "championship": "WTA 1000 Miami, USA, Semifinal",
-                    "teamA": { "name": "A. Sabalenka", "emblem": "Emblems/Belarus.png", "rank": "WTA 1" },
-                    "teamB": { "name": "J. Paolini", "emblem": "Emblems/Italy.png", "rank": "WTA 7" },
+                    "championship": "French Open, Paris, France, 64Avos-de-final",
+                    "teamA": { "name": "Daniel Altmaier", "emblem": "Emblems/Germany.png", "rank": "ATP 66" },
+                    "teamB": { "name": "Taylor Fritz", "emblem": "Emblems/USA.png", "rank": "ATP 4" },
                     "score": "X",
-                    "date": "27/03/2025 • 11:00",
-                    "description": "Sabalenka, nº 1 do mundo, enfrenta Paolini em uma semifinal eletrizante em Miami!"
+                    "date": "26/05/2025 • 08:35",
+                    "description": "Altmaier desafia Fritz em um jogo nos 64avos do French Open!"
+                },
+                {
+                    "championship": "French Open, Paris, France, 64Avos-de-final",
+                    "teamA": { "name": "Roberto Bautista Agut", "emblem": "Emblems/Spain.png", "rank": "ATP 49" },
+                    "teamB": { "name": "Holger Rune", "emblem": "Emblems/Denmark.png", "rank": "ATP 10" },
+                    "score": "X",
+                    "date": "26/05/2025 • 09:20",
+                    "description": "Bautista Agut enfrenta Rune nos 64avos do French Open!"
+                },
+                {
+                    "championship": "French Open, Paris, France, 64Avos-de-final",
+                    "teamA": { "name": "Hubert Hurkacz", "emblem": "Emblems/Poland.png", "rank": "ATP 28" },
+                    "teamB": { "name": "Joao Fonseca", "emblem": "Emblems/Brazil.png", "rank": "ATP 65" },
+                    "score": "X",
+                    "date": "26/05/2025 • 10:00",
+                    "description": "Hurkacz enfrenta Fonseca, promessa brasileira, nos 64avos do French Open!"
+                },
+                {
+                    "championship": "French Open, Paris, France, 64Avos-de-final",
+                    "teamA": { "name": "Beatriz Haddad Maia", "emblem": "Emblems/Brazil.png", "rank": "WTA 23" },
+                    "teamB": { "name": "Hailey Baptiste", "emblem": "Emblems/USA.png", "rank": "WTA 70" },
+                    "score": "X",
+                    "date": "26/05/2025 • 10:00",
+                    "description": "Haddad Maia enfrenta Baptiste nos 64avos do French Open!"
+                },
+                {
+                    "championship": "French Open, Paris, France, 64Avos-de-final",
+                    "teamA": { "name": "Mackenzie McDonald", "emblem": "Emblems/USA.png", "rank": "ATP 98" },
+                    "teamB": { "name": "Novak Djokovic", "emblem": "Emblems/Serbia.png", "rank": "ATP 6" },
+                    "score": "X",
+                    "date": "26/05/2025 • 10:00",
+                    "description": "McDonald desafia Djokovic em um confronto nos 64avos do French Open!"
+                },
+                {
+                    "championship": "French Open, Paris, France, 64Avos-de-final",
+                    "teamA": { "name": "Alexander Zverev", "emblem": "Emblems/Germany.png", "rank": "ATP 3" },
+                    "teamB": { "name": "Learner Tien", "emblem": "Emblems/USA.png", "rank": "ATP 67" },
+                    "score": "X",
+                    "date": "26/05/2025 • 10:00",
+                    "description": "Zverev enfrenta Tien nos 64avos do French Open!"
+                },
+                {
+                    "championship": "French Open, Paris, France, 64Avos-de-final",
+                    "teamA": { "name": "Daniil Medvedev", "emblem": "Emblems/Russia.png", "rank": "ATP 11" },
+                    "teamB": { "name": "Cameron Norrie", "emblem": "Emblems/UK.png", "rank": "ATP 81" },
+                    "score": "X",
+                    "date": "26/05/2025 • 10:00",
+                    "description": "Medvedev enfrenta Norrie nos 64avos do French Open!"
+                },
+                {
+                    "championship": "French Open, Paris, France, 64Avos-de-final",
+                    "teamA": { "name": "Mattia Bellucci", "emblem": "Emblems/Italy.png", "rank": "ATP 68" },
+                    "teamB": { "name": "Jack Draper", "emblem": "Emblems/UK.png", "rank": "ATP 5" },
+                    "score": "X",
+                    "date": "26/05/2025 • 10:00",
+                    "description": "Bellucci desafia Draper nos 64avos do French Open!"
+                },
+                {
+                    "championship": "French Open, Paris, France, 64Avos-de-final",
+                    "teamA": { "name": "Olivia Gadecki", "emblem": "Emblems/Australia.png", "rank": "WTA 91" },
+                    "teamB": { "name": "Coco Gauff", "emblem": "Emblems/USA.png", "rank": "WTA 2" },
+                    "score": "X",
+                    "date": "26/05/2025 • 10:00",
+                    "description": "Gadecki enfrenta Gauff nos 64avos do French Open!"
+                },
+                {
+                    "championship": "French Open, Paris, France, 64Avos-de-final",
+                    "teamA": { "name": "Jannik Sinner", "emblem": "Emblems/Italy.png", "rank": "ATP 1" },
+                    "teamB": { "name": "Arthur Rinderknech", "emblem": "Emblems/France.png", "rank": "ATP 75" },
+                    "score": "X",
+                    "date": "26/05/2025 • 10:00",
+                    "description": "Sinner, nº 1 do mundo, enfrenta Rinderknech nos 64avos do French Open!"
+                },
+                {
+                    "championship": "French Open, Paris, France, 32Avos-de-final",
+                    "teamA": { "name": "Fabian Marozsan", "emblem": "Emblems/Hungary.png", "rank": "ATP 56" },
+                    "teamB": { "name": "Carlos Alcaraz", "emblem": "Emblems/Spain.png", "rank": "ATP 2" },
+                    "score": "X",
+                    "date": "27/05/2025 • 10:00",
+                    "description": "Marozsan desafia Alcaraz nos 32avos do French Open!"
+                },
+                {
+                    "championship": "French Open, Paris, France, 32Avos-de-final",
+                    "teamA": { "name": "Casper Ruud", "emblem": "Emblems/Norway.png", "rank": "ATP 8" },
+                    "teamB": { "name": "Nuno Borges", "emblem": "Emblems/Portugal.png", "rank": "ATP 41" },
+                    "score": "X",
+                    "date": "27/05/2025 • 10:00",
+                    "description": "Ruud enfrenta Borges nos 32avos do French Open!"
+                },
+                {
+                    "championship": "French Open, Paris, France, 32Avos-de-final",
+                    "teamA": { "name": "Emilio Nava", "emblem": "Emblems/USA.png", "rank": "ATP 137" },
+                    "teamB": { "name": "Holger Rune", "emblem": "Emblems/Denmark.png", "rank": "ATP 10" },
+                    "score": "X",
+                    "date": "27/05/2025 • 10:00",
+                    "description": "Nava desafia Rune nos 32avos do French Open!"
+                },
+                {
+                    "championship": "French Open, Paris, France, 32Avos-de-final",
+                    "teamA": { "name": "Matteo Gigante", "emblem": "Emblems/Italy.png", "rank": "ATP 167" },
+                    "teamB": { "name": "Stefanos Tsitsipas", "emblem": "Emblems/Greece.png", "rank": "ATP 20" },
+                    "score": "X",
+                    "date": "27/05/2025 • 10:00",
+                    "description": "Gigante enfrenta Tsitsipas nos 32avos do French Open!"
+                },
+                {
+                    "championship": "French Open, Paris, France, 32Avos-de-final",
+                    "teamA": { "name": "Emma Raducanu", "emblem": "Emblems/UK.png", "rank": "WTA 41" },
+                    "teamB": { "name": "Iga Swiatek", "emblem": "Emblems/Poland.png", "rank": "WTA 5" },
+                    "score": "X",
+                    "date": "27/05/2025 • 10:00",
+                    "description": "Raducanu desafia Swiatek nos 32avos do French Open!"
+                },
+                {
+                    "championship": "French Open, Paris, France, 32Avos-de-final",
+                    "teamA": { "name": "Aryna Sabalenka", "emblem": "Emblems/Belarus.png", "rank": "WTA 1" },
+                    "teamB": { "name": "Jil Teichmann", "emblem": "Emblems/Switzerland.png", "rank": "WTA 98" },
+                    "score": "X",
+                    "date": "27/05/2025 • 10:00",
+                    "description": "Sabalenka, nº 1 do mundo, enfrenta Teichmann nos 32avos do French Open!"
                 }
-            ]
-        },
-        {"weekLabel": "current",
-    "matches": [
-        {
-            "championship": "ATP 1000 Monte Carlo, Monaco",
-            "teamA": { "name": "J. Lehecka", "emblem": "Emblems/Czech_Republic.png", "rank": "ATP 28" },
-            "teamB": { "name": "S. Korda", "emblem": "Emblems/USA.png", "rank": "ATP 25" },
-            "score": "X",
-            "date": "07/04/2025 • 10:00",
-            "description": "Lehecka e Korda abrem o dia em Monte Carlo com um confronto equilibrado!"
-        },
-        {
-            "championship": "ATP 1000 Monte Carlo, Monaco",
-            "teamA": { "name": "A. Tablio", "emblem": "Emblems/Chile.png", "rank": "ATP 40" },
-            "teamB": { "name": "G. Monfils", "emblem": "Emblems/France.png", "rank": "ATP 35" },
-            "score": "X",
-            "date": "07/04/2025 • 10:00",
-            "description": "Tablio enfrenta Monfils em um duelo emocionante no ATP Monte Carlo!"
-        },
-        {
-            "championship": "ATP 1000 Monte Carlo, Monaco",
-            "teamA": { "name": "M. Berrettini", "emblem": "Emblems/Italy.png", "rank": "ATP 30" },
-            "teamB": { "name": "A. Muller", "emblem": "Emblems/France.png", "rank": "ATP 45" },
-            "score": "X",
-            "date": "07/04/2025 • 10:00",
-            "description": "Berrettini e Muller disputam um jogo quente no saibro de Monte Carlo!"
-        },
-        {
-            "championship": "ATP 1000 Monte Carlo, Monaco",
-            "teamA": { "name": "A. Popyrin", "emblem": "Emblems/Australia.png", "rank": "ATP 38" },
-            "teamB": { "name": "H. Umbert", "emblem": "Emblems/France.png", "rank": "ATP 20" },
-            "score": "X",
-            "date": "08/04/2025 • 10:00",
-            "description": "Popyrin desafia Umbert em um confronto de gerações no Monte Carlo Masters!"
-        },
-        {
-            "championship": "ATP 1000 Monte Carlo, Monaco",
-            "teamA": { "name": "N. Jarry", "emblem": "Emblems/Chile.png", "rank": "ATP 22" },
-            "teamB": { "name": "G. Dimitrov", "emblem": "Emblems/Bulgaria.png", "rank": "ATP 15" },
-            "score": "X",
-            "date": "08/04/2025 • 10:00",
-            "description": "Jarry e Dimitrov prometem um jogo disputado no saibro de Monte Carlo!"
-        },
-        {
-            "championship": "ATP 1000 Monte Carlo, Monaco",
-            "teamA": { "name": "R. Bautista Agut", "emblem": "Emblems/Spain.png", "rank": "ATP 50" },
-            "teamB": { "name": "B. Nakashima", "emblem": "Emblems/USA.png", "rank": "ATP 42" },
-            "score": "X",
-            "date": "08/04/2025 • 10:00",
-            "description": "Bautista Agut enfrenta Nakashima em um duelo equilibrado no Monte Carlo!"
-        },
-        {
-            "championship": "ATP 1000 Monte Carlo, Monaco",
-            "teamA": { "name": "D. Altmaier", "emblem": "Emblems/Germany.png", "rank": "ATP 55" },
-            "teamB": { "name": "R. Gasquet", "emblem": "Emblems/France.png", "rank": "ATP 70" },
-            "score": "X",
-            "date": "09/04/2025 • 10:00",
-            "description": "Altmaier e Gasquet abrem o dia com um confronto interessante em Monte Carlo!"
-        },
-        {
-            "championship": "ATP 1000 Monte Carlo, Monaco",
-            "teamA": { "name": "T.M. Etcheverry", "emblem": "Emblems/Argentina.png", "rank": "ATP 32" },
-            "teamB": { "name": "F. Cobolli", "emblem": "Emblems/Italy.png", "rank": "ATP 48" },
-            "score": "X",
-            "date": "09/04/2025 • 10:00",
-            "description": "Etcheverry enfrenta Cobolli em um jogo promissor no Monte Carlo Masters!"
-        },
-        {
-            "championship": "ATP 1000 Monte Carlo, Monaco",
-            "teamA": { "name": "M. Machac", "emblem": "Emblems/Czech_Republic.png", "rank": "ATP 44" },
-            "teamB": { "name": "A. de Minaur", "emblem": "Emblems/Australia.png", "rank": "ATP 11" },
-            "score": "X",
-            "date": "09/04/2025 • 10:00",
-            "description": "Machac desafia de Minaur em um confronto de estilos no saibro de Monte Carlo!"
-        },
-        {
-            "championship": "ATP 1000 Monte Carlo, Monaco",
-            "teamA": { "name": "A. Rublev", "emblem": "Emblems/Russia.png", "rank": "ATP 8" },
-            "teamB": { "name": "A. Fils", "emblem": "Emblems/France.png", "rank": "ATP 34" },
-            "score": "X",
-            "date": "10/04/2025 • 06:00",
-            "description": "Rublev e Fils abrem o dia com um duelo de peso no Monte Carlo Masters!"
-        },
-        {
-            "championship": "ATP 1000 Monte Carlo, Monaco",
-            "teamA": { "name": "J. Draper", "emblem": "Emblems/UK.png", "rank": "ATP 26" },
-            "teamB": { "name": "A.D. Fokina", "emblem": "Emblems/Spain.png", "rank": "ATP 29" },
-            "score": "X",
-            "date": "10/04/2025 • 06:00",
-            "description": "Draper enfrenta Fokina em um jogo equilibrado no saibro de Monte Carlo!"
-        },
-        {
-            "championship": "ATP 1000 Monte Carlo, Monaco",
-            "teamA": { "name": "D. Altmaier", "emblem": "Emblems/Germany.png", "rank": "ATP 55" },
-            "teamB": { "name": "C. Alcaraz", "emblem": "Emblems/Spain.png", "rank": "ATP 3" },
-            "score": "X",
-            "date": "10/04/2025 • 09:00",
-            "description": "Altmaier desafia Alcaraz em um confronto de alto nível no Monte Carlo!"
-        }
             ]
         },
         {
             "weekLabel": "next",
-            "matches": [
-                {
-                    "championship": "US Open",
-                    "teamA": { "name": "x", "emblem": "images/emblems/fexderer.png" },
-                    "teamB": { "name": "x", "emblem": "images/emblems/zvxerev.png" },
-                    "score": "X",
-                    "date": "19/03 • 14:30",
-                    "description": ""
-                }
-            ]
+            "matches": []
         }
     ]
 }
