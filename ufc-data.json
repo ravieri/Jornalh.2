@@ -1,100 +1,81 @@
 {
     "carouselData": [
-        
         {
-            "imgSrc": "UFC imagens/2mg.png",
-            "alt": "UFC 314",
-            "categoryTag": "UFC",
-            "title": "UFC 304: Alexander Volkanovski vs. Diego Lopes",
-            "description": "Peso-pena Disputa de Cinturão."
-        },
-        {
-            "imgSrc": "UFC imagens/1mg.png",
+            "imgSrc": "UFC imagens/blanchfieldxbarber.png",
             "alt": "UFC Fight Night",
             "categoryTag": "UFC",
-            "title": "UFC Fight Night: Machado Garry vs  Prates",
-            "description": "Carlos Prates representando o Brasil no UFC FIGHT NIGHT!"
+            "title": "UFC Fight Night: Blanchfield vs. Barber",
+            "description": "Evento principal do UFC Fight Night no peso mosca!"
+        },
+        {
+            "imgSrc": "UFC imagens/gamrotxklein.png",
+            "alt": "UFC Fight Night",
+            "categoryTag": "UFC",
+            "title": "UFC Fight Night: Gamrot vs. Klein",
+            "description": "Evento co-principal do UFC Fight Night no peso leve!"
         }
     ],
     "matchesData": [
         {
             "weekLabel": "past",
-            "matches": [
-                {
-                    "championship": "UFC Fight Night",
-                    "teamA": { "name": "Amanda Lemos", "emblem": "images/lemos.png" },
-                    "teamB": { "name": "Virna Jandiroba", "emblem": "images/jandiroba.png" },
-                    "score": "KO (2º Round)",
-                    "date": "20/03/2025 22:00",
-                    "description": "Lemos nocauteou Jandiroba no segundo round."
-                }
-            ]
+            "matches": []
         },
         {
             "weekLabel": "current",
             "matches": [
                 {
-                    "championship": "UFC Fight Night - Peso-Pena",
-                    "teamA": { "name": "Josh Emmett", "emblem": "Emblems/USA.png" },
-                    "teamB": { "name": "Lerone Murphy", "emblem": "Emblems/ENGLAND.png" },
+                    "championship": "UFC Fight Night - Peso Mosca",
+                    "teamA": { "name": "Jailton Filho", "emblem": "Emblems/BRAZIL.png" },
+                    "teamB": { "name": "Allan Nascimento", "emblem": "Emblems/BRAZIL.png" },
                     "score": "A definir",
-                    "date": "04/04/2025 22:00",
-                    "description": "Emmett enfrenta Murphy em uma luta explosiva no peso-pena."
+                    "date": "31/05/2025 19:00",
+                    "description": "Filho enfrenta Nascimento em uma luta no peso mosca."
                 },
                 {
-                    "championship": "UFC Fight Night - Peso-Pena",
-                    "teamA": { "name": "Pat Sabatini", "emblem": "Emblems/USA.png" },
-                    "teamB": { "name": "Joanderson Brito", "emblem": "Emblems/BRAZIL.png" },
+                    "championship": "UFC Fight Night - Peso Médio",
+                    "teamA": { "name": "Zachary Reese", "emblem": "Emblems/USA.png" },
+                    "teamB": { "name": "Duško Todorović", "emblem": "Emblems/SERBIA.png" },
                     "score": "A definir",
-                    "date": "04/04/2025 22:30",
-                    "description": "Sabatini e Brito prometem uma luta técnica e agressiva."
+                    "date": "31/05/2025 19:30",
+                    "description": "Reese enfrenta Todorović em uma batalha no peso médio."
                 },
                 {
-                    "championship": "UFC Fight Night - Peso-Galo",
-                    "teamA": { "name": "Cortavius Romious", "emblem": "Emblems/USA.png" },
-                    "teamB": { "name": "Changho Lee", "emblem": "Emblems/SOUTH_KOREA.png" },
+                    "championship": "UFC Fight Night - Peso Médio",
+                    "teamA": { "name": "Ramiz Brahimaj", "emblem": "Emblems/USA.png" },
+                    "teamB": { "name": "Billy Goff", "emblem": "Emblems/USA.png" },
                     "score": "A definir",
-                    "date": "04/04/2025 23:00",
-                    "description": "Romious e Lee se enfrentam no peso-galo."
+                    "date": "31/05/2025 20:00",
+                    "description": "Brahimaj enfrenta Goff em uma luta no peso médio."
                 },
                 {
-                    "championship": "UFC Fight Night - Peso-Médio",
-                    "teamA": { "name": "Brad Tavares", "emblem": "Emblems/USA.png" },
-                    "teamB": { "name": "Gerald Meerschaert", "emblem": "Emblems/USA.png" },
+                    "championship": "UFC Fight Night - Peso Meio-Pesado",
+                    "teamA": { "name": "Dustin Jacoby", "emblem": "Emblems/USA.png" },
+                    "teamB": { "name": "Bruno Lopes", "emblem": "Emblems/BRAZIL.png" },
                     "score": "A definir",
-                    "date": "04/04/2025 23:30",
-                    "description": "Tavares e Meerschaert em uma batalha de veteranos."
+                    "date": "31/05/2025 20:30",
+                    "description": "Jacoby enfrenta Lopes em uma batalha no peso meio-pesado."
                 },
                 {
-                    "championship": "UFC Fight Night - Peso-Mosca",
-                    "teamA": { "name": "Ode' Osbourne", "emblem": "Emblems/JAMAICA.png" },
-                    "teamB": { "name": "Luis Gurule", "emblem": "Emblems/USA.png" },
+                    "championship": "UFC Fight Night - Peso Leve",
+                    "teamA": { "name": "Mateusz Gamrot", "emblem": "Emblems/POLAND.png" },
+                    "teamB": { "name": "Ludovit Klein", "emblem": "Emblems/SLOVAKIA.png" },
                     "score": "A definir",
-                    "date": "04/04/2025 21:30",
-                    "description": "Osbourne e Gurule abrem o card com uma luta no peso-mosca."
+                    "date": "31/05/2025 21:00",
+                    "description": "Gamrot enfrenta Klein no evento co-principal do peso leve."
                 },
                 {
-                    "championship": "UFC Fight Night - Peso-Médio",
-                    "teamA": { "name": "Torrez Finney", "emblem": "Emblems/USA.png" },
-                    "teamB": { "name": "Robert Valentin", "emblem": "Emblems/SWITZERLAND.png" },
+                    "championship": "UFC Fight Night - Peso Mosca",
+                    "teamA": { "name": "Erin Blanchfield", "emblem": "Emblems/USA.png" },
+                    "teamB": { "name": "Maycee Barber", "emblem": "Emblems/USA.png" },
                     "score": "A definir",
-                    "date": "04/04/2025 21:00",
-                    "description": "Finney e Valentin em uma luta de estreantes no peso-médio."
+                    "date": "31/05/2025 21:30",
+                    "description": "Blanchfield enfrenta Barber no evento principal do peso mosca."
                 }
             ]
         },
         {
             "weekLabel": "next",
-            "matches": [
-                {
-                    "championship": "UFC Fight Night",
-                    "teamA": { "name": "Tom Aspinall", "emblem": "images/aspinall.png" },
-                    "teamB": { "name": "Curtis Blaydes", "emblem": "images/blaydes.png" },
-                    "score": "A definir",
-                    "date": "11/04/2025 21:00",
-                    "description": "Revancha nos pesos pesados."
-                }
-            ]
+            "matches": []
         }
     ]
 }
